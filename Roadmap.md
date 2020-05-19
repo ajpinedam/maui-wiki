@@ -24,7 +24,7 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 | Move "AndExpand" layout option | [Spec](https://github.com/dotnet/maui/issues/29) | Proposed |
 | Update min and max sizing implementations | [Spec](TBD) | Proposed |
 | Implement GlideX | [Spec](TBD) | Proposed |
-| Change IAnimatable | [Spec](TBD) | Proposed |
+| Change IAnimatable | [Spec](https://github.com/dotnet/maui/issues/17) | Proposed |
 | Change Behavior and Trigger inheritance | [Spec](TBD) | Proposed |
 | Replace Application.Properties | [Spec](TBD) | Proposed |
 
@@ -32,13 +32,13 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 
 | **Feature**                            | **Description**                                              | **Status** |
 | -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| macOS Parity | [Spec](tbd) | Committed |
+| macOS Parity | [Spec](https://github.com/dotnet/maui/wiki/Status) | Committed |
 
 ## **.NET MAUI Preview 4 (Mid 2021)**
 
 | **Feature**                            | **Description**                                              | **Status** |
 | -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| Windows Parity | [Spec](tbd) | Committed|
+| Windows Parity | [Spec](https://github.com/dotnet/maui/wiki/Status) | Committed|
 
 ## **.NET MAUI Preview 5 (Mid 2021)**
 
