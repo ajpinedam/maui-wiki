@@ -12,71 +12,72 @@ Icon | Description
 A list of all Shell elements with their (public) APIs and their status.
 
 **⚠️ Shell**
-| API | Android | iOS | macOS 💔 | WPF 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BackButtonBehavior  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| CurrentItem  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| CurrentItem  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CurrentState  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | DisabledColor  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| FlyoutBackgroundColor  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| FlyoutBackgroundColor  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FlyoutBackgroundImageAspect | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FlyoutBackgroundImage  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| FlyoutBehavior  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| FlyoutBehavior  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FlyoutHeaderBehavior  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| FlyoutHeader  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| FlyoutHeader  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FlyoutHeaderTemplate  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FlyoutIcon  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| FlyoutIsPresented  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| FlyoutIsPresented  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FlyoutVerticalScrollMode  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| ForegroundColor  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Items  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| ItemTemplate | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| MenuItemTemplate  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| ForegroundColor  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Items  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| ItemTemplate | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| MenuItemTemplate  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | NavBarHasShadow  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| NavBarIsVisible | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| NavBarIsVisible | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ ShellSection**
-| API | Android | iOS | macOS 💔 | WPF 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
-| CurrentItem  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Items  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| CurrentItem  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Items  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ ShellItem**
-| API | Android | iOS | macOS 💔 | WPF 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
-| CurrentItem  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Items | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Route  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| CurrentItem  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Items | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Route  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Icon  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FlyoutIcon  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ ShellContent**
-| API | Android | iOS | macOS 💔 | WPF 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
-| Content  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Content  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ContentTemplate  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| MenuItems  | ✅  | ✅  | 💔  |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| MenuItems  | ✅  | ✅  | 💔  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 ## Pages
 
 A list of all Pages with their (public) APIs and their status.
+
 **⚠️ ContentPage**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BackgroundColor  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | BackgroundImage  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| DisplayActionSheet| ⚠️  | ⚠️  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| DisplayAlert | ⚠️  | ⚠️  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Icon | ⚠️  | ⚠️  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| IsBusy | ⚠️  | ⚠️  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| OnAppearing| ⚠️  | ⚠️  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| OnDisappearing | ⚠️  | ⚠️  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Padding | ⚠️  | ⚠️  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Title | ⚠️  | ⚠️  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| DisplayActionSheet| ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| DisplayAlert | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Icon | ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| IsBusy | ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| OnAppearing| ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| OnDisappearing | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Padding | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Title | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ToolbarItems | ✅  | ✅  | ✅   |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ MasterDetailPage**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BackgroundColor  | ✅  | ✅  | ✅ |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Detail| ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -84,62 +85,59 @@ A list of all Pages with their (public) APIs and their status.
 | IsPresented | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Master| ✅  | ✅  | ✅  |  ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | MasterBehavior | ✅  | ✅  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| OnAppearing| ⚠️  | ⚠️  | ✅ |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| OnDisappearing | ⚠️  | ⚠️  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Padding | ⚠️  | ⚠️  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| OnAppearing| ✅  | ✅  | ✅ |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| OnDisappearing | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Padding | ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 
 **⚠️ NavigationPage**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BackButtonTitle | ✅  | ✅  |  ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | BackgroundColor  | ✅  | ✅  |  ✅   |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| BackgroundImage  | ⚠️  | ⚠️  |  ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| BackgroundImage  | ✅  | ✅  |  ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | BarBackgroundColor  | ✅  | ✅  | ⏳   |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| BarTextColor  | ⚠️  | ⚠️  |  ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| SelectedItem | ⚠️  | ⚠️  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Icon| ⚠️  | ⚠️  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| IsBusy | ⚠️  | ⚠️  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| ItemsSource| ⚠️  | ⚠️  | ⚠️ |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| ItemTemplate| ⚠️  | ⚠️  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| OnAppearing| ⚠️  | ⚠️  | ✅ |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| OnDisappearing | ⚠️  | ✅  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Padding| ⚠️  | ⚠️  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| BarTextColor  | ✅  | ✅  |  ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Icon| ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| IsBusy | ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| OnAppearing| ✅  | ✅  | ✅ |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| OnDisappearing | ✅  | ✅  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Padding| ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Title | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ TabbedPage**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BackgroundColor  | ✅  | ✅  | ⏳  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| BackgroundImage  | ⚠️ | ⚠️ |  ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| BackgroundImage  | ✅ | ✅ |  ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | BarBackgroundColor  | ✅  | ✅  | ⏳  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | BarTextColor  | ✅  | ✅  | ⏳  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Children | ✅  | ✅  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CurrentPage | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Icon| ⚠️  | ⚠️  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| IsBusy | ⚠️  | ⚠️  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Icon| ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| IsBusy | ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ItemsSource| ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| ItemTemplate| ✅  | ✅  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| OnAppearing| ⚠️  | ⚠️  | ✅ |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| OnDisappearing | ⚠️  | ⚠️  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Padding | ⚠️  | ⚠️  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| SelectedTabColor| ✅  | ✅  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| ItemTemplate| ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| OnAppearing| ✅  | ✅  | ✅ |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| OnDisappearing | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Padding | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| SelectedTabColor| ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | SelectedItem | ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| Title | ⚠️  | ⚠️  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| UnselectedTabColor | ✅  | ✅  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| Title | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| UnselectedTabColor | ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 ## Views
 
 A list of all controls with their (public) APIs and their status. 
 
 **✅ ActivityIndicator**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Color  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | IsRunning  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Button**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BackgroundColor  | ✅  | ✅  | ⏳  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | BorderColor  | ✅  | ✅  | ⏳  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -167,7 +165,7 @@ A list of all controls with their (public) APIs and their status.
 | TextColor  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ CarouselView**
-| API | Android | iOS | macOS 💔 | WPF 💔| Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP 💔| Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | ItemsSource | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ItemTemplate | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -189,7 +187,7 @@ A list of all controls with their (public) APIs and their status.
 | VerticalScrollBarVisibility | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ CheckBox**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Color  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CheckedChanged | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -197,7 +195,7 @@ A list of all controls with their (public) APIs and their status.
 | IsCheckedVisualState  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ CollectionView**
-| API | Android | iOS | macOS 💔 | WPF 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | ItemsSource | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ItemTemplate | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -220,7 +218,7 @@ A list of all controls with their (public) APIs and their status.
 | GroupFooterTemplate | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ DatePicker**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Date  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -234,7 +232,7 @@ A list of all controls with their (public) APIs and their status.
 | TextColor  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Editor**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | AutoSize  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Completed  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -252,7 +250,7 @@ A list of all controls with their (public) APIs and their status.
 
 
 **⚠️ Entry**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | ClearButtonVisibility  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -277,7 +275,7 @@ A list of all controls with their (public) APIs and their status.
 
 
 **⚠️ Expander**
-| API | Android | iOS | macOS ⏳| WPF 💔| Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS ⏳| UWP 💔| Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CollapseAnimationEasing  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CollapseAnimationLength  | ✅  | ✅ | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -295,14 +293,14 @@ A list of all controls with their (public) APIs and their status.
 
 
 **⚠️ Frame**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BorderColor  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CornerRadius  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | HasShadow  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ IndicatorView**
-| API | Android | iOS | macOS 💔| WPF 💔| Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔| UWP 💔| Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Count  | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | HideSingle  | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -317,7 +315,7 @@ A list of all controls with their (public) APIs and their status.
 | SelectedIndicatorColor  | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Image**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Aspect  | ✅   | ✅   | ⚠️  | ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | IsAnimationPlaying  | ✅  | ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -328,7 +326,7 @@ A list of all controls with their (public) APIs and their status.
 | Gif Support  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ ImageButton**
-| API | Android | iOS | macOS 💔 | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Aspect  | ✅   | ✅   | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | BorderColor  | ✅   | ✅   | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -355,7 +353,7 @@ A list of all controls with their (public) APIs and their status.
 | Source  | ✅   | ✅   | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Label**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CharacterSpacing  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FontAttributes  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -376,7 +374,7 @@ A list of all controls with their (public) APIs and their status.
 | VerticalTextAlignment  | ✅  | ✅  | ⏳  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Map**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | HasScrollEnabled  | ✅ | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | HasZoomEnabled  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -397,7 +395,7 @@ A list of all controls with their (public) APIs and their status.
 | VisibleRegion  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ MediaElement**
-| API | Android | iOS | macOS 💔 | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Aspect  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | AutoPlay  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -426,7 +424,7 @@ A list of all controls with their (public) APIs and their status.
 | VolumeRequested  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Picker**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FontAttributes  | ✅  | ✅  | ⏳  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -443,14 +441,14 @@ A list of all controls with their (public) APIs and their status.
 | TitleColor | ✅  | ✅  | ⏳  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **✅ ProgressBar**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Progress | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ProgressColor | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ProgressTo | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ RadioButton**
-| API | Android | iOS | macOS | WPF 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CheckedChanged | ✅  | ✅  | ✅  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | GroupName | ✅  | ✅  | ✅  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -458,7 +456,7 @@ A list of all controls with their (public) APIs and their status.
 | IsCheckedVisualState | ✅  | ✅  | ⚠️  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ RefreshView**
-| API | Android | iOS | macOS 💔 | WPF 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔 | UWP 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Command | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CommandParameter | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -467,7 +465,7 @@ A list of all controls with their (public) APIs and their status.
 | Refreshing | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ ScrollView**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Content | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ContentSize | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -486,7 +484,7 @@ A list of all controls with their (public) APIs and their status.
 | VerticalScrollBarVisibility | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ SearchBar**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CancelButtonColor | ✅  | ✅  | ⏳  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -504,7 +502,7 @@ A list of all controls with their (public) APIs and their status.
 | VerticalTextAlignment | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Slider**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | DragCompleted | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | DragCompletedCommand | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -520,7 +518,7 @@ A list of all controls with their (public) APIs and their status.
 | ValueChanged | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Stepper**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Increment | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Maximum | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -530,7 +528,7 @@ A list of all controls with their (public) APIs and their status.
 | StepperPosition | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ SwipeView**
-| API | Android | iOS | macOS 💔| WPF 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS 💔| UWP 💔 | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BottomItems | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Close | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -545,14 +543,14 @@ A list of all controls with their (public) APIs and their status.
 | TopItems | ✅  | ✅  | 💔  | 💔  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Switch**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | IsToggled | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | OnColor | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ThumbColor| ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ TimePicker**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FontAttributes  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -563,7 +561,7 @@ A list of all controls with their (public) APIs and their status.
 | TextColor  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ WebView**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CanGoBack  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CanGoForward  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -590,19 +588,19 @@ A list of all controls with their (public) APIs and their status.
 A list of all the extra Features with their (public) APIs and their status. 
 
 **⚠️ Accessibility**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Views | ✅  | ✅  | ⚠️ |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Pages| ✅  | ✅  | ⚠️ |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | TabIndex| ✅  | ✅  | ⚠️ |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Animation**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | View  | ✅  | ✅  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Device**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BeginInvokeOnMainThread| ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FlowDirection | ✅  | ✅  | ⚠️  |  ⚠️   | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -613,7 +611,7 @@ A list of all the extra Features with their (public) APIs and their status.
 | Styles | ✅  | ✅  | ⏳  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Gestures**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | ClickGestureRecognizer  | ✅  | ✅  | ✅  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | PanGestureRecognizer| ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -622,7 +620,7 @@ A list of all the extra Features with their (public) APIs and their status.
 | TapGestureRecognizer  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ ImageHandlers**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | FileImageSource | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | FontImageSource  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -631,35 +629,35 @@ A list of all the extra Features with their (public) APIs and their status.
 
 
 **⚠️ Interactivity**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Behavior | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Triggers | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | VSM  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ FlowDirection**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | View  | ✅  | ✅  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Fonts**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Embedded Fonts | ✅  | ✅  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | NamedFont  | ✅  | ✅  | ⚠️  |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Themes**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | AppTheme| ✅  | ✅  | 💔 |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Shell**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Basic Structure | ✅  | ✅  | 💔 |  💔   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ Styles**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BodyStyle| ✅  | ✅  | ⚠️ |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | CaptionStyle| ✅  | ✅  | ⚠️ |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -668,7 +666,7 @@ A list of all the extra Features with their (public) APIs and their status.
 | TitleStyle | ✅  | ✅  | ⚠️  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 **⚠️ View Transforms**
-| API | Android | iOS | macOS | WPF | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | AnchorX | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | AnchorY | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
