@@ -17,7 +17,7 @@
 
 ## FAQs
 
-Do you have doubts or questions?. Do not worry, we have prepared a complete [Faq](https://github.com/dotnet/maui/wiki/FAQs) answering the most common questions.
+Do you have questions? Do not worry, we have prepared a complete [FAQ](https://github.com/dotnet/maui/wiki/FAQs) answering the most common questions.
 
 ## Feedback
 
