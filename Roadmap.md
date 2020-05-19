@@ -42,10 +42,6 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 
 ## **.NET MAUI Preview 5 (Mid 2021)**
 
-| **Feature**                            | **Description**                                              | **Status** |
-| -------------------------------------- | ------------------------------------------------------------ | ---------- |
-|  |  | |
-
 ## **.NET MAUI Release Candidate (September 2021)**
 
 ## **.NET MAUI General Availability (November 2021)**
