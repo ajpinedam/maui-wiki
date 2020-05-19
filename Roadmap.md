@@ -9,8 +9,8 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 | **Feature**                            | **Description**                                              | **Status** |
 | -------------------------------------- | ------------------------------------------------------------ | ---------- |
 | Namespace changes to System.Maui | Xamarin.Forms will become System.Maui. | Committed |
-| Slim renderer architecture | [Spec](TBD) | Committed |
-| Remove Obsoletes | Remove all code previously deprecated | Committed |
+| Slim renderer architecture | [Spec](https://github.com/dotnet/maui/issues/28) | Committed |
+| Remove Obsoletes | [Spec](https://github.com/dotnet/maui/issues/21) | Committed |
 | Replace DependencyService | [Spec](TBD) | Proposed |
 | Remove Pages | [Spec](TBD) | Proposed |
 | Remove Themes | [Spec](TBD) | Proposed |
@@ -21,7 +21,7 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 | **Feature**                            | **Description**                                              | **Status** |
 | -------------------------------------- | ------------------------------------------------------------ | ---------- |
 | Introduce a Cross-Platform Lifecycle | [Spec](tbd) | Proposed |
-| Move "AndExpand" layout option | [Spec](TBD) | Proposed |
+| Move "AndExpand" layout option | [Spec](https://github.com/dotnet/maui/issues/29) | Proposed |
 | Update min and max sizing implementations | [Spec](TBD) | Proposed |
 | Implement GlideX | [Spec](TBD) | Proposed |
 | Change IAnimatable | [Spec](TBD) | Proposed |
