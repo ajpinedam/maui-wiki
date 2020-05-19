@@ -20,7 +20,7 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 
 | **Feature**                            | **Description**                                              | **Status** |
 | -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| Introduce a Cross-Platform Lifecycle | [Spec](tbd) | Proposed |
+| Introduce a Cross-Platform Lifecycle | [Spec](https://github.com/dotnet/maui/issues/30) | Proposed |
 | Move "AndExpand" layout option | [Spec](https://github.com/dotnet/maui/issues/29) | Proposed |
 | Update min and max sizing implementations | [Spec](TBD) | Proposed |
 | Implement GlideX | [Spec](TBD) | Proposed |
