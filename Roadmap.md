@@ -14,7 +14,7 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 | Replace DependencyService | [Spec](https://github.com/dotnet/maui/issues/24) | Proposed |
 | Remove Pages | [Spec](TBD) | Proposed |
 | Remove Themes | [Spec](TBD) | Proposed |
-| Startup registry | [Spec](TBD) | Proposed |
+| Startup registry | [Spec](https://github.com/dotnet/maui/issues/26) | Proposed |
 
 ## **.NET MAUI Preview 2 (Early 2021)**
 
@@ -32,13 +32,13 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 
 | **Feature**                            | **Description**                                              | **Status** |
 | -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| macOS Parity | [Spec](https://github.com/dotnet/maui/wiki/Status) | Committed |
+| macOS Parity | [Wiki](https://github.com/dotnet/maui/wiki/Status) | Committed |
 
 ## **.NET MAUI Preview 4 (Mid 2021)**
 
 | **Feature**                            | **Description**                                              | **Status** |
 | -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| Windows Parity | [Spec](https://github.com/dotnet/maui/wiki/Status) | Committed|
+| Windows Parity | [Wiki](https://github.com/dotnet/maui/wiki/Status) | Committed|
 
 ## **.NET MAUI Preview 5 (Mid 2021)**
 
