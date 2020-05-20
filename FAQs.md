@@ -51,7 +51,7 @@ To target it, NuGet Packages will need to add a dependency to .NET 6 and referen
 Stay tuned! No official plans yet, but we're looking into the possibility.
 
 ## Will Maui allow you to break out into Native UI when needed?
-Yes, it leverages [Multitargeting](https://docs.microsoft.com/visualstudio/mac/project-multitargeting?WT.mc_id=maui-github-bramin) allow us to reference platform-specific APIs in our unified MAUI project
+Yes, it leverages [Multitargeting](https://docs.microsoft.com/visualstudio/mac/project-multitargeting?WT.mc_id=maui-github-bramin) which allows us to reference platform-specific APIs in our unified .NET MAUI project
 
  ![Platform Specific Libraries](https://codetraveler.io/content/images/2020/05/Picture1.png)
  
