@@ -58,5 +58,5 @@ Yes, it leverages [Multitargeting](https://docs.microsoft.com/visualstudio/mac/p
 ## For new developers, should we start building apps with .NET MAUI?
 Today, continue using Xamarin.Forms because MAUI won't be available until the preview of .NET 6 is released later this year
 
-##What can we expect as far as performance improvements with .NET MAUI?
+## What can we expect as far as performance improvements with .NET MAUI?
 [Slim Renderers](https://github.com/dotnet/maui/issues/28) will drastically improve performance and standardize renderers across platforms
