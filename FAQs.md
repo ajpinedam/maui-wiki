@@ -32,8 +32,9 @@ Not at all! You have a choice to use what makes you most productive and makes th
 
 ## What is RxUI?
 
-RxUI stands for [ReactiveUI](https://reactiveui.net/), a functional and [reactive](https://reactiveui.net/docs/reactive-programming/) MVVM framework for building .NET applications.  
-## Will Maui automatically generate all of the iOS and Android images based on a single image?
+RxUI stands for [ReactiveUI](https://reactiveui.net/), a functional and [reactive](https://reactiveui.net/docs/reactive-programming/) MVVM framework for building .NET applications. 
+ 
+## Will .NET MAUI automatically generate all of the iOS and Android images based on a single image?
 It will resize your Image assets to 2x, 3x, HDPI, XHDPI, etc., similar to the [Resizetizer NuGet Package](https://redth.codes/resizetizer-nt-shared-images-for-xamarin/)
 
 ![Resources](https://codetraveler.io/content/images/2020/05/Resources.png)
