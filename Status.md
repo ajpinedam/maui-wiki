@@ -1,4 +1,4 @@
-We have created a detailed list to easily show the **MAUI status** and evolution.
+We have created a detailed list to easily show the **.NET MAUI status** and evolution.
 
 Icon | Description
 -- | --
