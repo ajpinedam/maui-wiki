@@ -1,4 +1,4 @@
-**MAUI** is:
+**.NET MAUI** is:
 
 * Multi-platform native UI
 * Deploy to multiple devices across mobile & desktop
@@ -21,4 +21,4 @@ Do you have questions? Do not worry, we have prepared a complete [FAQ](https://g
 
 ## Feedback
 
-We'd love to hear from you about MAUI, as well as where you'd like to see the platform improve! Please send feedback to [David Ortinau](mailto:david.ortinau@microsoft.com), Principal Program Manager for Xamarin Mobile SDKs.
+We'd love to hear from you about .NET MAUI, as well as where you'd like to see the platform improve! Please send feedback to [David Ortinau](mailto:david.ortinau@microsoft.com), Principal Program Manager for Xamarin Mobile SDKs.
