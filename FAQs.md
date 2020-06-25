@@ -18,6 +18,17 @@ The next major version of Xamarin.Forms will around September 2020 and continue 
 
 Initially, we recommend you explore .NET MAUI on new projects. We are working to make the transition from existing projects as seamless as possible as you will enjoy project system improvements, a new .NET, and a new renderer architecture in .NET MAUI.
 
+## Will my Xamarin.Forms projects automatically update to .NET MAUI?
+
+There will be a migration path that will include a combination of automated conversion and manual updates with documented guidance. Changes may include:
+
+* update namespaces from `Xamarin.Forms` to `System.Maui` (find/replace)
+* convert from existing csproj to SDK Style project format
+* update NuGets to those supporting .NET 6
+* adopt breaking changes - the proposed changes are things like changing MinWidthRequest to MinWidth and enforcing the behavior
+
+Broader breaking changes are being proposed such as [XAML implementation and object model renaming](https://github.com/dotnet/maui/issues/43). Please let your voice to those [issues](https://github.com/dotnet/maui/issues/).
+
 ## Why is Xamarin.Forms becoming .NET MAUI?
 
 We are unifying the .NET platform! As with all key workloads and runtimes of .NET, we are closely integrating Xamarin.Forms and Xamarin.Essentials, and the Android, iOS, and macOS bindings into .NET. This is clearly illustrated by the namespace changes: `Xamarin.Forms` becomes `System.Maui` and `Xamarin.Essentials` becomes `System.Devices`. 
