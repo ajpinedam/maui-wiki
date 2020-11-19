@@ -9,12 +9,12 @@ The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK
 | **Feature**                            | **Description**                                              | **Status** |
 | -------------------------------------- | ------------------------------------------------------------ | ---------- |
 | Namespace changes to System.Maui | Xamarin.Forms will become System.Maui | Committed |
-| Slim renderer architecture | [Spec](https://github.com/dotnet/maui/issues/28) | Committed |
-| Remove Obsoletes | [Spec](https://github.com/dotnet/maui/issues/21) | Committed |
-| Replace DependencyService | [Spec](https://github.com/dotnet/maui/issues/24) | Proposed |
-| Remove Pages |  | Proposed |
-| Remove Themes |  | Proposed |
-| Startup registry | [Spec](https://github.com/dotnet/maui/issues/26) | Proposed |
+| Slim renderer architecture | [Spec](https://github.com/dotnet/maui/issues/28) | In Progress |
+| Remove Obsoletes | [Spec](https://github.com/dotnet/maui/issues/21) | In Progress |
+| Replace DependencyService | [Spec](https://github.com/dotnet/maui/issues/24) | In Progress |
+| Remove Data Pages |  | Completed |
+| Remove Themes |  | Completed |
+| Startup registry | [Spec](https://github.com/dotnet/maui/issues/26) | Completed |
 
 ## **.NET MAUI Preview 2 (Early 2021)**
 
