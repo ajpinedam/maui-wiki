@@ -137,9 +137,10 @@ https://github.com/xamarin/Xamarin.Forms/pull/12189
 | Color  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | IsRunning  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⏳ BoxView **
+**⏳ BoxView**
 https://github.com/xamarin/Xamarin.Forms/pull/12529
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+| ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 
 
 **⏳ Button**
