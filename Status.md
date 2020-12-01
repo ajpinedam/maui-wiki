@@ -28,11 +28,10 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | BoxView | ⏳  | ⏳  | ⏳  |
 | Button | ⏳  | ⏳  | ⏳  |
 | CarouselView | ⚠️  | ⚠️  | ⚠️  |
-| CheckBox | ⚠️  | ✅  | ⚠️  |
+| CheckBox | ⚠️  | ⚠️  | ⚠️  |
 | CollectionView | ⚠️  | ⚠️  | ⚠️  |
 | DatePicker | ⏳  | ⏳  | ⏳  |
 | Entry | ⏳  | ⏳  | ⏳  |
-| Frame | ✅  | ✅  | ✅  |
 | IndicatorView | ⚠️  | ⚠️  | ⚠️  |
 | Image | ⏳  | ⏳  | ⏳  |
 | ImageButton | ⚠️  | ⚠️  | ⚠️  |
@@ -42,15 +41,28 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ProgressBar | ⏳  | ⏳  | ⏳  |
 | RadioButton | ⚠️  | ⚠️  | ⚠️  |
 | RefreshView | ⚠️  | ⚠️  | ⚠️  |
-| ScrollView | ⚠️  | ⚠️  | ⚠️  |
 | SearchBar | ⚠️  | ⚠️  | ⚠️  |
 | Shapes | ⏳  | ⏳  | ⏳  |
-| Slider | ⏳  | ⏳  | ⏳  |
+| Slider | ✅  | ✅  | ✅  |
 | Stepper | ⏳  | ⏳  | ⏳  |
 | SwipeView | ⚠️  | ⚠️  | ⚠️  |
 | Switch | ⏳  | ⏳  | ⏳  |
 | TimePicker | ⏳  | ⏳  | ⏳  |
 | WebView | ⚠️  | ⚠️  | ⚠️  |
+
+### Layouts
+
+| Layout | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:---:|:-----:|
+| AbsoluteLayout | ⚠️  | ⚠️  | ⚠️  |
+| ContentPresenter | ⚠️  | ⚠️  | ⚠️  |
+| ContentView | ⚠️  | ⚠️  | ⚠️  |
+| FlexLayout | ⚠️  | ⚠️  | ⚠️  |
+| Grid | ⚠️  | ⚠️  | ⚠️  |
+| RelativeLayout | ⚠️  | ⚠️  | ⚠️  |
+| ScrollView | ⚠️  | ⚠️  | ⚠️  |
+| StackLayout | ⏳  | ⏳  | ⏳  |
+| TemplatedView | ⚠️  | ⚠️  | ⚠️  |
 
 ### Features
 
