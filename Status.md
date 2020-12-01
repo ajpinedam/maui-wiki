@@ -130,13 +130,20 @@ A list of all Pages with their (public) APIs and their status.
 
 A list of all controls with their (public) APIs and their status. 
 
-**✅ ActivityIndicator**
+**⏳ ActivityIndicator**
+https://github.com/xamarin/Xamarin.Forms/pull/12189
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Color  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | IsRunning  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ Button**
+**⏳ BoxView **
+https://github.com/xamarin/Xamarin.Forms/pull/12529
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+
+
+**⏳ Button**
+https://github.com/xamarin/Xamarin.Forms/pull/12314
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | BackgroundColor  | ✅  | ✅  | ⏳  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -217,7 +224,8 @@ A list of all controls with their (public) APIs and their status.
 | GroupHeaderTemplate | ✅  | ✅  | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | GroupFooterTemplate | ✅  | ✅  | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ DatePicker**
+**⏳ DatePicker**
+https://github.com/xamarin/Xamarin.Forms/pull/12527
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -249,7 +257,8 @@ A list of all controls with their (public) APIs and their status.
 | MaxLength | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
 
-**⚠️ Entry**
+**⏳ Entry**
+https://github.com/xamarin/Xamarin.Forms/pull/12151
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | ClearButtonVisibility  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -314,7 +323,8 @@ A list of all controls with their (public) APIs and their status.
 | Position  | ✅  | ✅  | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | SelectedIndicatorColor  | ✅  | ✅  | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ Image**
+**⏳ Image**
+https://github.com/xamarin/Xamarin.Forms/pull/12378
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Aspect  | ✅   | ✅   | ⚠️  | ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -352,7 +362,8 @@ A list of all controls with their (public) APIs and their status.
 | SetIsPressed  | ✅   | ✅ | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Source  | ✅   | ✅   | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ Label**
+**⏳ Label**
+https://github.com/xamarin/Xamarin.Forms/pull/12152
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CharacterSpacing  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -423,7 +434,8 @@ A list of all controls with their (public) APIs and their status.
 | Volume  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | VolumeRequested  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ Picker**
+**⏳ Picker**
+https://github.com/xamarin/Xamarin.Forms/pull/12206
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -440,7 +452,8 @@ A list of all controls with their (public) APIs and their status.
 | Title | ✅  | ✅  | ⏳  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | TitleColor | ✅  | ✅  | ⏳  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**✅ ProgressBar**
+**⏳ ProgressBar**
+https://github.com/xamarin/Xamarin.Forms/pull/12191
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Progress | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -501,7 +514,12 @@ A list of all controls with their (public) APIs and their status.
 | TextColor  | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | VerticalTextAlignment | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ Slider**
+**⏳ Shapes**
+https://github.com/xamarin/Xamarin.Forms/pull/12228
+| API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
+
+**⏳ Slider**
+https://github.com/xamarin/Xamarin.Forms/pull/12192
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | DragCompleted | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -517,7 +535,8 @@ A list of all controls with their (public) APIs and their status.
 | Value | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ValueChanged | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ Stepper**
+**⏳ Stepper**
+https://github.com/xamarin/Xamarin.Forms/pull/12197
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | Increment | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -542,14 +561,16 @@ A list of all controls with their (public) APIs and their status.
 | SwipeStarted | ✅  | ✅  | 💔  | ✅ | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | TopItems | ✅  | ✅  | 💔  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ Switch**
+**⏳ Switch**
+https://github.com/xamarin/Xamarin.Forms/pull/12196
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | IsToggled | ✅  | ✅  | ✅  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | OnColor | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | ThumbColor| ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ TimePicker**
+**⏳ TimePicker**
+https://github.com/xamarin/Xamarin.Forms/pull/12528
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
@@ -619,7 +640,8 @@ A list of all the extra Features with their (public) APIs and their status.
 | SwipeGestureRecognizer  | ✅  | ✅  | 💔 |  ⚠️   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | TapGestureRecognizer  | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 
-**⚠️ ImageHandlers**
+**⏳ ImageHandlers**
+https://github.com/xamarin/Xamarin.Forms/pull/12378
 | API | Android | iOS | macOS | UWP | Android (MAUI) | iOS (MAUI) | macOS (MAUI) | Windows (MAUI) |
 | ----|:-------:|:---:|:-----:|:---:|:-------:|:---:|:-----:|:---:|
 | FileImageSource | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
