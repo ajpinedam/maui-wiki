@@ -7,6 +7,69 @@ Icon | Description
 ✅ | Done
 💔 | Never implemented in Xamarin.Forms for this platform
 
+## Overview
+
+To track ongoing progress, filter on the [handlers label](https://github.com/xamarin/Xamarin.Forms/labels/handlers).
+
+### Pages
+
+| Control | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:---:|:-----:|
+| ContentPage | ⚠️  | ⚠️  | ⚠️  |
+| FlyoutPage | ⚠️  | ⚠️  | ⚠️  |
+| NavigationPage | ⚠️  | ⚠️  | ⚠️  |
+| TabbedPage | ⚠️  | ⚠️  | ⚠️  |
+
+### Views
+
+| Control | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:---:|:-----:|
+| ActivityIndicator | ⏳  | ⏳  | ⏳  |
+| BoxView | ⏳  | ⏳  | ⏳  |
+| Button | ⏳  | ⏳  | ⏳  |
+| CarouselView | ⚠️  | ⚠️  | ⚠️  |
+| CheckBox | ⚠️  | ✅  | ⚠️  |
+| CollectionView | ⚠️  | ⚠️  | ⚠️  |
+| DatePicker | ⏳  | ⏳  | ⏳  |
+| Entry | ⏳  | ⏳  | ⏳  |
+| Frame | ✅  | ✅  | ✅  |
+| IndicatorView | ⚠️  | ⚠️  | ⚠️  |
+| Image | ⏳  | ⏳  | ⏳  |
+| ImageButton | ⚠️  | ⚠️  | ⚠️  |
+| Label | ⏳  | ⏳  | ⏳  |
+| Map | ⚠️  | ⚠️  | ⚠️  |
+| Picker | ⏳  | ⏳  | ⏳  |
+| ProgressBar | ⏳  | ⏳  | ⏳  |
+| RadioButton | ⚠️  | ⚠️  | ⚠️  |
+| RefreshView | ⚠️  | ⚠️  | ⚠️  |
+| ScrollView | ⚠️  | ⚠️  | ⚠️  |
+| SearchBar | ⚠️  | ⚠️  | ⚠️  |
+| Shapes | ⏳  | ⏳  | ⏳  |
+| Slider | ⏳  | ⏳  | ⏳  |
+| Stepper | ⏳  | ⏳  | ⏳  |
+| SwipeView | ⚠️  | ⚠️  | ⚠️  |
+| Switch | ⏳  | ⏳  | ⏳  |
+| TimePicker | ⏳  | ⏳  | ⏳  |
+| WebView | ⚠️  | ⚠️  | ⚠️  |
+
+### Features
+
+| Feature | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:---:|:-----:|
+| Accessibility | ⚠️  | ⚠️  | ⚠️  |
+| Animation | ⚠️  | ⚠️  | ⚠️  |
+| Device | ⚠️  | ⚠️  | ⚠️  |
+| Gestures | ⚠️  | ⚠️  | ⚠️  |
+| ImageHandlers | ⏳  | ⏳  | ⏳  |
+| Interactivity (Behaviors, Triggers, Visual State Manager) | ⚠️  | ⚠️  | ⚠️  |
+| FlowDirection (RTL) | ⚠️  | ⚠️  | ⚠️  |
+| Fonts | ⚠️  | ⚠️  | ⚠️  |
+| Themes | ⚠️  | ⚠️  | ⚠️  |
+| Shell | ⚠️  | ⚠️  | ⚠️  |
+| Styles | ⚠️  | ⚠️  | ⚠️  |
+| View Transforms | ⚠️  | ⚠️  | ⚠️  |
+
+<!-- 
 ## Shell
 
 A list of all Shell elements with their (public) APIs and their status.
@@ -700,4 +763,4 @@ https://github.com/xamarin/Xamarin.Forms/pull/12378
 | ScaleY | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | Rotate | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
 | TranslationX | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| TranslationY | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| TranslationY | ✅  | ✅  | ✅  |  ✅   | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | -->
