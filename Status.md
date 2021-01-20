@@ -58,7 +58,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ContentPresenter | ⚠️  | ⚠️  | ⚠️  |
 | ContentView | ⚠️  | ⚠️  | ⚠️  |
 | FlexLayout | ⚠️  | ⚠️  | ⚠️  |
-| Grid | ⚠️  | ⚠️  | ⚠️  |
+| Grid | ⏳  | ⏳  | ⏳  |
 | RelativeLayout | ⚠️  | ⚠️  | ⚠️  |
 | ScrollView | ⚠️  | ⚠️  | ⚠️  |
 | StackLayout | ⏳  | ⏳  | ⏳  |
