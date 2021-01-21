@@ -28,7 +28,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | BoxView | ⏳  | ⏳  | ⏳  |
 | Button | ⏳  | ⏳  | ⏳  |
 | CarouselView | ⚠️  | ⚠️  | ⚠️  |
-| CheckBox | ⚠️  | ⚠️  | ⚠️  |
+| [CheckBox](https://github.com/xamarin/Xamarin.Forms/pull/13482) | ⏳  | ⏳  | ⏳  |
 | CollectionView | ⚠️  | ⚠️  | ⚠️  |
 | DatePicker | ⏳  | ⏳  | ⏳  |
 | Entry | ⏳  | ⏳  | ⏳  |
