@@ -32,6 +32,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CollectionView | ⚠️  | ⚠️  | ⚠️  |
 | DatePicker | ⏳  | ⏳  | ⏳  |
 | Entry | ⏳  | ⏳  | ⏳  |
+| [Frame](https://github.com/xamarin/Xamarin.Forms/pull/13542) | ⏳  | ⏳  | ⏳  |
 | IndicatorView | ⚠️  | ⚠️  | ⚠️  |
 | Image | ⏳  | ⏳  | ⏳  |
 | ImageButton | ⚠️  | ⚠️  | ⚠️  |
@@ -41,7 +42,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ProgressBar | ⏳  | ⏳  | ⏳  |
 | RadioButton | ⚠️  | ⚠️  | ⚠️  |
 | RefreshView | ⚠️  | ⚠️  | ⚠️  |
-| SearchBar | ⚠️  | ⚠️  | ⚠️  |
+| [SearchBar](https://github.com/xamarin/Xamarin.Forms/pull/13524) | ⏳  | ⏳  | ⏳  |
 | Shapes | ⏳  | ⏳  | ⏳  |
 | Slider | ✅  | ✅  | ✅  |
 | Stepper | ⏳  | ⏳  | ⏳  |
