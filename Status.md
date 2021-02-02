@@ -49,7 +49,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | SwipeView | ⚠️  | ⚠️  | ⚠️  |
 | Switch | ⏳  | ⏳  | ⏳  |
 | TimePicker | ⏳  | ⏳  | ⏳  |
-| WebView | ⚠️  | ⚠️  | ⚠️  |
+| [WebView](https://github.com/xamarin/Xamarin.Forms/pull/13581) | ⏳  | ⏳  | ⏳  |
 
 ### Layouts
 
