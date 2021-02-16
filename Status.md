@@ -26,7 +26,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:---:|:-----:|
 | ActivityIndicator | ⏳  | ⏳  | ⏳  |
 | BoxView | ⏳  | ⏳  | ⏳  |
-| Button | ⏳  | ⏳  | ⏳  |
+| [Button](https://github.com/xamarin/Xamarin.Forms/pull/13771) | ⏳  | ⏳  | ⏳  |
 | CarouselView | ⚠️  | ⚠️  | ⚠️  |
 | [CheckBox](https://github.com/xamarin/Xamarin.Forms/pull/13482) | ⏳  | ⏳  | ⏳  |
 | CollectionView | ⚠️  | ⚠️  | ⚠️  |
@@ -36,7 +36,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IndicatorView | ⚠️  | ⚠️  | ⚠️  |
 | Image | ⏳  | ⏳  | ⏳  |
 | ImageButton | ⚠️  | ⚠️  | ⚠️  |
-| Label | ⏳  | ⏳  | ⏳  |
+| [Label](https://github.com/xamarin/Xamarin.Forms/pull/13764) | ⏳  | ⏳  | ⏳  |
 | Map | ⚠️  | ⚠️  | ⚠️  |
 | Picker | ⏳  | ⏳  | ⏳  |
 | ProgressBar | ⏳  | ⏳  | ⏳  |
