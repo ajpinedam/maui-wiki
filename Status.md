@@ -31,7 +31,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | [CheckBox](https://github.com/xamarin/Xamarin.Forms/pull/13482) | ⏳  | ⏳  | ⏳  |
 | CollectionView | ⚠️  | ⚠️  | ⚠️  |
 | DatePicker | ⏳  | ⏳  | ⏳  |
-| Entry | ⏳  | ⏳  | ⏳  |
+| [Entry](https://github.com/xamarin/Xamarin.Forms/pull/13788) | ⏳  | ⏳  | ⏳  |
 | [Frame](https://github.com/xamarin/Xamarin.Forms/pull/13542) | ⏳  | ⏳  | ⏳  |
 | IndicatorView | ⚠️  | ⚠️  | ⚠️  |
 | Image | ⏳  | ⏳  | ⏳  |
@@ -49,7 +49,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | SwipeView | ⚠️  | ⚠️  | ⚠️  |
 | Switch | ⏳  | ⏳  | ⏳  |
 | TimePicker | ⏳  | ⏳  | ⏳  |
-| [WebView](https://github.com/xamarin/Xamarin.Forms/pull/13581) | ⏳  | ⏳  | ⏳  |
+| [WebView](https://github.com/xamarin/Xamarin.Forms/pull/13789) | ⏳  | ⏳  | ⏳  |
 
 ### Layouts
 
