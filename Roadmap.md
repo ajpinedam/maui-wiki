@@ -2,47 +2,33 @@ Current development is happening in [xamarin/xamarin.forms](https://github.com/x
 
 # Milestones
 
-## **.NET MAUI Preview 1 (Late 2020)**
+## **.NET MAUI in .NET 6 Preview 2 (Early 2021)**
 
-The first preview of .NET MAUI will be the first to take advantage of .NET 6 SDK features such as SDK style projects, build tools, and command line tools. We plan to also include:
+[Project Board](https://github.com/xamarin/Xamarin.Forms/projects/85)
 
-| **Feature**                            | **Description**                                              | **Status** |
-| -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| Namespace changes to System.Maui | Xamarin.Forms will become System.Maui | Committed |
-| Slim renderer architecture | [Spec](https://github.com/dotnet/maui/issues/28) | In Progress |
-| Remove Obsoletes | [Spec](https://github.com/dotnet/maui/issues/21) | In Progress |
-| Replace DependencyService | [Spec](https://github.com/dotnet/maui/issues/24) | In Progress |
-| Remove Data Pages |  | Completed |
-| Remove Themes |  | Completed |
-| Startup registry | [Spec](https://github.com/dotnet/maui/issues/26) | Completed |
+Highlights:
+* First batch of [controls](https://github.com/xamarin/Xamarin.Forms/projects/85?card_filter_query=label%3Ahandlers) and layouts
+* Namespace changes
+* Integrated [Essentials](https://docs.microsoft.com/en-us/xamarin/essentials/) library
+* Single project image build task [PR](https://github.com/xamarin/Xamarin.Forms/pull/13784)
+* Control registrar
 
-## **.NET MAUI Preview 2 (Early 2021)**
+## **.NET MAUI in .NET 6 Preview 3 (Early 2021)**
 
-| **Feature**                            | **Description**                                              | **Status** |
-| -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| Introduce a Cross-Platform Lifecycle | [Spec](https://github.com/dotnet/maui/issues/30) | Proposed |
-| Move "AndExpand" layout option | [Spec](https://github.com/dotnet/maui/issues/29) | Proposed |
-| Update min and max sizing implementations | | Proposed |
-| Implement GlideX | [Spec](https://github.com/xamarin/Xamarin.Forms/issues/3577) | Proposed |
-| Change IAnimatable | [Spec](https://github.com/dotnet/maui/issues/17) | Proposed |
-| Change Behavior and Trigger inheritance | [Spec](https://github.com/xamarin/maui/issues/76) | Proposed |
-| Replace Application.Properties | [Spec](https://github.com/dotnet/maui/issues/22) | Proposed |
+Highlights:
+* Second batch of controls and layouts
+* Mac Catalyst support
+* App host
 
-## **.NET MAUI Preview 3 (Early 2021)**
+## **.NET MAUI in .NET 6 Preview 4 (Mid 2021)**
 
-| **Feature**                            | **Description**                                              | **Status** |
-| -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| macOS Parity | [Wiki](https://github.com/dotnet/maui/wiki/Status) | Committed |
+Highlights:
+* Third batch of controls and layouts
+* Windows desktop support
 
-## **.NET MAUI Preview 4 (Mid 2021)**
+## **.NET MAUI in .NET 6 Preview 5 (Mid 2021)**
 
-| **Feature**                            | **Description**                                              | **Status** |
-| -------------------------------------- | ------------------------------------------------------------ | ---------- |
-| Windows Parity | [Wiki](https://github.com/dotnet/maui/wiki/Status) | Committed|
-
-## **.NET MAUI Preview 5 (Mid 2021)**
-
-## **.NET MAUI Release Candidate (September 2021)**
+## **.NET MAUI in .NET 6 Release Candidate (September 2021)**
 
 ## **.NET MAUI General Availability (November 2021)**
 
