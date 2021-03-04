@@ -1,5 +1,7 @@
 The list of handler properties which are ready for porting is [here](https://github.com/dotnet/maui/projects/4).
 
+Example PR: https://github.com/dotnet/maui/pull/421
+
 PRs for handler properties should:
 
 - target a single property for a single control where possible
