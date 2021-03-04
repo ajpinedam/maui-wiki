@@ -1,6 +1,6 @@
 The list of handler properties which are ready for porting is [here](https://github.com/dotnet/maui/projects/4).
 
-Example PR: https://github.com/dotnet/maui/pull/421
+Example PR (handling Padding for Label): https://github.com/dotnet/maui/pull/421
 
 PRs for handler properties should:
 
