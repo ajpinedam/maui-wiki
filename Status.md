@@ -24,7 +24,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | Control | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| ActivityIndicator | ⏳  | ⏳  | ⏳  |
+| [ActivityIndicator](https://github.com/dotnet/maui/pull/417) | ⏳  | ⏳  | ⏳  |
 | BoxView | ⏳  | ⏳  | ⏳  |
 | [Button](https://github.com/xamarin/Xamarin.Forms/pull/13771) | ⏳  | ⏳  | ⏳  |
 | CarouselView | ⚠️  | ⚠️  | ⚠️  |
@@ -39,7 +39,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | [Label](https://github.com/xamarin/Xamarin.Forms/pull/13764) | ⏳  | ⏳  | ⏳  |
 | Map | ⚠️  | ⚠️  | ⚠️  |
 | Picker | ⏳  | ⏳  | ⏳  |
-| ProgressBar | ⏳  | ⏳  | ⏳  |
+| [ProgressBar](https://github.com/dotnet/maui/pull/418) | ⏳  | ⏳  | ⏳  |
 | RadioButton | ⚠️  | ⚠️  | ⚠️  |
 | RefreshView | ⚠️  | ⚠️  | ⚠️  |
 | [SearchBar](https://github.com/xamarin/Xamarin.Forms/pull/13524) | ⏳  | ⏳  | ⏳  |
