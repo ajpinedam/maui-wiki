@@ -34,6 +34,10 @@ Here's the basic list of things you need to do in order to port a property from 
 - Implement the actual property updates (usually in extension methods in the Platform section of Core)	
 	- The implementation details can be found in the renderers for the respective platforms
 	- Again, Standard is a placeholder; you can leave these methods empty
+- Tag ported renderer methods with [PortHandler]
+- Add the property to the stub class
 - Implement basic property tests in DeviceTests
 	- You'll need to add the new property on the device test stub class
 	- If you can make the tests work in the xplat class, yay! If not, it's fine to have all or part of them on the individual platform aspects. 
+
+See the full list at the PR template [here](https://github.com/dotnet/maui/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
