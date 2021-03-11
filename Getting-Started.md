@@ -40,7 +40,7 @@ repo._
 Open a terminal and run:
 
 ```
-dotnet new -i Microsoft.Maui.Templates
+dotnet new --install Microsoft.Maui.Templates::6.0.100-* --nuget-source https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json
 ```
 
 ## Time to Go!
