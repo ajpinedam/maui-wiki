@@ -1,4 +1,4 @@
-.NET 6 Preview 2 
+[DRAFT for .NET 6 Preview 2] 
 
 ## Pre-Requisites
 
