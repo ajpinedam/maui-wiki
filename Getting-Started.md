@@ -1,5 +1,3 @@
-[DRAFT for .NET 6 Preview 2] 
-
 ## Pre-Requisites
 
 1. Visual Studio 16.9 or newer, or Visual Studio for Mac 8.9 or newer
@@ -9,7 +7,7 @@
 * Windows: [dotnet-sdk-6.0.100-preview.2.21155.3-win-x64.exe](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-preview.2.21155.3/dotnet-sdk-6.0.100-preview.2.21155.3-win-x64.exe)
 * macOS: [dotnet-sdk-6.0.100-preview.2.21155.3-osx-x64.pkg](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-preview.2.21155.3/dotnet-sdk-6.0.100-preview.2.21155.3-osx-x64.pkg)
 
-3. Platform SDKs compatible with .NET 6 previews 
+3. Platform SDKs compatible with .NET 6 Preview 2
 
 Android:
 
@@ -51,10 +49,12 @@ dotnet new --install Microsoft.Maui.Templates::6.0.100-* --nuget-source https://
 dotnet new maui -n FirstLook
 ```
 
-2. Open the Project Solution in Visual Studio
+2. Open the project in Visual Studio Code.
+
+At this time it's easiest to edit in your favorite editor, and build from the command line.
 
 ```
-open ./FirstLook/FirstLook.sln
+code ./FirstLook
 ```
 
 3. Restore the NuGets 
