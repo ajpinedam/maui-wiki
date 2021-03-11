@@ -12,13 +12,17 @@ Highlights:
 * Integrated [Essentials](https://docs.microsoft.com/en-us/xamarin/essentials/) library
 * Single project image build task [PR](https://github.com/xamarin/Xamarin.Forms/pull/13784)
 * Control registrar
+* Mac Catalyst support
+* App host
 
 ## **.NET MAUI in .NET 6 Preview 3 (Early 2021)**
 
 Highlights:
 * Second batch of controls and layouts
-* Mac Catalyst support
-* App host
+* Brushes
+* Shapes
+* Lifecycle Events
+
 
 ## **.NET MAUI in .NET 6 Preview 4 (Mid 2021)**
 
