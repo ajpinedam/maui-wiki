@@ -28,7 +28,7 @@ Mac Catalyst:
 
 _NOTE: newer builds of .NET *may* work, but your mileage may vary.
 The workload installers enable a feature flag file via
-`sdk/6.0.100-preview.1.21103.13/EnableWorkloadResolver.sentinel`, which would
+`sdk/6.0.100-preview.2.21155.3/EnableWorkloadResolver.sentinel`, which would
 need to be created manually for other .NET 6 versions. You can find
 the full list of builds at the [dotnet/installer][dotnet/installer]
 repo._
