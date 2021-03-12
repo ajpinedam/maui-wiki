@@ -38,8 +38,10 @@ repo._
 Open a terminal and run:
 
 ```
-dotnet new --install Microsoft.Maui.Templates::6.0.100-* --nuget-source https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json
+dotnet new --install Microsoft.Maui.Templates::6.0.100-preview.2.148 --nuget-source https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json
 ```
+
+> Note: you can bump the version or try a * wildcard on Windows as templates will continue to be updated.
 
 ## Time to Go!
 
@@ -58,6 +60,20 @@ code ./FirstLook
 ```
 
 3. Restore the NuGets 
+
+Add a `nuget.config` file to the root of your project with the following:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <clear />
+    <!-- ensure only the sources defined below are used -->
+    <add key="dotnet6" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json" />
+    <add key="xamarin" value="https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json" />
+  </packageSources>
+</configuration>
+```
 
 VS Code will often prompt you to restore, however you can restore a few other ways.
 
