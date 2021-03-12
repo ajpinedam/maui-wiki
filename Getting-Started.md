@@ -48,7 +48,7 @@ dotnet new --install Microsoft.Maui.Templates::6.0.100-preview.2.2.159 --nuget-s
 1. Start a New Project
 
 ```
-dotnet new maui -n FirstLook
+dotnet new maui-mobile -n FirstLook
 ```
 
 2. Open the project in Visual Studio Code.
