@@ -34,7 +34,7 @@ Here's the basic list of things you need to do in order to port a property from 
 - Implement the actual property updates (usually in extension methods in the Platform section of Core)	
 	- The implementation details can be found in the renderers for the respective platforms
 	- Again, Standard is a placeholder; you can leave these methods empty
-- Tag ported renderer methods with [PortHandler]
+- Tag ported renderer methods with [PortHandler] to indicate that it has been "done"
 - Add the property to the stub class
 - Implement basic property tests in DeviceTests
 	- You'll need to add the new property on the device test stub class
