@@ -10,6 +10,7 @@ Example PR (handling Padding for Label): https://github.com/dotnet/maui/pull/421
 - port the existing renderer logic where appropriate/possible
 - include device tests for both iOS and Android
 - avoid any changes not essential to the handler property (including whitespace)
+- include "fixes #PR" in the commit comments (e.g., "fixes #123")
 
 ## Tests
 At a minimum, device tests should verify that the cross-platform property value translates to a reasonable native property value. 
