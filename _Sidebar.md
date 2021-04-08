@@ -1,5 +1,6 @@
 General Info
 ========
+- [Getting Started](https://github.com/dotnet/maui/wiki/Getting-Started)
 - [How to Contribute](https://github.com/dotnet/maui/blob/main/.github/CONTRIBUTING.md)
 - [Handler Property PR Guidelines](https://github.com/dotnet/maui/wiki/Handler-Property-PR-Guidelines)
 - [.NET MAUI FAQs](https://github.com/dotnet/maui/wiki/Handler-Property-PR-Guidelines)
