@@ -1,10 +1,9 @@
-**.NET MAUI** is:
+## Getting Started
 
-* Multi-platform native UI
-* Deploy to multiple devices across mobile & desktop
-* Using a single project, single codebase
-* Evolution of [Xamarin.Forms](https://github.com/xamarin/xamarin.forms)
-* Shipping with .NET 6
+.NET MAUI ships with each .NET 6 preview on a monthly cadence. For instructions to setup your environment and review .NET MAUI progress, check the links below:
+
+* [Getting Started Guide](https://github.com/dotnet/maui/wiki/Getting-Started)
+* [Sample Projects](https://github.com/dotnet/net6-mobile-samples)
 
 ## Issues, Enhancements
 
