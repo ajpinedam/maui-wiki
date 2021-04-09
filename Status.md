@@ -33,24 +33,24 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BackgroundColor  | ⚠️  | ⚠️  | ⚠️  | 
+| BackgroundColor  | ✅  | ✅  | ⚠️  | 
 | BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | BorderWidth  | ⚠️  | ⚠️  | ⚠️  | 
-| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
-| Clicked  | ⚠️  | ⚠️  | ⚠️  | 
-| Command  | ⚠️  | ⚠️  | ⚠️  | 
-| CommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| Clicked  | ✅  | ✅  | ⚠️  | 
+| Command  | ✅  | ✅  | ⚠️  | 
+| CommandParameter  | ✅  | ✅  | ⚠️  | 
 | ContentLayout  | ⚠️  | ⚠️  | ⚠️  | 
 | CornerRadius  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
-| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
-| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⚠️  | 
+| FontFamily  | ✅  | ✅  | ⚠️  | 
+| FontSize  | ✅  | ✅  | ⚠️  | 
 | ImageSource  | ⚠️  | ⚠️  | ⚠️  | 
-| Padding  | ⚠️  | ⚠️  | ⚠️  | 
-| Pressed  | ⚠️  | ⚠️  | ⚠️  | 
-| Released  | ⚠️  | ⚠️  | ⚠️  | 
-| Text  | ⚠️  | ⚠️  | ⚠️  | 
-| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+| Padding  | ✅  | ✅  | ⚠️  | 
+| Pressed  | ✅  | ✅  | ⚠️  | 
+| Released  | ✅  | ✅  | ⚠️  | 
+| Text  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ CarouselView
 
@@ -78,7 +78,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | Color  | ⚠️  | ⚠️  | ⚠️  | 
 | CheckedChanged  | ⚠️  | ⚠️  | ⚠️  | 
-| IsChecked  | ⚠️  | ⚠️  | ⚠️  | 
+| IsChecked  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ CollectionView
 
@@ -108,17 +108,17 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BackgroundColor  | ⚠️  | ⚠️  | ⚠️  | 
-| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  |  
-| Date  | ⚠️  | ⚠️  | ⚠️  | 
+| BackgroundColor  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⚠️  |  
+| Date  | ✅  | ✅  | ⚠️  | 
 | DateSelected  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ⚠️  | ⚠️  | ⚠️  |  
-| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
-| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
-| Format  | ⚠️  | ⚠️  | ⚠️  | 
-| MaximumDate  | ⚠️  | ⚠️  | ⚠️  | 
-| MinimumDate  | ⚠️  | ⚠️  | ⚠️  | 
-| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⚠️  |  
+| FontFamily  | ✅  | ✅  | ⚠️  | 
+| FontSize  | ✅  | ✅  | ⚠️  | 
+| Format  | ✅  | ✅  | ⚠️  | 
+| MaximumDate  | ✅  | ✅  | ⚠️  | 
+| MinimumDate  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ Editor
 
@@ -126,41 +126,41 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | AutoSize  | ⚠️  | ⚠️  | ⚠️  |  
 | Completed  | ⚠️  | ⚠️  | ⚠️  | 
-| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ⚠️  | ⚠️  | ⚠️  |  
-| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
-| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
-| IsReadOnly  | ⚠️  | ⚠️  | ⚠️  | 
-| IsTextPredictionEnabled  | ⚠️  | ⚠️  | ⚠️  |
-| PlaceHolder  | ⚠️  | ⚠️  | ⚠️  | 
-| PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
-| Text  | ⚠️  | ⚠️  | ⚠️  | 
-| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
-| MaxLength  | ⚠️  | ⚠️  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⚠️  |  
+| FontFamily  | ✅  | ✅  | ⚠️  | 
+| FontSize  | ✅  | ✅  | ⚠️  | 
+| IsReadOnly  | ✅  | ✅  | ⚠️  | 
+| IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  |
+| PlaceHolder  | ✅  | ✅  | ⚠️  | 
+| PlaceHolderColor  | ✅  | ✅  | ⚠️  | 
+| Text  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⚠️  | 
+| MaxLength  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ Entry
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| ClearButtonVisibility  | ⚠️  | ⚠️  | ⚠️  |  
-| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
+| ClearButtonVisibility  | ✅  | ✅  | ⚠️  |  
+| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
 | Completed  | ⚠️  | ⚠️  | ⚠️  | 
 | CursorPosition  | ⚠️  | ⚠️  | ⚠️  |  
-| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
-| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
-| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
-| HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
-| IsTextPredictionEnabled  | ⚠️  | ⚠️  | ⚠️  | 
-| IsPassword  | ⚠️  | ⚠️  | ⚠️  | 
-| PlaceHolder  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⚠️  | 
+| FontFamily  | ✅  | ✅  | ⚠️  | 
+| FontSize  | ✅  | ✅  | ⚠️  | 
+| HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
+| IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  | 
+| IsPassword  | ✅  | ✅  | ⚠️  | 
+| PlaceHolder  | ✅  | ✅  | ⚠️  | 
 | PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
-| ReturnType  | ⚠️  | ⚠️  | ⚠️  | 
+| ReturnType  | ✅  | ✅  | ⚠️  | 
 | SelectionLength  | ⚠️  | ⚠️  | ⚠️  | 
-| Text  | ⚠️  | ⚠️  | ⚠️  | 
-| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+| Text  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ Frame
 
@@ -215,20 +215,20 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
-| Font  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
-| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
-| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
-| FormattedText  | ⚠️  | ⚠️  | ⚠️  | 
-| HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
-| LineBreakMode  | ⚠️  | ⚠️  | ⚠️  | 
-| LineHeight  | ⚠️  | ⚠️  | ⚠️  | 
-| MaxLines  | ⚠️  | ⚠️  | ⚠️  | 
-| Padding  | ⚠️  | ⚠️  | ⚠️  | 
-| Text  | ⚠️  | ⚠️  | ⚠️  | 
-| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
-| TextDecorations  | ⚠️  | ⚠️  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| Font  | ✅  | ✅  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⚠️  | 
+| FontFamily  | ✅  | ✅  | ⚠️  | 
+| FontSize  | ✅  | ✅  | ⚠️  | 
+| FormattedText  | ✅  | ✅  | ⚠️  | 
+| HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
+| LineBreakMode  | ✅  | ✅  | ⚠️  | 
+| LineHeight  | ✅  | ✅  | ⚠️  | 
+| MaxLines  | ✅  | ✅  | ⚠️  | 
+| Padding  | ✅  | ✅  | ⚠️  | 
+| Text  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⚠️  | 
+| TextDecorations  | ✅  | ✅  | ⚠️  | 
 | TextType  | ⚠️  | ⚠️  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
@@ -254,19 +254,19 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
-| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
-| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⚠️  | 
+| FontFamily  | ✅  | ✅  | ⚠️  | 
+| FontSize  | ✅  | ✅  | ⚠️  | 
 | HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
-| ItemDisplayBinding  | ⚠️  | ⚠️  | ⚠️  | 
-| Items  | ⚠️  | ⚠️  | ⚠️  | 
-| ItemsSource  | ⚠️  | ⚠️  | ⚠️  | 
-| SelectedIndex  | ⚠️  | ⚠️  | ⚠️  | 
+| ItemDisplayBinding  | ✅  | ✅  | ⚠️  | 
+| Items  | ✅  | ✅  | ⚠️  | 
+| ItemsSource  | ✅  | ✅  | ⚠️  | 
+| SelectedIndex  | ✅  | ✅  | ⚠️  | 
 | SelectedIndexChanged  | ⚠️  | ⚠️  | ⚠️  | 
-| SelectedItem  | ⚠️  | ⚠️  | ⚠️  | 
-| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
-| Title  | ⚠️  | ⚠️  | ⚠️  | 
+| SelectedItem  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⚠️  | 
+| Title  | ✅  | ✅  | ⚠️  | 
 | TitleColor  | ⚠️  | ⚠️  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
@@ -274,7 +274,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Progress  | ⚠️  | ⚠️  | ⚠️  | 
+| Progress  | ✅  | ✅  | ⚠️  | 
 | ProgressColor  | ⚠️  | ⚠️  | ⚠️  | 
 | ProgressTo  | ⚠️  | ⚠️  | ⚠️  | 
 
@@ -300,13 +300,17 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BackgroundColor  | ⚠️  | ⚠️  | ⚠️  | 
+| BackgroundColor  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
 | CancelButtonColor  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
-| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
-| HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⚠️  | 
+| FontSize  | ✅  | ✅  | ⚠️  | 
+| HorizontalTextAlignment  | ✅  | ✅  | ⚠️  |
+| MaxLength  | ✅  | ✅  | ⚠️  | 
 | SearchCommand  | ⚠️  | ⚠️  | ⚠️  | 
-| SearchCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| SearchCommandParameter  | ⚠️  | ⚠️  | ⚠️  |
+| Text  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ⚠️ Shapes
@@ -326,26 +330,26 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| DragCompleted  | ⚠️  | ⚠️  | ⚠️  |  
-| DragCompletedCommand  | ⚠️  | ⚠️  | ⚠️  | 
-| DragStarted  | ⚠️  | ⚠️  | ⚠️  | 
-| DragStartedCommand  | ⚠️  | ⚠️  | ⚠️  | 
-| Maximum  | ⚠️  | ⚠️  | ⚠️  | 
-| MaximumTrackColor  | ⚠️  | ⚠️  | ⚠️  | 
-| Minimum  | ⚠️  | ⚠️  | ⚠️  | 
-| MinimumTrackColor  | ⚠️  | ⚠️  | ⚠️  | 
-| ThumbColor  | ⚠️  | ⚠️  | ⚠️  | 
-| Value  | ⚠️  | ⚠️  | ⚠️  | 
+| DragCompleted  | ✅  | ✅  | ⚠️  |  
+| DragCompletedCommand  | ✅  | ⚠️  | ⚠️  | 
+| DragStarted  | ✅  | ✅  | ⚠️  | 
+| DragStartedCommand  | ✅  | ✅  | ⚠️  | 
+| Maximum  | ✅  | ✅  | ⚠️  | 
+| MaximumTrackColor  | ✅  | ✅  | ⚠️  | 
+| Minimum  | ✅  | ✅  | ⚠️  | 
+| MinimumTrackColor  | ✅  | ✅  | ⚠️  | 
+| ThumbColor  | ✅  | ✅  | ⚠️  | 
+| Value  | ✅  | ✅  | ⚠️  | 
 | ValueChanged  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ⚠️ Stepper
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Increment  | ⚠️  | ⚠️  | ⚠️  | 
-| Maximum  | ⚠️  | ⚠️  | ⚠️  | 
-| Minimum  | ⚠️  | ⚠️  | ⚠️  | 
-| Value  | ⚠️  | ⚠️  | ⚠️  | 
+| Increment  | ✅  | ✅  | ⚠️  | 
+| Maximum  | ✅  | ✅  | ⚠️  | 
+| Minimum  | ✅  | ✅  | ⚠️  | 
+| Value  | ✅  | ✅  | ⚠️  | 
 | ValueChanged  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ⚠️ SwipeView
@@ -361,22 +365,22 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| IsToggled  | ⚠️  | ⚠️  | ⚠️  | 
-| OnColor  | ⚠️  | ⚠️  | ⚠️  | 
-| ThumbColor  | ⚠️  | ⚠️  | ⚠️  | 
+| IsToggled  | ✅  | ✅  | ⚠️  | 
+| OnColor  | ✅  | ✅  | ⚠️  | 
+| ThumbColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ TimePicker
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BackgroundColor  | ⚠️  | ⚠️  | ⚠️  | 
-| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
-| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
-| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
-| Format  | ⚠️  | ⚠️  | ⚠️  | 
-| Time  | ⚠️  | ⚠️  | ⚠️  | 
-| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+| BackgroundColor  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⚠️  | 
+| FontFamily  | ✅  | ✅  | ⚠️  | 
+| FontSize  | ✅  | ✅  | ⚠️  | 
+| Format  | ✅  | ✅  | ⚠️  | 
+| Time  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ WebView
 
