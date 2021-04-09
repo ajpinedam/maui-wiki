@@ -154,7 +154,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsPassword  | ✅  | ✅  | ⚠️  | 
 | PlaceHolder  | ✅  | ✅  | ⚠️  | 
 | PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
-| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| VerticalTextAlignment  | ⏳  | ⏳  | ⚠️  | 
 | ReturnCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnType  | ✅  | ✅  | ⚠️  | 
@@ -267,7 +267,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | SelectedItem  | ✅  | ✅  | ⚠️  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 | Title  | ✅  | ✅  | ⚠️  | 
-| TitleColor  | ⚠️  | ⚠️  | ⚠️  | 
+| TitleColor  | ⏳  | ⏳  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ⚠️ ProgressBar
@@ -275,7 +275,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | Progress  | ✅  | ✅  | ⚠️  | 
-| ProgressColor  | ⚠️  | ⚠️  | ⚠️  | 
+| ProgressColor  | ⏳  | ⏳  | ⚠️  | 
 | ProgressTo  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ⚠️ RadioButton
@@ -284,7 +284,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | CheckedChanged  | ⚠️  | ⚠️  | ⚠️  | 
 | GroupName  | ⚠️  | ⚠️  | ⚠️  | 
-| IsChecked  | ⚠️  | ⚠️  | ⚠️  | 
+| IsChecked  | ⏳  | ⏳  | ⚠️  | 
 
 ### ⚠️ RefreshView
 
