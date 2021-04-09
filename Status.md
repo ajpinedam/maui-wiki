@@ -33,24 +33,24 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BackgroundColor  | ✅  | ✅  | ⚠️  | 
+| BackgroundColor  | ✅  | ✅  | ✅  | 
 | BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | BorderWidth  | ⚠️  | ⚠️  | ⚠️  | 
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | 
-| Clicked  | ✅  | ✅  | ⚠️  | 
-| Command  | ✅  | ✅  | ⚠️  | 
-| CommandParameter  | ✅  | ✅  | ⚠️  | 
+| Clicked  | ✅  | ✅  | ✅  | 
+| Command  | ✅  | ✅  | ✅  | 
+| CommandParameter  | ✅  | ✅  | ✅  | 
 | ContentLayout  | ⚠️  | ⚠️  | ⚠️  | 
 | CornerRadius  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ✅  | ✅  | ⚠️  | 
-| FontFamily  | ✅  | ✅  | ⚠️  | 
-| FontSize  | ✅  | ✅  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ✅  | 
+| FontFamily  | ✅  | ✅  | ✅  | 
+| FontSize  | ✅  | ✅  | ✅  | 
 | ImageSource  | ⚠️  | ⚠️  | ⚠️  | 
-| Padding  | ✅  | ✅  | ⚠️  | 
-| Pressed  | ✅  | ✅  | ⚠️  | 
-| Released  | ✅  | ✅  | ⚠️  | 
-| Text  | ✅  | ✅  | ⚠️  | 
-| TextColor  | ✅  | ✅  | ⚠️  | 
+| Padding  | ✅  | ✅  | ✅  | 
+| Pressed  | ✅  | ✅  | ✅  | 
+| Released  | ✅  | ✅  | ✅  | 
+| Text  | ✅  | ✅  | ✅  | 
+| TextColor  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ CarouselView
 
@@ -78,7 +78,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | Color  | ⚠️  | ⚠️  | ⚠️  | 
 | CheckedChanged  | ⚠️  | ⚠️  | ⚠️  | 
-| IsChecked  | ✅  | ✅  | ⚠️  | 
+| IsChecked  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ CollectionView
 
@@ -226,8 +226,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | LineHeight  | ✅  | ✅  | ⚠️  | 
 | MaxLines  | ✅  | ✅  | ⚠️  | 
 | Padding  | ✅  | ✅  | ⚠️  | 
-| Text  | ✅  | ✅  | ⚠️  | 
-| TextColor  | ✅  | ✅  | ⚠️  | 
+| Text  | ✅  | ✅  | ✅  | 
+| TextColor  | ✅  | ✅  | ✅  | 
 | TextDecorations  | ✅  | ✅  | ⚠️  | 
 | TextType  | ⚠️  | ⚠️  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
