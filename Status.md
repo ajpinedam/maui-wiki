@@ -389,7 +389,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CanGoBack  | ⚠️  | ⚠️  | ⚠️  | 
 | CanGoForward  | ⚠️  | ⚠️  | ⚠️  | 
 | Cookies  | ⚠️  | ⚠️  | ⚠️  | 
-| Source  | ⚠️  | ⚠️  | ⚠️  | 
+| Source  | ⏳  | ⏳  | ⚠️  | 
 | Eval  | ⚠️  | ⚠️  | ⚠️  | 
 | EvaluateJavaScriptAsync  | ⚠️  | ⚠️  | ⚠️  | 
 | GoBack  | ⚠️  | ⚠️  | ⚠️  | 
