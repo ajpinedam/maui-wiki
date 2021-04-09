@@ -317,14 +317,14 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Fill  | ⚠️  | ⚠️  | ⚠️  | 
-| Stroke  | ⚠️  | ⚠️  | ⚠️  | 
-| StrokeDashArray  | ⚠️  | ⚠️  | ⚠️  | 
-| StrokeDashOffset  | ⚠️  | ⚠️  | ⚠️  | 
-| StrokeLineCap  | ⚠️  | ⚠️  | ⚠️  | 
-| StrokeLineJoin  | ⚠️  | ⚠️  | ⚠️  | 
-| StrokeMiterLimit  | ⚠️  | ⚠️  | ⚠️  | 
-| StrokeThickness  | ⚠️  | ⚠️  | ⚠️  | 
+| Fill  | ⏳  | ⏳  | ⚠️  | 
+| Stroke  | ⏳  | ⏳  | ⚠️  | 
+| StrokeDashArray  | ⏳  | ⏳  | ⚠️  | 
+| StrokeDashOffset  | ⏳  | ⏳  | ⚠️  | 
+| StrokeLineCap  | ⏳  | ⏳  | ⚠️  | 
+| StrokeLineJoin  | ⏳  | ⏳  | ⚠️  | 
+| StrokeMiterLimit  | ⏳  | ⏳  | ⚠️  | 
+| StrokeThickness  | ⏳  | ⏳  | ⚠️  | 
 
 ### ⚠️ Slider
 
@@ -416,8 +416,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:---:|:-----:|
 | Accessibility | ⚠️  | ⚠️  | ⚠️  |
 | Animation | ⚠️  | ⚠️  | ⚠️  |
-| Border Everywhere | ⚠️  | ⚠️  | ⚠️  |
-| CornerRadius Everywhere | ⚠️  | ⚠️  | ⚠️  |
+| Border Everywhere | ⏳  | ⏳  | ⚠️  |
+| CornerRadius Everywhere | ⏳  | ⏳  | ⚠️  |
 | Device | ⚠️  | ⚠️  | ⚠️  |
 | Gestures | ⚠️  | ⚠️  | ⚠️  |
 | ImageHandlers | ⏳  | ⏳  | ⏳  |
