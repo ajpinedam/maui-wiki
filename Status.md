@@ -76,7 +76,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ImageHandlers | ⏳  | ⏳  | ⏳  |
 | Interactivity (Behaviors, Triggers, Visual State Manager) | ⚠️  | ⚠️  | ⚠️  |
 | FlowDirection (RTL) | ⚠️  | ⚠️  | ⚠️  |
-| Fonts | ⚠️  | ⚠️  | ⚠️  |
+| Fonts | ✅  | ✅  | ✅  |
 | Themes | ⚠️  | ⚠️  | ⚠️  |
 | Shell | ⚠️  | ⚠️  | ⚠️  |
 | Styles | ⚠️  | ⚠️  | ⚠️  |
