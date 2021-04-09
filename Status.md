@@ -22,34 +22,375 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 ### Views
 
-| Control | Android | iOS / Mac Catalyst | Windows |
-| ----|:-------:|:---:|:-----:|
-| [ActivityIndicator](https://github.com/dotnet/maui/pull/417) | ⏳  | ⏳  | ⏳  |
-| BoxView | ⏳  | ⏳  | ⏳  |
-| [Button](https://github.com/xamarin/Xamarin.Forms/pull/13771) | ⏳  | ⏳  | ⏳  |
-| CarouselView | ⚠️  | ⚠️  | ⚠️  |
-| [CheckBox](https://github.com/xamarin/Xamarin.Forms/pull/13482) | ⏳  | ⏳  | ⏳  |
-| CollectionView | ⚠️  | ⚠️  | ⚠️  |
-| DatePicker | ⏳  | ⏳  | ⏳  |
-| [Entry](https://github.com/xamarin/Xamarin.Forms/pull/13788) | ⏳  | ⏳  | ⏳  |
-| [Frame](https://github.com/xamarin/Xamarin.Forms/pull/13542) | ⏳  | ⏳  | ⏳  |
-| IndicatorView | ⚠️  | ⚠️  | ⚠️  |
-| Image | ⏳  | ⏳  | ⏳  |
-| ImageButton | ⚠️  | ⚠️  | ⚠️  |
-| [Label](https://github.com/xamarin/Xamarin.Forms/pull/13764) | ⏳  | ⏳  | ⏳  |
-| Map | ⚠️  | ⚠️  | ⚠️  |
-| Picker | ⏳  | ⏳  | ⏳  |
-| [ProgressBar](https://github.com/dotnet/maui/pull/418) | ⏳  | ⏳  | ⏳  |
-| RadioButton | ⚠️  | ⚠️  | ⚠️  |
-| RefreshView | ⚠️  | ⚠️  | ⚠️  |
-| [SearchBar](https://github.com/xamarin/Xamarin.Forms/pull/13524) | ⏳  | ⏳  | ⏳  |
-| Shapes | ⏳  | ⏳  | ⏳  |
-| Slider | ✅  | ✅  | ✅  |
-| Stepper | ⏳  | ⏳  | ⏳  |
-| SwipeView | ⚠️  | ⚠️  | ⚠️  |
-| Switch | ⏳  | ⏳  | ⏳  |
-| TimePicker | ⏳  | ⏳  | ⏳  |
-| [WebView](https://github.com/xamarin/Xamarin.Forms/pull/13789) | ⏳  | ⏳  | ⏳  |
+### ⚠️ ActivityIndicator
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| Color  | ✅  | ✅   |  ⚠️  |  
+| IsRunning  | ✅  | ✅ |  ⚠️  | 
+
+### ⚠️ Button
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| BackgroundColor  | ⚠️  | ⚠️  | ⚠️  | 
+| BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
+| BorderWidth  | ⚠️  | ⚠️  | ⚠️  | 
+| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
+| Clicked  | ⚠️  | ⚠️  | ⚠️  | 
+| Command  | ⚠️  | ⚠️  | ⚠️  | 
+| CommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| ContentLayout  | ⚠️  | ⚠️  | ⚠️  | 
+| CornerRadius  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
+| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
+| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| ImageSource  | ⚠️  | ⚠️  | ⚠️  | 
+| Padding  | ⚠️  | ⚠️  | ⚠️  | 
+| Pressed  | ⚠️  | ⚠️  | ⚠️  | 
+| Released  | ⚠️  | ⚠️  | ⚠️  | 
+| Text  | ⚠️  | ⚠️  | ⚠️  | 
+| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ CarouselView
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| CurrentItem  | ⚠️  | ⚠️  | ⚠️  | 
+| CurrentItemChangedCommand  | ⚠️  | ⚠️  | ⚠️  | 
+| CurrentItemChangedCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| IndicatorView  | ⚠️  | ⚠️  | ⚠️  | 
+| IsBounceEnabled  | ⚠️  | ⚠️  | ⚠️  | 
+| IsDragging  | ⚠️  | ⚠️  | ⚠️  | 
+| IsScrollAnimated  | ⚠️  | ⚠️  | ⚠️  | 
+| IsSwipeEnabled  | ⚠️  | ⚠️  | ⚠️  | 
+| ItemsLayout  | ⚠️  | ⚠️  | ⚠️  | 
+| Loop  | ⚠️  | ⚠️  | ⚠️  | 
+| PeekAreaInsets  | ⚠️  | ⚠️  | ⚠️  | 
+| Position  | ⚠️  | ⚠️  | ⚠️  | 
+| PositionChangedCommand  | ⚠️  | ⚠️  | ⚠️  | 
+| PositionChangedCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| VisibleViews  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ CheckBox
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| Color  | ⚠️  | ⚠️  | ⚠️  | 
+| CheckedChanged  | ⚠️  | ⚠️  | ⚠️  | 
+| IsChecked  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ CollectionView
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| ItemsSource | ⚠️  | ⚠️  | ⚠️  | 
+| ItemTemplate | ⚠️  | ⚠️  | ⚠️  | 
+| ItemsPanel | ⚠️  | ⚠️  | ⚠️  | 
+| ItemSizingStrategy | ⚠️  | ⚠️  | ⚠️  | 
+| SelectionMode | ⚠️  | ⚠️  | ⚠️  | 
+| SelectedItem | ⚠️  | ⚠️  | ⚠️  | 
+| SelectedItems | ⚠️  | ⚠️  | ⚠️  | 
+| SelectionChangedCommand | ⚠️  | ⚠️  | ⚠️  | 
+| SelectionChangedCommandParameter | ⚠️  | ⚠️  | ⚠️  | 
+| EmptyView | ⚠️  | ⚠️  | ⚠️  | 
+| Scrolled | ⚠️  | ⚠️  | ⚠️  | 
+| ScrollTo | ⚠️  | ⚠️  | ⚠️  | 
+| Header | ⚠️  | ⚠️  | ⚠️  | 
+| HeaderTemplate | ⚠️  | ⚠️  | ⚠️  | 
+| Footer | ⚠️  | ⚠️  | ⚠️  | 
+| FooterTemplate | ⚠️  | ⚠️  | ⚠️  | 
+| IsGrouped | ⚠️  | ⚠️  | ⚠️  | 
+| GroupHeaderTemplate | ⚠️  | ⚠️  | ⚠️  | 
+| GroupFooterTemplate | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ DatePicker
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| BackgroundColor  | ⚠️  | ⚠️  | ⚠️  | 
+| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  |  
+| Date  | ⚠️  | ⚠️  | ⚠️  | 
+| DateSelected  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ⚠️  | ⚠️  | ⚠️  |  
+| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
+| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| Format  | ⚠️  | ⚠️  | ⚠️  | 
+| MaximumDate  | ⚠️  | ⚠️  | ⚠️  | 
+| MinimumDate  | ⚠️  | ⚠️  | ⚠️  | 
+| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Editor
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| AutoSize  | ⚠️  | ⚠️  | ⚠️  |  
+| Completed  | ⚠️  | ⚠️  | ⚠️  | 
+| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ⚠️  | ⚠️  | ⚠️  |  
+| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
+| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| IsReadOnly  | ⚠️  | ⚠️  | ⚠️  | 
+| IsTextPredictionEnabled  | ⚠️  | ⚠️  | ⚠️  |
+| PlaceHolder  | ⚠️  | ⚠️  | ⚠️  | 
+| PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
+| Text  | ⚠️  | ⚠️  | ⚠️  | 
+| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+| MaxLength  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Entry
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| ClearButtonVisibility  | ⚠️  | ⚠️  | ⚠️  |  
+| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
+| Completed  | ⚠️  | ⚠️  | ⚠️  | 
+| CursorPosition  | ⚠️  | ⚠️  | ⚠️  |  
+| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
+| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
+| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| IsTextPredictionEnabled  | ⚠️  | ⚠️  | ⚠️  | 
+| IsPassword  | ⚠️  | ⚠️  | ⚠️  | 
+| PlaceHolder  | ⚠️  | ⚠️  | ⚠️  | 
+| PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
+| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| ReturnCommand  | ⚠️  | ⚠️  | ⚠️  | 
+| ReturnCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| ReturnType  | ⚠️  | ⚠️  | ⚠️  | 
+| SelectionLength  | ⚠️  | ⚠️  | ⚠️  | 
+| Text  | ⚠️  | ⚠️  | ⚠️  | 
+| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Frame
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
+| CornerRadius  | ⚠️  | ⚠️  | ⚠️  | 
+| HasShadow  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ IndicatorView
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| IndicatorColor  | ⚠️  | ⚠️  | ⚠️  | 
+| IndicatorLayout  | ⚠️  | ⚠️  | ⚠️  | 
+| IndicatorSize  | ⚠️  | ⚠️  | ⚠️  | 
+| IndicatorShape  | ⚠️  | ⚠️  | ⚠️  | 
+| IndicatorTemplate  | ⚠️  | ⚠️  | ⚠️  | 
+| ItemsSource  | ⚠️  | ⚠️  | ⚠️  | 
+| MinimumVisible  | ⚠️  | ⚠️  | ⚠️  | 
+| Position  | ⚠️  | ⚠️  | ⚠️  | 
+| SelectedIndicatorColor  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Image
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| Aspect  | ⚠️  | ⚠️  | ⚠️  | 
+| IsLoading  | ⚠️  | ⚠️  | ⚠️  | 
+| IsOpaque  | ⚠️  | ⚠️  | ⚠️  | 
+| Source  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ ImageButton
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
+| BorderWidth  | ⚠️  | ⚠️  | ⚠️  | 
+| Command  | ⚠️  | ⚠️  | ⚠️  | 
+| CommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| CornerRadius  | ⚠️  | ⚠️  | ⚠️  | 
+| IsLoading  | ⚠️  | ⚠️  | ⚠️  | 
+| IsOpaque  | ⚠️  | ⚠️  | ⚠️  | 
+| IsPressed  | ⚠️  | ⚠️  | ⚠️  | 
+| Padding  | ⚠️  | ⚠️  | ⚠️  | 
+| Source  | ⚠️  | ⚠️  | ⚠️  | 
+| Clicked  | ⚠️  | ⚠️  | ⚠️  | 
+| Pressed  | ⚠️  | ⚠️  | ⚠️  | 
+| Released  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Label
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
+| Font  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
+| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
+| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| FormattedText  | ⚠️  | ⚠️  | ⚠️  | 
+| HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| LineBreakMode  | ⚠️  | ⚠️  | ⚠️  | 
+| LineHeight  | ⚠️  | ⚠️  | ⚠️  | 
+| MaxLines  | ⚠️  | ⚠️  | ⚠️  | 
+| Padding  | ⚠️  | ⚠️  | ⚠️  | 
+| Text  | ⚠️  | ⚠️  | ⚠️  | 
+| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+| TextDecorations  | ⚠️  | ⚠️  | ⚠️  | 
+| TextType  | ⚠️  | ⚠️  | ⚠️  | 
+| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Map
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| HasScrollEnabled  | ⚠️  | ⚠️  | ⚠️  | 
+| HasZoomEnabled  | ⚠️  | ⚠️  | ⚠️  | 
+| IsShowingUser  | ⚠️  | ⚠️  | ⚠️  | 
+| ItemsSource  | ⚠️  | ⚠️  | ⚠️  | 
+| ItemTemplate  | ⚠️  | ⚠️  | ⚠️  | 
+| ItemTemplateSelector  | ⚠️  | ⚠️  | ⚠️  | 
+| LastMoveToRegion  | ⚠️  | ⚠️  | ⚠️  | 
+| MapType  | ⚠️  | ⚠️  | ⚠️  | 
+| Pins  | ⚠️  | ⚠️  | ⚠️  | 
+| TrafficEnabled  | ⚠️  | ⚠️  | ⚠️  | 
+| VisibleRegion  | ⚠️  | ⚠️  | ⚠️  | 
+| MoveToRegion  | ⚠️  | ⚠️  | ⚠️  | 
+| MapClicked  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Picker
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
+| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
+| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| ItemDisplayBinding  | ⚠️  | ⚠️  | ⚠️  | 
+| Items  | ⚠️  | ⚠️  | ⚠️  | 
+| ItemsSource  | ⚠️  | ⚠️  | ⚠️  | 
+| SelectedIndex  | ⚠️  | ⚠️  | ⚠️  | 
+| SelectedIndexChanged  | ⚠️  | ⚠️  | ⚠️  | 
+| SelectedItem  | ⚠️  | ⚠️  | ⚠️  | 
+| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+| Title  | ⚠️  | ⚠️  | ⚠️  | 
+| TitleColor  | ⚠️  | ⚠️  | ⚠️  | 
+| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ ProgressBar
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| Progress  | ⚠️  | ⚠️  | ⚠️  | 
+| ProgressColor  | ⚠️  | ⚠️  | ⚠️  | 
+| ProgressTo  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ RadioButton
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| CheckedChanged  | ⚠️  | ⚠️  | ⚠️  | 
+| GroupName  | ⚠️  | ⚠️  | ⚠️  | 
+| IsChecked  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ RefreshView
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| Command  | ⚠️  | ⚠️  | ⚠️  | 
+| CommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| IsRefreshing  | ⚠️  | ⚠️  | ⚠️  | 
+| RefreshColor  | ⚠️  | ⚠️  | ⚠️  | 
+| Refreshing  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ SearchBar
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| BackgroundColor  | ⚠️  | ⚠️  | ⚠️  | 
+| CancelButtonColor  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
+| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| SearchCommand  | ⚠️  | ⚠️  | ⚠️  | 
+| SearchCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Shapes
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| Fill  | ⚠️  | ⚠️  | ⚠️  | 
+| Stroke  | ⚠️  | ⚠️  | ⚠️  | 
+| StrokeDashArray  | ⚠️  | ⚠️  | ⚠️  | 
+| StrokeDashOffset  | ⚠️  | ⚠️  | ⚠️  | 
+| StrokeLineCap  | ⚠️  | ⚠️  | ⚠️  | 
+| StrokeLineJoin  | ⚠️  | ⚠️  | ⚠️  | 
+| StrokeMiterLimit  | ⚠️  | ⚠️  | ⚠️  | 
+| StrokeThickness  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Slider
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| DragCompleted  | ⚠️  | ⚠️  | ⚠️  |  
+| DragCompletedCommand  | ⚠️  | ⚠️  | ⚠️  | 
+| DragStarted  | ⚠️  | ⚠️  | ⚠️  | 
+| DragStartedCommand  | ⚠️  | ⚠️  | ⚠️  | 
+| Maximum  | ⚠️  | ⚠️  | ⚠️  | 
+| MaximumTrackColor  | ⚠️  | ⚠️  | ⚠️  | 
+| Minimum  | ⚠️  | ⚠️  | ⚠️  | 
+| MinimumTrackColor  | ⚠️  | ⚠️  | ⚠️  | 
+| ThumbColor  | ⚠️  | ⚠️  | ⚠️  | 
+| Value  | ⚠️  | ⚠️  | ⚠️  | 
+| ValueChanged  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Stepper
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| Increment  | ⚠️  | ⚠️  | ⚠️  | 
+| Maximum  | ⚠️  | ⚠️  | ⚠️  | 
+| Minimum  | ⚠️  | ⚠️  | ⚠️  | 
+| Value  | ⚠️  | ⚠️  | ⚠️  | 
+| ValueChanged  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ SwipeView
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| BottomItems  | ⚠️  | ⚠️  | ⚠️  | 
+| LeftItems  | ⚠️  | ⚠️  | ⚠️  | 
+| RightItems  | ⚠️  | ⚠️  | ⚠️  | 
+| TopItems  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ Switch
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| IsToggled  | ⚠️  | ⚠️  | ⚠️  | 
+| OnColor  | ⚠️  | ⚠️  | ⚠️  | 
+| ThumbColor  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ TimePicker
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| BackgroundColor  | ⚠️  | ⚠️  | ⚠️  | 
+| CharacterSpacing  | ⚠️  | ⚠️  | ⚠️  | 
+| FontAttributes  | ⚠️  | ⚠️  | ⚠️  | 
+| FontFamily  | ⚠️  | ⚠️  | ⚠️  | 
+| FontSize  | ⚠️  | ⚠️  | ⚠️  | 
+| Format  | ⚠️  | ⚠️  | ⚠️  | 
+| Time  | ⚠️  | ⚠️  | ⚠️  | 
+| TextColor  | ⚠️  | ⚠️  | ⚠️  | 
+
+### ⚠️ WebView
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| CanGoBack  | ⚠️  | ⚠️  | ⚠️  | 
+| CanGoForward  | ⚠️  | ⚠️  | ⚠️  | 
+| Cookies  | ⚠️  | ⚠️  | ⚠️  | 
+| Source  | ⚠️  | ⚠️  | ⚠️  | 
+| Eval  | ⚠️  | ⚠️  | ⚠️  | 
+| EvaluateJavaScriptAsync  | ⚠️  | ⚠️  | ⚠️  | 
+| GoBack  | ⚠️  | ⚠️  | ⚠️  | 
+| GoForward  | ⚠️  | ⚠️  | ⚠️  | 
+| Reload  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### Layouts
 
@@ -71,6 +412,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:---:|:-----:|
 | Accessibility | ⚠️  | ⚠️  | ⚠️  |
 | Animation | ⚠️  | ⚠️  | ⚠️  |
+| Border Everywhere | ⚠️  | ⚠️  | ⚠️  |
+| CornerRadius Everywhere | ⚠️  | ⚠️  | ⚠️  |
 | Device | ⚠️  | ⚠️  | ⚠️  |
 | Gestures | ⚠️  | ⚠️  | ⚠️  |
 | ImageHandlers | ⏳  | ⏳  | ⏳  |
