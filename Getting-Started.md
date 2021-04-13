@@ -44,8 +44,6 @@ Add a `nuget.config` file to the root of your project with the following:
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <packageSources>
-    <clear />
-    <!-- ensure only the sources defined below are used -->
     <add key="dotnet6" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json" />
     <add key="xamarin" value="https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json" />
   </packageSources>
