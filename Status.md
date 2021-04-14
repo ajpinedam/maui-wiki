@@ -110,7 +110,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | BackgroundColor  | ✅  | ✅  | ⚠️  | 
 | CharacterSpacing  | ✅  | ✅  | ⚠️  |  
-| Date  | ✅  | ✅  | ⚠️  | 
+| Date  | ✅  | ✅  | ⏳  | 
 | DateSelected  | ⚠️  | ⚠️  | ⚠️  | 
 | FontAttributes  | ✅  | ✅  | ⚠️  |  
 | FontFamily  | ✅  | ✅  | ⚠️  | 
@@ -215,7 +215,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⏳  | 
 | Font  | ✅  | ✅  | ⚠️  | 
 | FontAttributes  | ✅  | ✅  | ⚠️  | 
 | FontFamily  | ✅  | ✅  | ⚠️  | 
@@ -228,7 +228,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Padding  | ✅  | ✅  | ⚠️  | 
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
-| TextDecorations  | ✅  | ✅  | ⚠️  | 
+| TextDecorations  | ✅  | ✅  | ⏳  | 
 | TextType  | ⚠️  | ⚠️  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
@@ -274,7 +274,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Progress  | ✅  | ✅  | ⚠️  | 
+| Progress  | ✅  | ✅  | ⏳  | 
 | ProgressColor  | ⏳  | ⏳  | ⚠️  | 
 | ProgressTo  | ⚠️  | ⚠️  | ⚠️  | 
 
@@ -301,7 +301,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | BackgroundColor  | ✅  | ✅  | ⚠️  | 
-| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⏳  | 
 | CancelButtonColor  | ⚠️  | ⚠️  | ⚠️  | 
 | FontAttributes  | ✅  | ✅  | ⚠️  | 
 | FontSize  | ✅  | ✅  | ⚠️  | 
@@ -309,7 +309,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | MaxLength  | ✅  | ✅  | ⚠️  | 
 | SearchCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | SearchCommandParameter  | ⚠️  | ⚠️  | ⚠️  |
-| Text  | ✅  | ✅  | ⚠️  | 
+| Text  | ✅  | ✅  | ⏳  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
@@ -334,12 +334,12 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | DragCompletedCommand  | ✅  | ⚠️  | ⚠️  | 
 | DragStarted  | ✅  | ✅  | ⚠️  | 
 | DragStartedCommand  | ✅  | ✅  | ⚠️  | 
-| Maximum  | ✅  | ✅  | ⚠️  | 
-| MaximumTrackColor  | ✅  | ✅  | ⚠️  | 
-| Minimum  | ✅  | ✅  | ⚠️  | 
-| MinimumTrackColor  | ✅  | ✅  | ⚠️  | 
+| Maximum  | ✅  | ✅  | ⏳  | 
+| MaximumTrackColor  | ✅  | ✅  | ⏳  | 
+| Minimum  | ✅  | ✅  | ⏳  | 
+| MinimumTrackColor  | ✅  | ✅  | ⏳  | 
 | ThumbColor  | ✅  | ✅  | ⚠️  | 
-| Value  | ✅  | ✅  | ⚠️  | 
+| Value  | ✅  | ✅  | ⏳  | 
 | ValueChanged  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ⚠️ Stepper
@@ -365,7 +365,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| IsToggled  | ✅  | ✅  | ⚠️  | 
+| IsToggled  | ✅  | ✅  | ⏳  | 
 | OnColor  | ✅  | ✅  | ⚠️  | 
 | ThumbColor  | ✅  | ✅  | ⚠️  | 
 
@@ -379,7 +379,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontFamily  | ✅  | ✅  | ⚠️  | 
 | FontSize  | ✅  | ✅  | ⚠️  | 
 | Format  | ✅  | ✅  | ⚠️  | 
-| Time  | ✅  | ✅  | ⚠️  | 
+| Time  | ✅  | ✅  | ⏳  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ WebView
@@ -428,7 +428,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Themes | ⚠️  | ⚠️  | ⚠️  |
 | Shell | ⚠️  | ⚠️  | ⚠️  |
 | Styles | ⚠️  | ⚠️  | ⚠️  |
-| View Transforms | ⚠️  | ⚠️  | ⚠️  |
+| View Transforms | ⏳  | ⏳  | ⚠️  |
 
 <!-- 
 ## Shell
