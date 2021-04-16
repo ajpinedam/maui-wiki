@@ -26,8 +26,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Color  | ✅  | ✅   |  ⚠️  |  
-| IsRunning  | ✅  | ✅ |  ⚠️  | 
+| Color  | ✅  | ✅   |  ⏳  |  
+| IsRunning  | ✅  | ✅ |  ⏳  | 
 
 ### ⚠️ Button
 
@@ -417,6 +417,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Accessibility | ⏳  | ⏳  | ⏳  |
 | Animation | ⚠️  | ⚠️  | ⚠️  |
 | Border Everywhere | ⏳  | ⏳  | ⚠️  |
+| Brushes Everywhere | ⏳  | ⏳  | ⏳  |
 | CornerRadius Everywhere | ⏳  | ⏳  | ⚠️  |
 | Device | ⚠️  | ⚠️  | ⚠️  |
 | Gestures | ⚠️  | ⚠️  | ⚠️  |
