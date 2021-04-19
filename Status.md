@@ -254,19 +254,19 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
-| FontAttributes  | ✅  | ✅  | ⚠️  | 
-| FontFamily  | ✅  | ✅  | ⚠️  | 
-| FontSize  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⏳  | 
+| FontAttributes  | ✅  | ✅  | ⏳  | 
+| FontFamily  | ✅  | ✅  | ⏳  | 
+| FontSize  | ✅  | ✅  | ⏳  | 
 | HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 | ItemDisplayBinding  | ✅  | ✅  | ⚠️  | 
 | Items  | ✅  | ✅  | ⚠️  | 
-| ItemsSource  | ✅  | ✅  | ⚠️  | 
-| SelectedIndex  | ✅  | ✅  | ⚠️  | 
+| ItemsSource  | ✅  | ✅  | ⏳  | 
+| SelectedIndex  | ✅  | ✅  | ⏳  | 
 | SelectedIndexChanged  | ⚠️  | ⚠️  | ⚠️  | 
 | SelectedItem  | ✅  | ✅  | ⚠️  | 
-| TextColor  | ✅  | ✅  | ⚠️  | 
-| Title  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⏳  | 
+| Title  | ✅  | ✅  | ⏳  | 
 | TitleColor  | ⏳  | ⏳  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
