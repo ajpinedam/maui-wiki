@@ -7,6 +7,9 @@ General Info
 - [.NET MAUI Status](https://github.com/dotnet/maui/wiki/Status)
 - [.NET MAUI Roadmap](https://github.com/dotnet/maui/wiki/Roadmap)
 
+Quick Docs
+========
+- [Customizing Controls with Handlers](https://github.com/dotnet/maui/wiki/Customizing-Controls-with-Handlers)
 
 Blog
 ========
