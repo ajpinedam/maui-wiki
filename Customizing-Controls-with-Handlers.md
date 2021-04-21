@@ -26,7 +26,7 @@ Handlers.ViewHandler
 Handlers.EntryHandler
     .EntryMapper[nameof(IEntry.BackgroundColor)] = (h, v) =>
     {
-        (h.NativeView as global::Android.Views.Entry).UnderlineVisible = false
+        (h.NativeView as global::Android.Views.Entry).UnderlineVisible = false;
     };
 #endif
 ```
