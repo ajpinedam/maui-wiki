@@ -9,6 +9,7 @@ General Info
 
 Quick Docs
 ========
+- [Application Startup with HostBuilder](https://github.com/dotnet/maui/wiki/Application-Startup)
 - [Customizing Controls with Handlers](https://github.com/dotnet/maui/wiki/Customizing-Controls-with-Handlers)
 
 Blog
