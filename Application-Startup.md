@@ -80,3 +80,31 @@ appBuilder
             .UseMapServiceToken("YOUR-KEY-HERE");
     });
 ```
+
+## Configuring Compatibility
+
+To use the Xamarin.Forms legacy controls backed by renderers instead of handlers, you can call `UseFormsCompatibility()`. This will default to those controls. By passing in `false` you can use all Xamarin.Forms compatibility features **except for** renderers, and then use the `ConfigureMauiHandlers` extension method to register specific renderers. All other controls will use the new .NET MAUI controls backed by handlers.
+
+```csharp
+appBuilder
+    .UseFormsCompatibility(false)
+    #if __ANDROID__
+    .ConfigureMauiHandlers(handlers => {
+        handlers.AddCompatibilityRenderer(typeof(Microsoft.Maui.Controls.BoxView), 
+            typeof(Microsoft.Maui.Controls.Compatibility.Platform.Android.BoxRenderer));
+        handlers.AddCompatibilityRenderer(typeof(Microsoft.Maui.Controls.Frame), 
+            typeof(Microsoft.Maui.Controls.Compatibility.Platform.Android.FastRenderers.FrameRenderer));	
+    })
+    #endif
+    #if __IOS__
+    .ConfigureMauiHandlers(handlers => {
+        handlers.AddCompatibilityRenderer(typeof(Microsoft.Maui.Controls.BoxView), 
+            typeof(Microsoft.Maui.Controls.Compatibility.Platform.iOS.BoxRenderer));
+        handlers.AddCompatibilityRenderer(typeof(Microsoft.Maui.Controls.Frame), 
+            typeof(Microsoft.Maui.Controls.Compatibility.Platform.iOS.FrameRenderer));
+        handlers.AddCompatibilityRenderer(typeof(Microsoft.Maui.Controls.ScrollView), 
+            typeof(Microsoft.Maui.Controls.Compatibility.Platform.iOS.ScrollViewRenderer));
+    })
+    #endif
+    .UseMauiApp<App>();
+```
