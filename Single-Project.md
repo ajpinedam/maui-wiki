@@ -3,7 +3,7 @@ Single Project is a collection of features that brings all the platform-specific
 
 Single Project is enabled using multi-targeting and the use of SDK-style projects in .NET 6. You can still expect access to all the platform-specific experiences and tools when you need them, while enjoying a simplified, shared development experience across all the platforms you're targeting.
 
-## Experiences Simplified
+## Development Simplified
 Single Project is built on top of a collection of experiences that are being simplified in .NET 6. Below is an itemized list of experiences that will be shared in Single Project.
 * Resources
   * Images
