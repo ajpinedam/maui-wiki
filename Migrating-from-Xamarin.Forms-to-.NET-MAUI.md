@@ -9,7 +9,7 @@ In this document you will learn that:
 
 When we release migration guides later in 2021, we expect your steps will look something like this:
 
-1. Run .NET Upgrade Assistant for .NET MAUI to migrate your csproj to SDK Style, and perform well-known code migration (namespaces, name changes)
+1. Run [.NET Upgrade Assistant](https://devblogs.microsoft.com/dotnet/introducing-the-net-upgrade-assistant-preview/) for .NET MAUI to migrate your csproj to SDK Style, and perform well-known code migration (namespaces, name changes)
 2. Update dependencies to .NET 6 and .NET MAUI compatible versions
 3. Register any compatibility services or renderers
 4. Build and fix any issues
