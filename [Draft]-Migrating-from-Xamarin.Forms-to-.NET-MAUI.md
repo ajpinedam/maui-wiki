@@ -9,7 +9,7 @@ In this document you will learn that:
 
 When we release migration guides later in 2021, we expect your steps will look something like this:
 
-1. Run .NET Upgrade Assistant for .NET MAUI to migrate your csproj to SDK Style, and perform well known code migration (namespaces, name changes)
+1. Run .NET Upgrade Assistant for .NET MAUI to migrate your csproj to SDK Style, and perform well-known code migration (namespaces, name changes)
 2. Update dependencies to .NET 6 and .NET MAUI compatible versions
 3. Register any compatibility services or renderers
 4. Build and fix any issues
@@ -45,10 +45,13 @@ Open the folder in your favorite code editor, and do a Find and Replace for the 
 
 Disable the compatibility renderers in `Startup.cs` by passing `false` to `UseFormsCompatibility`. This ensures we will be using the .NET MAUI `Button`.
 
-Make sure you have an emulator, simulator, or device up and running. Follow the instructions in [Getting Started]() to run for a specific platform. Let's run on Android:
+Make sure you have an emulator, simulator, or device up and running. Follow the instructions in [Getting Started](https://github.com/dotnet/maui/wiki/Getting-Started) to run for a specific platform. Let's run on Android:
 
 ```console
 > dotnet build -t:Run -f net6.0-android
 ```
 
-Look for runtime errors.
+Look for runtime errors. Some errors will be due to incomplete handler availability (see the [Status Report](https://github.com/dotnet/maui/wiki/Status)).
+
+Please [report any issues](https://github.com/dotnet/maui/issues/new/choose) you discover.
+ 
