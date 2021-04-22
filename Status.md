@@ -15,7 +15,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | Control | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| ContentPage | ⚠️  | ⚠️  | ⚠️  |
+| ContentPage | ⏳  | ⏳  | ⏳  |
 | FlyoutPage | ⚠️  | ⚠️  | ⚠️  |
 | NavigationPage | ⚠️  | ⚠️  | ⚠️  |
 | TabbedPage | ⚠️  | ⚠️  | ⚠️  |
@@ -144,7 +144,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | ClearButtonVisibility  | ✅  | ✅  | ⚠️  |  
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | 
-| Completed  | ⚠️  | ⚠️  | ⚠️  | 
+| Completed  | ⏳  | ⏳  | ⏳  | 
 | CursorPosition  | ⚠️  | ⚠️  | ⚠️  |  
 | FontAttributes  | ✅  | ✅  | ⚠️  | 
 | FontFamily  | ✅  | ✅  | ⚠️  | 
@@ -152,14 +152,14 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  | 
 | IsPassword  | ✅  | ✅  | ⚠️  | 
-| PlaceHolder  | ✅  | ✅  | ⚠️  | 
+| PlaceHolder  | ✅  | ✅  | ⏳  | 
 | PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | VerticalTextAlignment  | ⏳  | ⏳  | ⚠️  | 
 | ReturnCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
-| ReturnType  | ✅  | ✅  | ⚠️  | 
+| ReturnType  | ✅  | ✅  | ⏳  | 
 | SelectionLength  | ⚠️  | ⚠️  | ⚠️  | 
-| Text  | ✅  | ✅  | ⚠️  | 
+| Text  | ✅  | ✅  | ⏳  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ Frame
