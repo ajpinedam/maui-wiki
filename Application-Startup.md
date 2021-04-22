@@ -1,4 +1,4 @@
-New .NET MAUI apps use HostBuilder from Microsoft.Extensions to bootstrap. In addition to initializing the bare minimum you need for a quick start, it also provides a single point to configure fonts, services, third-party libraries, and register for backward compatibility features.
+New .NET MAUI apps use [HostBuilder from Microsoft.Extensions](https://docs.microsoft.com/en-us/dotnet/core/extensions/generic-host) to bootstrap. In addition to initializing the bare minimum you need for a quick start, it also provides a single point to configure fonts, services, third-party libraries, and register for backward compatibility features.
 
 ## Startup Flow
 
