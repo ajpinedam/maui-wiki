@@ -42,6 +42,7 @@ Open the folder in your favorite code editor, and do a Find and Replace for the 
 
 * `using Xamarin.Forms` &raquo; `using Microsoft.Maui` and `using Microsoft.Maui.Controls`
 * `using Xamarin.Forms.Xaml` &raquo; `using Microsoft.Maui.Controls.Xaml`
+* `xmlns="http://xamarin.com/schemas/2014/forms"` &raquo; `xmlns="http://schemas.microsoft.com/dotnet/2021/maui"`
 
 Disable the compatibility renderers in `Startup.cs` by passing `false` to `UseFormsCompatibility`. This ensures we will be using the .NET MAUI `Button`.
 
