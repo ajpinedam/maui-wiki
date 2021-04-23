@@ -13,6 +13,7 @@ Quick Docs
 - [Customizing Controls with Handlers](https://github.com/dotnet/maui/wiki/Customizing-Controls-with-Handlers)
 - [Migrating from Xamarin.Forms](https://github.com/dotnet/maui/wiki/Migrating-from-Xamarin.Forms-to-.NET-MAUI)
 - [Single Project](https://github.com/dotnet/maui/wiki/Single-Project)
+- [Xamarin.Forms vs .NET MAUI](https://github.com/dotnet/maui/wiki/Xamarin.Forms-vs-.NET-MAUI)
 
 Blog
 ========
