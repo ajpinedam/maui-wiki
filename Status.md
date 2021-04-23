@@ -36,7 +36,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | BackgroundColor  | ✅  | ✅  | ✅  | 
 | BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | BorderWidth  | ⚠️  | ⚠️  | ⚠️  | 
-| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⏳  | 
 | Clicked  | ✅  | ✅  | ✅  | 
 | Command  | ✅  | ✅  | ✅  | 
 | CommandParameter  | ✅  | ✅  | ✅  | 
@@ -151,7 +151,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontSize  | ✅  | ✅  | ⚠️  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  | 
-| IsPassword  | ✅  | ✅  | ⚠️  | 
+| IsPassword  | ✅  | ✅  | ⏳ | 
 | PlaceHolder  | ✅  | ✅  | ⏳  | 
 | PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | VerticalTextAlignment  | ⏳  | ⏳  | ⚠️  | 
