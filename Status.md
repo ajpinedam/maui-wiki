@@ -109,15 +109,15 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | BackgroundColor  | ✅  | ✅  | ⚠️  | 
-| CharacterSpacing  | ✅  | ✅  | ⚠️  |  
-| Date  | ✅  | ✅  | ⏳  | 
+| CharacterSpacing  | ✅  | ✅  | ⏳  |  
+| Date  | ✅  | ✅  | ✅  | 
 | DateSelected  | ⚠️  | ⚠️  | ⚠️  | 
-| FontAttributes  | ✅  | ✅  | ⚠️  |  
-| FontFamily  | ✅  | ✅  | ⚠️  | 
-| FontSize  | ✅  | ✅  | ⚠️  | 
-| Format  | ✅  | ✅  | ⚠️  | 
-| MaximumDate  | ✅  | ✅  | ⚠️  | 
-| MinimumDate  | ✅  | ✅  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⏳  |  
+| FontFamily  | ✅  | ✅  | ⏳  | 
+| FontSize  | ✅  | ✅  | ⏳  | 
+| Format  | ✅  | ✅  | ⏳  | 
+| MaximumDate  | ✅  | ✅  | ⏳  | 
+| MinimumDate  | ✅  | ✅  | ⏳  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ Editor
@@ -374,12 +374,12 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | BackgroundColor  | ✅  | ✅  | ⚠️  | 
-| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
-| FontAttributes  | ✅  | ✅  | ⚠️  | 
-| FontFamily  | ✅  | ✅  | ⚠️  | 
-| FontSize  | ✅  | ✅  | ⚠️  | 
-| Format  | ✅  | ✅  | ⚠️  | 
-| Time  | ✅  | ✅  | ⏳  | 
+| CharacterSpacing  | ✅  | ✅  | ⏳  | 
+| FontAttributes  | ✅  | ✅  | ⏳  | 
+| FontFamily  | ✅  | ✅  | ⏳  | 
+| FontSize  | ✅  | ✅  | ⏳  | 
+| Format  | ✅  | ✅  | ⚠️⏳  | 
+| Time  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ WebView
