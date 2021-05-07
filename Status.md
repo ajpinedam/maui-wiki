@@ -339,7 +339,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | MinimumTrackColor  | ✅  | ✅  | ⏳  | 
 | ThumbColor  | ✅  | ✅  | ⚠️  | 
 | Value  | ✅  | ✅  | ⏳  | 
-| ValueChanged  | ⚠️  | ⚠️  | ⚠️  | 
+| ValueChanged  | ✅  | ✅  | ⏳  | 
 
 ### ⚠️ Stepper
 
@@ -349,7 +349,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Maximum  | ✅  | ✅  | ⏳  | 
 | Minimum  | ✅  | ✅  | ⏳  | 
 | Value  | ✅  | ✅  | ⏳  | 
-| ValueChanged  | ⚠️  | ⚠️  | ⚠️  | 
+| ValueChanged  | ✅  | ✅  | ⏳  | 
 
 ### ⚠️ SwipeView
 
