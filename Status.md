@@ -125,7 +125,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | AutoSize  | ⚠️  | ⚠️  | ⚠️  |  
-| Completed  | ⚠️  | ⚠️  | ⚠️  | 
+| Completed  | ⏳  | ⏳  | ⏳  | 
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | 
 | FontAttributes  | ✅  | ✅  | ⏳  |  
 | FontFamily  | ✅  | ✅  | ⏳  | 
