@@ -422,7 +422,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Gestures | ⚠️  | ⚠️  | ⚠️  |
 | ImageHandlers | ✅  | ✅  | ✅  |
 | Interactivity (Behaviors, Triggers, Visual State Manager) | ⚠️  | ⚠️  | ⚠️  |
-| FlowDirection (RTL) | ⚠️  | ⚠️  | ⚠️  |
+| FlowDirection (RTL) | ⏳  | ⏳  | ⏳  |
 | Fonts | ✅  | ✅  | ✅  |
 | Lifecycle Events | ⏳  | ⏳  | ⏳  |
 | Themes | ⚠️  | ⚠️  | ⚠️  |
