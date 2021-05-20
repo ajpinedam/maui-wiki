@@ -1,4 +1,4 @@
-Current development is happening in [xamarin/xamarin.forms](https://github.com/xamarin/xamarin.forms) where we will continue to ship stable releases through the smooth and seamless .NET 6 transition to .NET MAUI.
+For a current status on the progress of porting controls, features, and layouts from Xamarin.Forms to .NET MAUI, visit the [status report](https://github.com/dotnet/maui/wiki/status).
 
 # Upcoming Milestones
 
