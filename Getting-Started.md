@@ -4,7 +4,7 @@ This is a community-supported, open-source, global dotnet tool that will evaluat
 
 Install: `dotnet tool install -g redth.net.maui.check`
 
-Run: `maui-check --dev`
+Run: `maui-check`
 
 This will check for:
  - OpenJdk / AndroidSDK
@@ -25,7 +25,7 @@ To use WinUI 3, follow the instructions to get started with [Project Reunion](ht
 1. Start a New Project
 
 ```
-dotnet new maui -n HelloPreview3
+dotnet new maui -n HelloMauiPreview
 ```
 
 2. Open the project in Visual Studio Code.
