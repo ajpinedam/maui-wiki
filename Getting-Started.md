@@ -33,7 +33,7 @@ dotnet new maui -n HelloMauiPreview
 At this time it's easiest to edit in your favorite editor, and build from the command line.
 
 ```
-code ./HelloPreview3
+code ./HelloMauiPreview
 ```
 
 3. Restore the NuGets 
