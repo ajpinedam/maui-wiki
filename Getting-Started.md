@@ -38,16 +38,11 @@ code ./HelloPreview3
 
 3. Restore the NuGets 
 
-Add a `nuget.config` file to the root of your project with the following:
+Create a `nuget.config` file to the root of your project and add the following feed with these commands:
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <packageSources>
-    <add key="dotnet6" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json" />
-    <add key="xamarin" value="https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json" />
-  </packageSources>
-</configuration>
+```
+dotnet new nugetconfig
+dotnet nuget add source -n xamarin-impl https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json
 ```
 
 VS Code will often prompt you to restore, however you can restore a few other ways.
