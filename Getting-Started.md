@@ -73,6 +73,16 @@ dotnet build -t:Run -f net6.0-maccatalyst
 
 > WinUI 3 requires you to build and deploy with the latest preview of Visual Studio 2019 16.10.
 
+### iOS Simulator Selection
+
+It's possible to specify which simulator is launched and used for `net6.0-ios` by specifying the `_DeviceName` MSBuild property:
+
+ie: `dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=<UDID>`
+
+You can get a list of possible UDID values by executing the `simctl list` command:
+
+ie: `/Applications/Xcode.app/Contents/Developer/usr/bin/simctl list`
+
 ## Using IDEs
 
 Currently, we recommend using the latest preview version of Visual Studio 2019 16.10 on Windows (with the
