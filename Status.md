@@ -329,27 +329,27 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| DragCompleted  | ✅  | ✅  | ⚠️  |  
-| DragCompletedCommand  | ✅  | ⚠️  | ⚠️  | 
-| DragStarted  | ✅  | ✅  | ⚠️  | 
-| DragStartedCommand  | ✅  | ✅  | ⚠️  | 
-| Maximum  | ✅  | ✅  | ⏳  | 
-| MaximumTrackColor  | ✅  | ✅  | ⏳  | 
-| Minimum  | ✅  | ✅  | ⏳  | 
-| MinimumTrackColor  | ✅  | ✅  | ⏳  | 
+| DragCompleted  | ✅  | ✅  | ✅  |  
+| DragCompletedCommand  | ✅  | ⚠️  | ✅  | 
+| DragStarted  | ✅  | ✅  | ✅  | 
+| DragStartedCommand  | ✅  | ✅  | ✅  | 
+| Maximum  | ✅  | ✅  | ✅  | 
+| MaximumTrackColor  | ✅  | ✅  | ✅  | 
+| Minimum  | ✅  | ✅  | ✅  | 
+| MinimumTrackColor  | ✅  | ✅  | ✅  | 
 | ThumbColor  | ✅  | ✅  | ⚠️  | 
-| Value  | ✅  | ✅  | ⏳  | 
-| ValueChanged  | ✅  | ✅  | ⏳  | 
+| Value  | ✅  | ✅  | ✅  | 
+| ValueChanged  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ Stepper
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Increment  | ✅  | ✅  | ⏳  | 
-| Maximum  | ✅  | ✅  | ⏳  | 
-| Minimum  | ✅  | ✅  | ⏳  | 
-| Value  | ✅  | ✅  | ⏳  | 
-| ValueChanged  | ✅  | ✅  | ⏳  | 
+| Increment  | ✅  | ✅  | ✅  | 
+| Maximum  | ✅  | ✅  | ✅  | 
+| Minimum  | ✅  | ✅  | ✅  | 
+| Value  | ✅  | ✅  | ✅  | 
+| ValueChanged  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ SwipeView
 
