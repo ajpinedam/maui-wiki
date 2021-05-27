@@ -152,23 +152,23 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  | 
 | IsPassword  | ✅  | ✅  | ⏳ | 
-| PlaceHolder  | ✅  | ✅  | ⏳  | 
+| PlaceHolder  | ✅  | ✅  | ✅  | 
 | PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | VerticalTextAlignment  | ⏳  | ⏳  | ⚠️  | 
 | ReturnCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnType  | ✅  | ✅  | ⏳  | 
 | SelectionLength  | ⚠️  | ⚠️  | ⚠️  | 
-| Text  | ✅  | ✅  | ⏳  | 
+| Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ Frame
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
-| CornerRadius  | ⚠️  | ⚠️  | ⚠️  | 
-| HasShadow  | ⚠️  | ⚠️  | ⚠️  | 
+| BorderColor  | ⏳  | ⏳  | ⚠️  | 
+| CornerRadius  | ⏳  | ⏳  | ⚠️  | 
+| HasShadow  | ⏳  | ⏳  | ⚠️  | 
 
 ### ⚠️ IndicatorView
 
