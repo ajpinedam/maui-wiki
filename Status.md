@@ -214,17 +214,17 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CharacterSpacing  | ✅  | ✅  | ⏳  | 
-| Font  | ✅  | ✅  | ⚠️  | 
-| FontAttributes  | ✅  | ✅  | ⚠️  | 
-| FontFamily  | ✅  | ✅  | ⚠️  | 
-| FontSize  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ✅  | 
+| Font  | ✅  | ✅  | ✅  | 
+| FontAttributes  | ✅  | ✅  | ✅  | 
+| FontFamily  | ✅  | ✅  | ✅  | 
+| FontSize  | ✅  | ✅  | ✅  | 
 | FormattedText  | ✅  | ✅  | ⚠️  | 
-| HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
-| LineBreakMode  | ✅  | ✅  | ⚠️  | 
-| LineHeight  | ✅  | ✅  | ⚠️  | 
-| MaxLines  | ✅  | ✅  | ⚠️  | 
-| Padding  | ✅  | ✅  | ⚠️  | 
+| HorizontalTextAlignment  | ✅  | ✅  | ✅  | 
+| LineBreakMode  | ✅  | ✅  | ✅  | 
+| LineHeight  | ✅  | ✅  | ✅  | 
+| MaxLines  | ✅  | ✅  | ✅  | 
+| Padding  | ✅  | ✅  | ✅  | 
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 | TextDecorations  | ✅  | ✅  | ⏳  | 
