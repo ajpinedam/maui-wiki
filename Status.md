@@ -26,8 +26,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Color  | ✅  | ✅   |  ⏳  |  
-| IsRunning  | ✅  | ✅ |  ⏳  | 
+| Color  | ✅  | ✅   |  ✅  |  
+| IsRunning  | ✅  | ✅ |  ✅  | 
 
 ### ⚠️ Button
 
@@ -36,7 +36,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | BackgroundColor  | ✅  | ✅  | ✅  | 
 | BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | BorderWidth  | ⚠️  | ⚠️  | ⚠️  | 
-| CharacterSpacing  | ✅  | ✅  | ⏳  | 
+| CharacterSpacing  | ✅  | ✅  | ✅  | 
 | Clicked  | ✅  | ✅  | ✅  | 
 | Command  | ✅  | ✅  | ✅  | 
 | CommandParameter  | ✅  | ✅  | ✅  | 
@@ -109,15 +109,15 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | BackgroundColor  | ✅  | ✅  | ⚠️  | 
-| CharacterSpacing  | ✅  | ✅  | ⏳  |  
+| CharacterSpacing  | ✅  | ✅  | ✅  |  
 | Date  | ✅  | ✅  | ✅  | 
 | DateSelected  | ✅  | ✅  | ✅  | 
-| FontAttributes  | ✅  | ✅  | ⏳  |  
-| FontFamily  | ✅  | ✅  | ⏳  | 
-| FontSize  | ✅  | ✅  | ⏳  | 
-| Format  | ✅  | ✅  | ⏳  | 
-| MaximumDate  | ✅  | ✅  | ⏳  | 
-| MinimumDate  | ✅  | ✅  | ⏳  | 
+| FontAttributes  | ✅  | ✅  | ✅  |  
+| FontFamily  | ✅  | ✅  | ✅  | 
+| FontSize  | ✅  | ✅  | ✅  | 
+| Format  | ✅  | ✅  | ✅  | 
+| MaximumDate  | ✅  | ✅  | ✅  | 
+| MinimumDate  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 
 ### ⚠️ Editor
@@ -125,18 +125,18 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | AutoSize  | ⚠️  | ⚠️  | ⚠️  |  
-| Completed  | ⏳  | ⏳  | ⏳  | 
+| Completed  | ✅  | ✅  | ✅  | 
 | CharacterSpacing  | ✅  | ✅  | ⚠️  | 
-| FontAttributes  | ✅  | ✅  | ⏳  |  
-| FontFamily  | ✅  | ✅  | ⏳  | 
-| FontSize  | ✅  | ✅  | ⏳  | 
+| FontAttributes  | ✅  | ✅  | ✅  |  
+| FontFamily  | ✅  | ✅  | ✅  | 
+| FontSize  | ✅  | ✅  | ✅  | 
 | IsReadOnly  | ✅  | ✅  | ⏳  | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  |
-| PlaceHolder  | ✅  | ✅  | ⏳  | 
+| PlaceHolder  | ✅  | ✅  | ⚠️  | 
 | PlaceHolderColor  | ✅  | ✅  | ⚠️  | 
 | Text  | ✅  | ✅  | ⏳  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
-| MaxLength  | ✅  | ✅  | ⏳  | 
+| MaxLength  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ Entry
 
