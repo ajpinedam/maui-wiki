@@ -414,8 +414,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Feature | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
 | Accessibility | ⏳  | ⏳  | ⏳  |
-| Animation | ⚠️  | ⚠️  | ⚠️  |
-| Border Everywhere | ⏳  | ⏳  | ⚠️  |
+| Animation | ⏳  | ⏳  | ⏳  |
+| Border Everywhere | ⏳  | ⏳  | ⏳  |
 | Brushes Everywhere | ⏳  | ⏳  | ⏳  |
 | CornerRadius Everywhere | ⏳  | ⏳  | ⏳  |
 | Device | ⚠️  | ⚠️  | ⚠️  |
