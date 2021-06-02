@@ -126,7 +126,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | AutoSize  | ⚠️  | ⚠️  | ⚠️  |  
 | Completed  | ✅  | ✅  | ✅  | 
-| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| CharacterSpacing  | ✅  | ✅  | ⏳  | 
 | FontAttributes  | ✅  | ✅  | ✅  |  
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
