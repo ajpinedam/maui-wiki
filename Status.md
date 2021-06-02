@@ -142,13 +142,13 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| ClearButtonVisibility  | ✅  | ✅  | ⚠️  |  
-| CharacterSpacing  | ✅  | ✅  | ⚠️  | 
+| ClearButtonVisibility  | ✅  | ✅  | ⏳  |  
+| CharacterSpacing  | ✅  | ✅  | ⏳  | 
 | Completed  | ⏳  | ⏳  | ⏳  | 
 | CursorPosition  | ⚠️  | ⚠️  | ⚠️  |  
-| FontAttributes  | ✅  | ✅  | ⚠️  | 
-| FontFamily  | ✅  | ✅  | ⚠️  | 
-| FontSize  | ✅  | ✅  | ⚠️  | 
+| FontAttributes  | ✅  | ✅  | ⏳  | 
+| FontFamily  | ✅  | ✅  | ⏳  | 
+| FontSize  | ✅  | ✅  | ⏳  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  | 
 | IsPassword  | ✅  | ✅  | ⏳ | 
@@ -316,14 +316,14 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Fill  | ⏳  | ⏳  | ⚠️  | 
-| Stroke  | ⏳  | ⏳  | ⚠️  | 
-| StrokeDashArray  | ⏳  | ⏳  | ⚠️  | 
-| StrokeDashOffset  | ⏳  | ⏳  | ⚠️  | 
-| StrokeLineCap  | ⏳  | ⏳  | ⚠️  | 
-| StrokeLineJoin  | ⏳  | ⏳  | ⚠️  | 
-| StrokeMiterLimit  | ⏳  | ⏳  | ⚠️  | 
-| StrokeThickness  | ⏳  | ⏳  | ⚠️  | 
+| Fill  | ⏳  | ⏳  | ⏳  | 
+| Stroke  | ⏳  | ⏳  | ⏳  | 
+| StrokeDashArray  | ⏳  | ⏳  | ⏳  | 
+| StrokeDashOffset  | ⏳  | ⏳  | ⏳  | 
+| StrokeLineCap  | ⏳  | ⏳  | ⏳  | 
+| StrokeLineJoin  | ⏳  | ⏳  | ⏳  | 
+| StrokeMiterLimit  | ⏳  | ⏳  | ⏳  | 
+| StrokeThickness  | ⏳  | ⏳  | ⏳  | 
 
 ### ⚠️ Slider
 
@@ -337,7 +337,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | MaximumTrackColor  | ✅  | ✅  | ✅  | 
 | Minimum  | ✅  | ✅  | ✅  | 
 | MinimumTrackColor  | ✅  | ✅  | ✅  | 
-| ThumbColor  | ✅  | ✅  | ⚠️  | 
+| ThumbColor  | ✅  | ✅  | ⏳  | 
 | Value  | ✅  | ✅  | ✅  | 
 | ValueChanged  | ✅  | ✅  | ✅  | 
 
