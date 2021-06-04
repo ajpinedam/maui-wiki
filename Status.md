@@ -108,7 +108,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BackgroundColor  | ✅  | ✅  | ⚠️  | 
+| BackgroundColor  | ✅  | ✅  | ✅  | 
 | CharacterSpacing  | ✅  | ✅  | ✅  |  
 | Date  | ✅  | ✅  | ✅  | 
 | DateSelected  | ✅  | ✅  | ✅  | 
@@ -118,7 +118,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Format  | ✅  | ✅  | ✅  | 
 | MaximumDate  | ✅  | ✅  | ✅  | 
 | MinimumDate  | ✅  | ✅  | ✅  | 
-| TextColor  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⏳  | 
 
 ### ⚠️ Editor
 
@@ -160,7 +160,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ReturnType  | ✅  | ✅  | ⏳  | 
 | SelectionLength  | ⚠️  | ⚠️  | ⚠️  | 
 | Text  | ✅  | ✅  | ✅  | 
-| TextColor  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⏳  | 
 
 ### ⚠️ Frame
 
@@ -379,7 +379,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontSize  | ✅  | ✅  | ⏳  | 
 | Format  | ✅  | ✅  | ⏳  | 
 | Time  | ✅  | ✅  | ✅  | 
-| TextColor  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⏳  | 
 
 ### ⚠️ WebView
 
