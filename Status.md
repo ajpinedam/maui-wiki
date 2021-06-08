@@ -146,9 +146,9 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CharacterSpacing  | ✅  | ✅  | ⏳  | 
 | Completed  | ⏳  | ⏳  | ⏳  | 
 | CursorPosition  | ⚠️  | ⚠️  | ⚠️  |  
-| FontAttributes  | ✅  | ✅  | ⏳  | 
-| FontFamily  | ✅  | ✅  | ⏳  | 
-| FontSize  | ✅  | ✅  | ⏳  | 
+| FontAttributes  | ✅  | ✅  | ✅  | 
+| FontFamily  | ✅  | ✅  | ✅  | 
+| FontSize  | ✅  | ✅  | ✅  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  | 
 | IsPassword  | ✅  | ✅  | ⏳ | 
@@ -160,7 +160,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ReturnType  | ✅  | ✅  | ⏳  | 
 | SelectionLength  | ⚠️  | ⚠️  | ⚠️  | 
 | Text  | ✅  | ✅  | ✅  | 
-| TextColor  | ✅  | ✅  | ⏳  | 
+| TextColor  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ Frame
 
