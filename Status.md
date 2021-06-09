@@ -301,14 +301,14 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | BackgroundColor  | ✅  | ✅  | ⚠️  | 
 | CharacterSpacing  | ✅  | ✅  | ⏳  | 
-| CancelButtonColor  | ⚠️  | ⚠️  | ⚠️  | 
+| CancelButtonColor  | ⏳  | ⏳  | ⏳  | 
 | FontAttributes  | ✅  | ✅  | ⚠️  | 
 | FontSize  | ✅  | ✅  | ⚠️  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ⚠️  |
 | MaxLength  | ✅  | ✅  | ⏳ | 
 | SearchCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | SearchCommandParameter  | ⚠️  | ⚠️  | ⚠️  |
-| Text  | ✅  | ✅  | ⏳  | 
+| Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
