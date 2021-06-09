@@ -22,7 +22,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 ### Views
 
-### ⚠️ ActivityIndicator
+### ✅ ActivityIndicator
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -184,7 +184,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Position  | ⚠️  | ⚠️  | ⚠️  | 
 | SelectedIndicatorColor  | ⚠️  | ⚠️  | ⚠️  | 
 
-### ⚠️ Image
+### ✅ Image
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -330,7 +330,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | DragCompleted  | ✅  | ✅  | ✅  |  
-| DragCompletedCommand  | ✅  | ⚠️  | ✅  | 
+| DragCompletedCommand  | ✅  | ✅  | ✅  | 
 | DragStarted  | ✅  | ✅  | ✅  | 
 | DragStartedCommand  | ✅  | ✅  | ✅  | 
 | Maximum  | ✅  | ✅  | ✅  | 
@@ -341,7 +341,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Value  | ✅  | ✅  | ✅  | 
 | ValueChanged  | ✅  | ✅  | ✅  | 
 
-### ⚠️ Stepper
+### ✅ Stepper
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
