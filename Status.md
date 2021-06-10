@@ -145,7 +145,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ClearButtonVisibility  | ✅  | ✅  | ⏳  |  
 | CharacterSpacing  | ✅  | ✅  | ⏳  | 
 | Completed  | ⏳  | ⏳  | ⏳  | 
-| CursorPosition  | ⚠️  | ⚠️  | ⚠️  |  
+| CursorPosition  | ✅  | ✅  | ⚠️  |  
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
