@@ -72,11 +72,11 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | PositionChangedCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
 | VisibleViews  | ⚠️  | ⚠️  | ⚠️  | 
 
-### ⚠️ CheckBox
+### ✅ CheckBox
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Color  | ⚠️  | ⚠️  | ⚠️  | 
+| Color  | ✅  | ✅  | ✅  | 
 | CheckedChanged  | ✅  | ✅  | ✅  | 
 | IsChecked  | ✅  | ✅  | ✅  | 
 
