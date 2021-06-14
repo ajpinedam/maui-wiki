@@ -7,37 +7,43 @@ For a current status on the progress of porting controls, features, and layouts 
 [Project Board](https://github.com/dotnet/maui/projects/7)
 
 Planned:
-* Alerts
 * Animation
 * AppThemeBinding (Dark Mode)
 * Brushes
-* CarouselView
-* CollectionView
-* ContentView
-* Device
-* DualScreen
 * FlyoutPage
-* Frame
-* Gestures
 * MessagingCenter
 * Native Embedding
 * Shell
-* Triggers
+* TabbedPage (Android, iOS, macOS)
 
 ## **.NET MAUI in .NET 6 Preview 6 (July 2021)**
 
 By this preview, we expect to have a version of the [.NET Upgrade Assistant](https://github.com/dotnet/upgrade-assistant) that can migrate Xamarin and Xamarin.Forms projects to .NET 6 and .NET MAUI.
 
 Planned:
+* Alerts
 * App Lifecycle Events
 * Borders
+* CarouselView
+* CollectionView
 * Corners
+* ContentView
+* Deep Linking
 * Desktop Menu Items
+* Device
+* DualScreen
+* Frame
+* Gestures
 * IndicatorView
+* MenuItem (Desktop)
+* Native Embedding (Context factory)
+* Native Views
 * RefreshView
 * Shadows
+* Shell (Styling, Modals)
 * SwipeView
-* TabbedPage
+* TabbedPage (WinUI)
+* Triggers
 
 ## **.NET MAUI in .NET 6 Preview 7 (August 2021)**
 
