@@ -23,6 +23,7 @@ By this preview, we expect to have a version of the [.NET Upgrade Assistant](htt
 Planned:
 * Alerts
 * App Lifecycle Events
+* Application Properties
 * Borders
 * CarouselView
 * CollectionView
@@ -48,10 +49,15 @@ Planned:
 ## **.NET MAUI in .NET 6 Preview 7 (August 2021)**
 
 Planned:
-* Application Properties
-* Deep Linking
+* Bug fixes
 
 ## **.NET MAUI in .NET 6 Release Candidate (September 2021)**
 
+Planned:
+* Bug fixes
+
 ## **.NET MAUI General Availability (November 2021)**
+
+Planned:
+* Bug fixes
 
