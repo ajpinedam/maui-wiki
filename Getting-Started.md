@@ -1,135 +1,62 @@
-## Installing with .NET MAUI Check Tool
+## Installing .NET MAUI
 
-This is a community-supported, open-source, global dotnet tool that will evaluate your development environment and guide you to install and configure everything you need to build a .NET MAUI application.
+Let's get your environment setup for developing .NET MAUI applications! We made [maui-check](https://github.com/redth/dotnet-maui-check), a simple dotnet tool, to speed you through the steps. Start by opening your favorite console.
 
-Install: `dotnet tool install -g redth.net.maui.check`
+Install `maui-check`: 
 
-Run: `maui-check`
+```console
+$ dotnet tool install -g redth.net.maui.check
+```
 
-This will check for:
- - OpenJdk / AndroidSDK
- - .NET 6 Preview SDK
- - .NET MAUI / iOS / Android workloads and packs
- - .NET MAUI Templates
- - Workload Resolver .sentinel files for dotnet and Visual Studio Windows/Mac
- - Currently does not install workloads required for WinUI3
+Run the tool and follow the prompts: 
 
-For more information and source code, visit [redth/dotnet-maui-check](https://github.com/redth/dotnet-maui-check).
+```console 
+$ maui-check
+```
 
-To manually install your environment, follow the [instructions here](https://github.com/dotnet/net6-mobile-samples/tree/develop#installing-with-official-preview-installers). 
+> (optional) If you prefer a more hands-on installation experience, follow the [instructions here](https://github.com/dotnet/net6-mobile-samples/tree/develop#installing-with-official-preview-installers). 
 
-To use WinUI 3, follow the instructions to get started with [Project Reunion](https://docs.microsoft.com/en-us/windows/apps/project-reunion/get-started-with-project-reunion#set-up-your-development-environment).
+### Additional Steps for WinUI3
 
-## Time to Go!
+To use WinUI 3, follow the instructions to get started with [Project Reunion](https://docs.microsoft.com/en-us/windows/apps/project-reunion/get-started-with-project-reunion#set-up-your-development-environment). 
+
+Make sure to install these extensions:
+
+* [Project Reunion (Preview) Extension](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftProjectReunionPreview)
+* [Single-project MSIX Packaging Tools](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingTools)
+
+## Set Sail with your first .NET MAUI app
 
 1. Start a New Project
 
-```
-dotnet new maui -n HelloMauiPreview
-```
-
-2. Open the project in Visual Studio Code.
-
-At this time it's easiest to edit in your favorite editor, and build from the command line.
-
-```
-code ./HelloMauiPreview
+```console
+$ dotnet new maui -n HelloMauiPreview
 ```
 
-3. Restore the NuGets 
+2. Open the project in Visual Studio 16.11 Preview 2 (or newer), or Visual Studio Code on macOS.
 
-Create a `nuget.config` file to the root of your project and add the following feed(s) with these commands:
-
-```
-dotnet new nugetconfig
-dotnet nuget add source -n maui-preview https://aka.ms/maui-preview/index.json
+```console
+$ code ./HelloMauiPreview
 ```
 
-VS Code will often prompt you to restore, however you can restore a few other ways.
+3. Restore the NuGets. Visual Studio will does this for you by default. You can also restore via CLI with:
 
-With VS Code commands:
-
-> Type `SHFT+CMD+P` and type restore to choose the restore command.
-
-With dotnet cli:
-
+```console 
+$ dotnet restore
 ```
-dotnet restore
-```
-
-NOTE: you may need to run this targeting both projects, the library and the iOS, by running it within the iOS folder as well. Alternatively use `msbuild /t:restore`. 
 
 4. Surf the .NET 6 Wave!
 
 In Visual Studio for Windows, select your device or emulator from the selector and click the play button (or hit F5).
 
-With dotnet cli from within your project directory:
+![Visual Studio run menu](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2021/05/run-static-profiles.png)
 
+Optionally, you can build and run your .NET MAUI application from CLI using one of the following commands:
+
+```console
+$ dotnet build -t:Run -f net6.0-android
+$ dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=<UDID>
+$ dotnet build -t:Run -f net6.0-maccatalyst
 ```
-dotnet build -t:Run -f net6.0-android
-dotnet build -t:Run -f net6.0-ios
-dotnet build -t:Run -f net6.0-maccatalyst
-```
 
-> WinUI 3 requires you to build and deploy with the latest preview of Visual Studio 2019 16.10.
-
-### iOS Simulator Selection
-
-It's possible to specify which simulator is launched and used for `net6.0-ios` by specifying the `_DeviceName` MSBuild property:
-
-ie: `dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=<UDID>`
-
-You can get a list of possible UDID values by executing the `simctl list` command:
-
-ie: `/Applications/Xcode.app/Contents/Developer/usr/bin/simctl list`
-
-## Using IDEs
-
-Currently, we recommend using the latest preview version of Visual Studio 2019 16.10 on Windows (with the
-Xamarin workload). If you used `maui-check` then you're configured! 
-
-Otherwise, follow these additional steps:
-
-Open an Administrator command prompt to enable the
-`EnableWorkloadResolver.sentinel` feature flag:
-
-    > cd "%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\SdkResolvers\Microsoft.DotNet.MSBuildSdkResolver"
-    > echo > EnableWorkloadResolver.sentinel
-
-Or in an Administrator `powershell` prompt:
-
-    > cd "${env:ProgramFiles(x86)}\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\SdkResolvers\Microsoft.DotNet.MSBuildSdkResolver"
-    > '' > EnableWorkloadResolver.sentinel
-
-> NOTE: your path to Visual Studio may vary, depending on where you
-> selected to install it. `Enterprise`, `Professional`, or `Community`
-> might be correct depending on the SKU you have installed.
-
-This command creates an empty file that enables .NET workload support.
-Restart Visual Studio after making this change.
-
-Visual Studio for Mac support will be coming in a future release.
-
-### iOS from Visual Studio
-
-To build and debug .NET 6 iOS applications from Visual Studio 2019 you
-must manually install the .NET 6 SDK and iOS workloads on both
-**Windows and macOS** (Mac build host).
-
-If while connecting Visual Studio to your Mac through XMA you are
-prompted to install a different version of the SDK, you can ignore
-that since it refers to the legacy one.
-
-> Note: currently only the iOS simulator is supported.
-
-### Mac Catalyst from Visual Studio for Mac
-
-Running and debugging apps from Visual Studio for Mac does not work yet.
-
-### Known Issues
-
-* There are no project property pages available for both iOS and
-  Android
-* Editors (i.e. Manifest editor, Entitlements editor, etc.) will fail
-  to open, so as a workaround please open those files with the XML
-  editor.
+These commands will launch the application on the default device, if one can be found. For Android, it's best to have an emulator up and running first. To find an iOS device UDID, [follow these directions](https://github.com/dotnet/maui/wiki/CLI:-iOS-Simulator-Selection).
