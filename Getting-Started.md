@@ -1,20 +1,7 @@
-## Installing .NET MAUI
+## Pre-requisites
 
-Let's get your environment setup for developing .NET MAUI applications! We made [maui-check](https://github.com/redth/dotnet-maui-check), a simple dotnet tool, to speed you through the steps. Start by opening your favorite console.
-
-Install `maui-check`: 
-
-```console
-$ dotnet tool install -g redth.net.maui.check
-```
-
-Run the tool and follow the prompts: 
-
-```console 
-$ maui-check
-```
-
-> (optional) If you prefer a more hands-on installation experience, follow the [instructions here](https://github.com/dotnet/net6-mobile-samples/tree/develop#installing-with-official-preview-installers). 
+* [Install .NET MAUI and Dependencies](https://docs.microsoft.com/dotnet/maui/get-started/installation)
+* Visual Studio 16.11 Preview 2 - supports developing for all .NET MAUI platforms
 
 ### Additional Steps for WinUI3
 
@@ -25,7 +12,7 @@ Make sure to install these extensions:
 * [Project Reunion (Preview) Extension](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftProjectReunionPreview)
 * [Single-project MSIX Packaging Tools](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingTools)
 
-## Set Sail with your first .NET MAUI app
+## Create your first .NET MAUI app
 
 1. Start a New Project
 
@@ -33,13 +20,13 @@ Make sure to install these extensions:
 $ dotnet new maui -n HelloMauiPreview
 ```
 
-2. Open the project in Visual Studio 16.11 Preview 2 (or newer), or Visual Studio Code on macOS.
+2. Open the project in Visual Studio on Windows, or Visual Studio Code on macOS.
 
 ```console
 $ code ./HelloMauiPreview
 ```
 
-3. Restore the NuGets. Visual Studio will does this for you by default. You can also restore via CLI with:
+3. Restore the NuGets. Visual Studio will do this for you by default. You can also restore via CLI with:
 
 ```console 
 $ dotnet restore
