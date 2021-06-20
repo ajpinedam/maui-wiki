@@ -1,5 +1,5 @@
 
-> Until this PR (https://github.com/dotnet/maui/issues/822) is merged, we will have to use the Android SDK files from that. There is a "nuget-unsigend" artifact with the *.nupkg files.
+> **Until this PR (https://github.com/dotnet/maui/issues/822) is merged, we will have to use the Android SDK files from that. There is a "nuget-unsigend" artifact with the \*.nupkg files.**
 
 
 > In order to use custom packages from a PR:
