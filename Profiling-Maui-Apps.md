@@ -1,4 +1,3 @@
-
 > **Until this PR (https://github.com/xamarin/xamarin-android/pull/6022) is merged, we will have to use the Android SDK files from that.**
 > **There is a "nuget-unsigend" artifact with the \*.nupkg files.**
 
@@ -76,3 +75,6 @@ This commands forwards port `9000` from the device to port `9001` on the host ma
 
 The same run command can be used for emulators, except that the `IsEmulator` property should be set to `false`.
 
+## Viewing the results
+
+Once you finish the profiling, there will be a json file named `maui-app-trace.json` that can be viewed online at: https://www.speedscope.app/
