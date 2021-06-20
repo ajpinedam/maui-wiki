@@ -1,4 +1,3 @@
-# Profiling .NET MAUI Apps
 
 > Until this PR (https://github.com/dotnet/maui/issues/822) is merged, we will have to use the Android SDK files from that. There is a "nuget-unsigend" artifact with the *.nupkg files.
 
