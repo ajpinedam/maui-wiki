@@ -19,8 +19,8 @@ dotnet build src/DotNet/DotNet.csproj
 
 Profiling .NET apps require a few tools:
 
- - `dotnet-dsrouter` (available as source in https://github.com/dotnet/diagnostics)
- - `dotnet-trace` (available on nuget.org with `dotnet tool update -g dotnet-trace`)
+ - `dotnet tool update -g dotnet-dsrouter --add-source=https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json`
+ - `dotnet tool update -g dotnet-trace`
 
 ### `dotnet-dsrouter`
 
