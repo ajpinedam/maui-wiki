@@ -27,7 +27,7 @@ Profiling .NET apps require a few tools:
 The first part that is required is `dotnet-dsrouter`, which routes traffic from the emulator/device to a socket. Since this is source, it can just be run directly using dotnet:
 
 ```
-dotnet run --project <diagnostics>/src/Tools/dotnet-dsrouter -- client-server -tcps 127.0.0.1:9001 -ipcc /tmp/maui-app --verbose debug
+dotnet-dsrouter client-server -tcps 127.0.0.1:9001 -ipcc /tmp/maui-app --verbose debug
 ```
 
 This command sets up the router to route data from `127.0.0.1:9001` to `/tmp/maui-app`.
