@@ -1,11 +1,3 @@
-> **Until this PR (https://github.com/xamarin/xamarin-android/pull/6022) is merged, we will have to use the Android SDK files from that.**
-> **There is a "nuget-unsigend" artifact with the \*.nupkg files.**
-
-
-> In order to use custom packages from a PR:
-> - make sure the packages exist in an `artifacts` directory at the root
-> - update the `eng/Versions.props` file to that version
-> - uncomment the `<add key="local" value="artifacts" />` in the `NuGet.config` at the root
 
 ## Local .NET SDK
 
@@ -14,6 +6,11 @@ For most cases when testing PRs or even just for consistency, use the local "ins
 ```
 dotnet build src/DotNet/DotNet.csproj
 ```
+
+> In order to use custom packages from a PR:
+> - make sure the packages exist in an `artifacts` directory at the root
+> - update the `eng/Versions.props` file to that version
+> - uncomment the `<add key="local" value="artifacts" />` in the `NuGet.config` at the root
 
 ## Required Tools
 
