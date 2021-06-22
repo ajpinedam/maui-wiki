@@ -3,7 +3,7 @@
 * [Install .NET MAUI and Dependencies](https://docs.microsoft.com/dotnet/maui/get-started/installation)
 * Visual Studio 16.11 Preview 2 - supports developing for all .NET MAUI platforms
 
-### Additional Steps for WinUI3
+### Additional Steps for WinUI 3
 
 To use WinUI 3, follow the instructions to get started with [Project Reunion](https://docs.microsoft.com/en-us/windows/apps/project-reunion/get-started-with-project-reunion#set-up-your-development-environment). 
 
