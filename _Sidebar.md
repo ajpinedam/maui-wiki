@@ -16,6 +16,7 @@ Quick Docs
 - [Xamarin.Forms vs .NET MAUI](https://github.com/dotnet/maui/wiki/Xamarin.Forms-vs-.NET-MAUI)
 - [iOS Simuilator Selection](https://github.com/dotnet/maui/wiki/CLI:-iOS-Simulator-Selection)
 - [Developing iOS Apps from Windows](https://github.com/dotnet/maui/wiki/Developing-iOS-Apps-from-Windows)
+- [Profiling .NET MAUI Apps](https://github.com/dotnet/maui/wiki/Profiling-.NET-MAUI-Apps)
 
 Blog
 ========
