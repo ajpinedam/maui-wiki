@@ -45,7 +45,11 @@ Try out a "single project", you will need the `-f` switch to choose the platform
 .\bin\dotnet\dotnet build src\Controls\samples\Controls.Sample.SingleProject\Maui.Controls.Sample.SingleProject.csproj -t:Run -f net6.0-ios
 ```
 
+#### Blazor Desktop
+
 To build and run Blazor Desktop samples, check out the [Blazor Desktop](https://github.com/dotnet/maui/wiki/Blazor-Desktop) wiki topic.
+
+#### Win UI 3
 
 To build and run WinUI 3 support, please install the additional components mentioned on the [Getting Started](https://github.com/dotnet/maui/wiki/Getting-Started) page and run:
 
