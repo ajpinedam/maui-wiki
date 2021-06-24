@@ -15,10 +15,10 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | Control | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| ContentPage | ⏳  | ⏳  | ⏳  |
+| ContentPage | ✅  | ✅  | ✅  |
 | FlyoutPage | ⚠️  | ⚠️  | ⚠️  |
-| NavigationPage | ⏳  | ⏳  | ⏳  |
-| TabbedPage | ⚠️  | ⚠️  | ⚠️  |
+| NavigationPage | ✅  | ✅  | ✅  |
+| TabbedPage | ✅  | ✅  | ✅  |
 
 ### Views
 
