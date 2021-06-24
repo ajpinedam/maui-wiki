@@ -257,8 +257,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
-| HorizontalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
-| ItemDisplayBinding  | ✅  | ✅  | ⚠️  | 
+| HorizontalTextAlignment  | ⚠️  | ⚠️  | ✅  | 
+| ItemDisplayBinding  | ✅  | ✅  | ✅  | 
 | Items  | ✅  | ✅  | ✅  | 
 | ItemsSource  | ✅  | ✅  | ✅  | 
 | SelectedIndex  | ✅  | ✅  | ✅  | 
@@ -266,7 +266,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | SelectedItem  | ✅  | ✅  | ⚠️  | 
 | TextColor  | ✅  | ✅  | ⏳  | 
 | Title  | ✅  | ✅  | ✅  | 
-| TitleColor  | ⏳  | ⏳  | ⚠️  | 
+| TitleColor  | ⏳  | ⏳  | ✅  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ⚠️ ProgressBar
@@ -299,9 +299,9 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BackgroundColor  | ✅  | ✅  | ⚠️  | 
-| CharacterSpacing  | ✅  | ✅  | ⏳  | 
-| CancelButtonColor  | ⏳  | ⏳  | ⏳  | 
+| BackgroundColor  | ✅  | ✅  | ✅  | 
+| CharacterSpacing  | ✅  | ✅  | ✅  | 
+| CancelButtonColor  | ⏳  | ⏳  | ✅  | 
 | FontAttributes  | ✅  | ✅  | ⚠️  | 
 | FontSize  | ✅  | ✅  | ⚠️  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ⚠️  |
@@ -312,18 +312,18 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TextColor  | ✅  | ✅  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
-### ⚠️ Shapes
+### ✅ Shapes
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Fill  | ⏳  | ⏳  | ⏳  | 
-| Stroke  | ⏳  | ⏳  | ⏳  | 
-| StrokeDashArray  | ⏳  | ⏳  | ⏳  | 
-| StrokeDashOffset  | ⏳  | ⏳  | ⏳  | 
-| StrokeLineCap  | ⏳  | ⏳  | ⏳  | 
-| StrokeLineJoin  | ⏳  | ⏳  | ⏳  | 
-| StrokeMiterLimit  | ⏳  | ⏳  | ⏳  | 
-| StrokeThickness  | ⏳  | ⏳  | ⏳  | 
+| Fill  | ✅  | ✅  | ✅  | 
+| Stroke  | ✅  | ✅  | ✅  | 
+| StrokeDashArray  | ✅  | ✅  | ✅  | 
+| StrokeDashOffset  | ✅  | ✅  | ✅  | 
+| StrokeLineCap  | ✅  | ✅  | ✅  | 
+| StrokeLineJoin  | ✅  | ✅  | ✅  | 
+| StrokeMiterLimit  | ✅  | ✅  | ✅  | 
+| StrokeThickness  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ Slider
 
@@ -338,7 +338,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Minimum  | ✅  | ✅  | ✅  | 
 | MinimumTrackColor  | ✅  | ✅  | ✅  | 
 | ThumbColor  | ✅  | ✅  | ⏳  | 
-| ThumbImageSource  | ⏳  | ⏳  | ⏳  | 
+| ThumbImageSource  | ⏳  | ⏳  | ✅  | 
 | Value  | ✅  | ✅  | ✅  | 
 | ValueChanged  | ✅  | ✅  | ✅  | 
 
