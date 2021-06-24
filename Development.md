@@ -2,7 +2,7 @@ This page contains steps to build and run the MAUI repo from source.
 
 ### Requirements
 
-- Install the SDKs listed here https://github.com/dotnet/maui-samples
+- Install the SDKs listed in the [maui-samples](https://github.com/dotnet/maui-samples) repository.
 
 ### Running
 
