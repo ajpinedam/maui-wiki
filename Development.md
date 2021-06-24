@@ -1,12 +1,12 @@
 This page contains steps to build and run the MAUI repo from source.
 
-# Requirements
+### Requirements
 
 - Install the SDKs listed here https://github.com/dotnet/maui-samples
 
-# Running
+### Running
 
-## .NET 6
+#### .NET 6
 
 You can run a `Cake` target to bootstrap .NET 6 in `bin\dotnet` and launch Visual Studio:
 
