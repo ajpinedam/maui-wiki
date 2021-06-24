@@ -1,4 +1,4 @@
-This page contains steps to build and run the MAUI repo from source.
+This page contains steps to build and run the MAUI repository from source.
 
 ### Requirements
 
