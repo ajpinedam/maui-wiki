@@ -126,16 +126,16 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | AutoSize  | ⏳  | ⏳  | ⏳  |  
 | Completed  | ✅  | ✅  | ✅  | 
-| CharacterSpacing  | ✅  | ✅  | ⏳  | 
+| CharacterSpacing  | ✅  | ✅  | ✅  | 
 | FontAttributes  | ✅  | ✅  | ✅  |  
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
-| IsReadOnly  | ✅  | ✅  | ⏳  | 
+| IsReadOnly  | ✅  | ✅  | ✅  | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  |
-| PlaceHolder  | ✅  | ✅  | ⚠️  | 
-| PlaceHolderColor  | ✅  | ✅  | ⚠️  | 
-| Text  | ✅  | ✅  | ⏳  | 
-| TextColor  | ✅  | ✅  | ⚠️  | 
+| PlaceHolder  | ✅  | ✅  | ✅  | 
+| PlaceHolderColor  | ✅  | ✅  | ✅  | 
+| Text  | ✅  | ✅  | ✅  | 
+| TextColor  | ✅  | ✅  | ✅  | 
 | MaxLength  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ Entry
