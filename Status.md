@@ -414,15 +414,15 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | Feature | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| Accessibility | ⏳  | ⏳  | ⏳  |
-| Animation | ⏳  | ⏳  | ⏳  |
+| Accessibility | ✅  | ✅  | ✅  |
+| Animation | ✅  | ✅  | ✅  |
 | Border Everywhere | ⏳  | ⏳  | ⏳  |
-| Brushes Everywhere | ⏳  | ⏳  | ⏳  |
+| Brushes Everywhere | ✅  | ✅  | ✅  |
 | CornerRadius Everywhere | ⏳  | ⏳  | ⏳  |
 | Device | ⚠️  | ⚠️  | ⚠️  |
 | Gestures | ⏳  | ⏳  | ⏳  |
 | ImageHandlers | ✅  | ✅  | ✅  |
-| Interactivity (Behaviors, Triggers, Visual State Manager) | ⚠️  | ⚠️  | ⚠️  |
+| Interactivity (Behaviors, Triggers, Visual State Manager) | ✅  | ✅  | ✅  |
 | FlowDirection (RTL) | ⏳  | ⏳  | ⏳  |
 | Fonts | ✅  | ✅  | ✅  |
 | Lifecycle Events | ⏳  | ⏳  | ⏳  |
