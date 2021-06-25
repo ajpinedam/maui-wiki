@@ -104,7 +104,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | GroupHeaderTemplate | ⚠️  | ⚠️  | ⚠️  | 
 | GroupFooterTemplate | ⚠️  | ⚠️  | ⚠️  | 
 
-### ⚠️ DatePicker
+### ✅ DatePicker
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -118,7 +118,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Format  | ✅  | ✅  | ✅  | 
 | MaximumDate  | ✅  | ✅  | ✅  | 
 | MinimumDate  | ✅  | ✅  | ✅  | 
-| TextColor  | ✅  | ✅  | ⏳  | 
+| TextColor  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ Editor
 
