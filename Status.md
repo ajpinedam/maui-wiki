@@ -400,14 +400,14 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | Layout | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| AbsoluteLayout | ⚠️  | ⚠️  | ⚠️  |
+| AbsoluteLayout | ✅  | ✅  | ✅  |
 | ContentPresenter | ⚠️  | ⚠️  | ⚠️  |
 | ContentView | ⚠️  | ⚠️  | ⚠️  |
-| FlexLayout | ⚠️  | ⚠️  | ⚠️  |
-| Grid | ⏳  | ⏳  | ⏳  |
-| RelativeLayout | ⚠️  | ⚠️  | ⚠️  |
-| ScrollView | ⚠️  | ⚠️  | ⚠️  |
-| StackLayout | ⏳  | ⏳  | ⏳  |
+| FlexLayout | ✅  | ✅  | ✅  |
+| Grid | ✅  | ✅  | ✅  |
+| RelativeLayout | ✅  | ✅  | ✅  |
+| ScrollView | ✅  | ✅  | ✅  |
+| StackLayout | ✅  | ✅  | ✅  |
 | TemplatedView | ⚠️  | ⚠️  | ⚠️  |
 
 ### Features
