@@ -131,7 +131,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
 | IsReadOnly  | ✅  | ✅  | ✅  | 
-| IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  |
+| IsTextPredictionEnabled  | ✅  | ✅  | ⏳  |
 | PlaceHolder  | ✅  | ✅  | ✅  | 
 | PlaceHolderColor  | ✅  | ✅  | ✅  | 
 | Text  | ✅  | ✅  | ✅  | 
@@ -229,7 +229,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TextColor  | ✅  | ✅  | ✅  | 
 | TextDecorations  | ✅  | ✅  | ✅  | 
 | TextType  | ⏳  | ⏳  | ⏳  | 
-| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| VerticalTextAlignment  | ⚠️  | ⚠️  | ⏳  | 
 
 ### ⚠️ Map
 
