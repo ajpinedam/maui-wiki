@@ -142,22 +142,22 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| ClearButtonVisibility  | ✅  | ✅  | ⏳  |  
-| CharacterSpacing  | ✅  | ✅  | ⏳  | 
+| ClearButtonVisibility  | ✅  | ✅  | ✅  |  
+| CharacterSpacing  | ✅  | ✅  | ✅  | 
 | Completed  | ⏳  | ⏳  | ⏳  | 
 | CursorPosition  | ✅  | ✅  | ⚠️  |  
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
-| HorizontalTextAlignment  | ✅  | ✅  | ⚠️  | 
-| IsTextPredictionEnabled  | ✅  | ✅  | ⚠️  | 
+| HorizontalTextAlignment  | ✅  | ✅  | ⏳  | 
+| IsTextPredictionEnabled  | ✅  | ✅  | ⏳  | 
 | IsPassword  | ✅  | ✅  | ⏳ | 
 | PlaceHolder  | ✅  | ✅  | ✅  | 
 | PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
-| VerticalTextAlignment  | ⏳  | ⏳  | ⚠️  | 
+| VerticalTextAlignment  | ⏳  | ⏳  | ⏳  | 
 | ReturnCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
-| ReturnType  | ✅  | ✅  | ⏳  | 
+| ReturnType  | ✅  | ✅  | ✅  | 
 | SelectionLength  | ✅  | ✅  | ⚠️  | 
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
