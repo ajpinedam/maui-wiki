@@ -227,7 +227,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Padding  | ✅  | ✅  | ✅  | 
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
-| TextDecorations  | ✅  | ✅  | ⏳  | 
+| TextDecorations  | ✅  | ✅  | ✅  | 
 | TextType  | ⏳  | ⏳  | ⏳  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
