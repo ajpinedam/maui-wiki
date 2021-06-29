@@ -257,7 +257,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
-| HorizontalTextAlignment  | ⚠️  | ⚠️  | ✅  | 
+| HorizontalTextAlignment  | ✅  | ✅  | ✅  | 
 | ItemDisplayBinding  | ✅  | ✅  | ✅  | 
 | Items  | ✅  | ✅  | ✅  | 
 | ItemsSource  | ✅  | ✅  | ✅  | 
@@ -266,7 +266,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | SelectedItem  | ✅  | ✅  | ⚠️  | 
 | TextColor  | ✅  | ✅  | ⏳  | 
 | Title  | ✅  | ✅  | ✅  | 
-| TitleColor  | ⏳  | ⏳  | ✅  | 
+| TitleColor  | ✅  | ✅  | ✅  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ⚠️ ProgressBar
