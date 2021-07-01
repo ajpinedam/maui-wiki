@@ -412,13 +412,10 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:---:|:-----:|
 | CarouselView | ⚠️  | ⚠️  | ⚠️  |
 | CollectionView | ⚠️  | ⚠️  | ⚠️  |
-| FlyoutPage| ⚠️  | ⚠️  | ⚠️  |
 | IndicatorView| ⚠️  | ⚠️  | ⚠️  |
 | Map | ⚠️  | ⚠️  | ⚠️  |
-| NavigationPage | ⚠️  | ⚠️  | ⚠️  |
 | RefreshView| ⚠️  | ⚠️  | ⚠️  |
 | SwipeView| ⚠️  | ⚠️  | ⚠️  |
-| TabbedPage | ⚠️  | ⚠️  | ⚠️  |
 
 ### Layouts
 
