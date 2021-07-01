@@ -52,6 +52,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 
+<!--
 ### ⚠️ CarouselView
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -71,6 +72,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | PositionChangedCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | PositionChangedCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
 | VisibleViews  | ⚠️  | ⚠️  | ⚠️  | 
+-->
 
 ### ✅ CheckBox
 
@@ -79,7 +81,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Color  | ✅  | ✅  | ✅  | 
 | CheckedChanged  | ✅  | ✅  | ✅  | 
 | IsChecked  | ✅  | ✅  | ✅  | 
-
+<!--
 ### ⚠️ CollectionView
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -103,7 +105,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsGrouped | ⚠️  | ⚠️  | ⚠️  | 
 | GroupHeaderTemplate | ⚠️  | ⚠️  | ⚠️  | 
 | GroupFooterTemplate | ⚠️  | ⚠️  | ⚠️  | 
-
+-->
 ### ✅ DatePicker
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -170,6 +172,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CornerRadius  | ⏳  | ⏳  | ⚠️  | 
 | HasShadow  | ⏳  | ⏳  | ⚠️  | 
 
+<!--
 ### ⚠️ IndicatorView
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -183,6 +186,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | MinimumVisible  | ⚠️  | ⚠️  | ⚠️  | 
 | Position  | ⚠️  | ⚠️  | ⚠️  | 
 | SelectedIndicatorColor  | ⚠️  | ⚠️  | ⚠️  | 
+-->
 
 ### ✅ Image
 
@@ -231,6 +235,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TextType  | ⏳  | ⏳  | ⏳  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⏳  | 
 
+<!--
 ### ⚠️ Map
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -248,6 +253,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | VisibleRegion  | ⚠️  | ⚠️  | ⚠️  | 
 | MoveToRegion  | ⚠️  | ⚠️  | ⚠️  | 
 | MapClicked  | ⚠️  | ⚠️  | ⚠️  | 
+-->
 
 ### ⚠️ Picker
 
@@ -285,6 +291,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | GroupName  | ⚠️  | ⚠️  | ⚠️  | 
 | IsChecked  | ⏳  | ⏳  | ⚠️  | 
 
+<!--
 ### ⚠️ RefreshView
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -294,6 +301,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsRefreshing  | ⚠️  | ⚠️  | ⚠️  | 
 | RefreshColor  | ⚠️  | ⚠️  | ⚠️  | 
 | Refreshing  | ⚠️  | ⚠️  | ⚠️  | 
+-->
 
 ### ⚠️ SearchBar
 
@@ -352,6 +360,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Value  | ✅  | ✅  | ✅  | 
 | ValueChanged  | ✅  | ✅  | ✅  | 
 
+<!--
 ### ⚠️ SwipeView
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -360,6 +369,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | LeftItems  | ⚠️  | ⚠️  | ⚠️  | 
 | RightItems  | ⚠️  | ⚠️  | ⚠️  | 
 | TopItems  | ⚠️  | ⚠️  | ⚠️  | 
+-->
 
 ### ⚠️ Switch
 
@@ -395,6 +405,20 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | GoBack  | ⚠️  | ⚠️  | ⚠️  | 
 | GoForward  | ⚠️  | ⚠️  | ⚠️  | 
 | Reload  | ⚠️  | ⚠️  | ⚠️  | 
+
+### Renderer Based Views
+
+| View | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:---:|:-----:|
+| CarouselView | ⚠️  | ⚠️  | ⚠️  |
+| CollectionView | ⚠️  | ⚠️  | ⚠️  |
+| FlyoutPage| ⚠️  | ⚠️  | ⚠️  |
+| IndicatorView| ⚠️  | ⚠️  | ⚠️  |
+| Map | ⚠️  | ⚠️  | ⚠️  |
+| NavigationPage | ⚠️  | ⚠️  | ⚠️  |
+| RefreshView| ⚠️  | ⚠️  | ⚠️  |
+| SwipeView| ⚠️  | ⚠️  | ⚠️  |
+| TabbedPage | ⚠️  | ⚠️  | ⚠️  |
 
 ### Layouts
 
