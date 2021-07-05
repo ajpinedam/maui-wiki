@@ -319,7 +319,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | SearchCommand  | ⏳  | ✅  | ✅  | 
 | SearchCommandParameter  | ⏳  | ✅  | ✅  |
 | Text  | ✅  | ✅  | ✅  | 
-| TextColor  | ✅  | ✅  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ⏳  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
 
 ### ✅ Shapes
