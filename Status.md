@@ -155,7 +155,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsTextPredictionEnabled  | ✅  | ✅  | ⏳  | 
 | IsPassword  | ✅  | ✅  | ⏳ | 
 | PlaceHolder  | ✅  | ✅  | ✅  | 
-| PlaceHolderColor  | ⚠️  | ⚠️  | ⚠️  | 
+| PlaceHolderColor  | ⏳  | ⏳  | ⏳  | 
 | VerticalTextAlignment  | ⏳  | ⏳  | ⏳  | 
 | ReturnCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | ReturnCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
