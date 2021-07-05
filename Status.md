@@ -444,7 +444,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Brushes Everywhere | ✅  | ✅  | ✅  |
 | CornerRadius Everywhere | ⏳  | ⏳  | ⏳  |
 | Device | ⚠️  | ⚠️  | ⚠️  |
-| Gestures | ⏳  | ⏳  | ⏳  |
+| Gestures | ✅  | ✅  | ✅  |
 | ImageHandlers | ✅  | ✅  | ✅  |
 | Interactivity (Behaviors, Triggers, Visual State Manager) | ✅  | ✅  | ✅  |
 | FlowDirection (RTL) | ⏳  | ⏳  | ⏳  |
