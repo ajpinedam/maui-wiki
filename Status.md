@@ -196,6 +196,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsLoading  | ✅  | ✅  | ✅  | 
 | Source  | ✅  | ✅  | ✅  | 
 
+<!--
 ### ⚠️ ImageButton
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -213,6 +214,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Clicked  | ⚠️  | ⚠️  | ⚠️  | 
 | Pressed  | ⚠️  | ⚠️  | ⚠️  | 
 | Released  | ⚠️  | ⚠️  | ⚠️  | 
+-->
 
 ### ⚠️ Label
 
@@ -413,6 +415,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CarouselView | ⚠️  | ⚠️  | ⚠️  |
 | CollectionView | ⚠️  | ⚠️  | ⚠️  |
 | IndicatorView| ⚠️  | ⚠️  | ⚠️  |
+| ImageButton| ⚠️  | ⚠️  | ⚠️  |
 | Map | ⚠️  | ⚠️  | ⚠️  |
 | RefreshView| ⚠️  | ⚠️  | ⚠️  |
 | SwipeView| ⚠️  | ⚠️  | ⚠️  |
