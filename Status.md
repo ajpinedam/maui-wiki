@@ -157,8 +157,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | PlaceHolder  | ✅  | ✅  | ✅  | 
 | PlaceHolderColor  | ⏳  | ⏳  | ⏳  | 
 | VerticalTextAlignment  | ⏳  | ⏳  | ⏳  | 
-| ReturnCommand  | ⚠️  | ⚠️  | ⚠️  | 
-| ReturnCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| ReturnCommand  | ✅  | ✅  | ✅  | 
+| ReturnCommandParameter  | ✅  | ✅  | ✅  | 
 | ReturnType  | ✅  | ✅  | ✅  | 
 | SelectionLength  | ✅  | ✅  | ⚠️  | 
 | Text  | ✅  | ✅  | ✅  | 
