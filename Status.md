@@ -316,8 +316,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontSize  | ✅  | ✅  | ⏳  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ⚠️  |
 | MaxLength  | ✅  | ✅  | ⏳ | 
-| SearchCommand  | ⚠️  | ✅  | ⚠️  | 
-| SearchCommandParameter  | ⚠️  | ✅  | ⚠️  |
+| SearchCommand  | ⏳  | ✅  | ✅  | 
+| SearchCommandParameter  | ⏳  | ✅  | ✅  |
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ⚠️  | 
 | VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
