@@ -75,3 +75,8 @@ The same run command can be used for emulators, except that the `IsEmulator` pro
 ## Viewing the results
 
 Once you finish the profiling, there will be a json file named `maui-app-trace.json` that can be viewed online at: https://www.speedscope.app/
+
+
+## Troubleshooting
+
+* If there is broken/missing information in the traces, make sure you are _not_ using the interpreter. Remove the `<UseInterpreter>` element (or set it to `false`).
