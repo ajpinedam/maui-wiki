@@ -412,10 +412,10 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | View | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| CarouselView | ⚠️  | ⚠️  | ⚠️  |
-| CollectionView | ⚠️  | ⚠️  | ⚠️  |
+| CarouselView | ✅  | ✅  | ⚠️  |
+| CollectionView | ✅  | ✅  | ⚠️  |
 | IndicatorView| ⚠️  | ⚠️  | ⚠️  |
-| ImageButton| ⚠️  | ⚠️  | ⚠️  |
+| ImageButton| ✅  | ✅  | ✅  |
 | Map | ⚠️  | ⚠️  | ⚠️  |
 | RefreshView| ⚠️  | ⚠️  | ⚠️  |
 | SwipeView| ⚠️  | ⚠️  | ⚠️  |
