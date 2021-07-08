@@ -416,9 +416,9 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CollectionView | ✅  | ✅  | ⚠️  |
 | IndicatorView| ⚠️  | ⚠️  | ⚠️  |
 | ImageButton| ✅  | ✅  | ✅  |
-| Map | ⚠️  | ⚠️  | ⚠️  |
+| Map | ⏳  | ⏳  | ⚠️  |
 | RefreshView| ⚠️  | ⚠️  | ⚠️  |
-| SwipeView| ⚠️  | ⚠️  | ⚠️  |
+| SwipeView| ✅  | ✅  | ⚠️  |
 
 ### Layouts
 
