@@ -19,16 +19,16 @@ Updates to:
 ## **.NET MAUI in .NET 6 Preview 7 (August 2021)**
 
 Planned:
-* App Lifecycle Events
-* Application Properties
+* AppThemeBinding
+* Layouts - removing shimmed layouts
+* Flow direction
+* Native Application Lifecycle Events
+* Cross-platform Lifecycle Events
 * Borders
 * Corners
 * Frame
-* MenuItem (Desktop)
 * Native Embedding (Context factory)
-* RefreshView
 * Shadows
-* SwipeView
 
 ## **.NET MAUI in .NET 6 Release Candidate (September 2021)**
 
