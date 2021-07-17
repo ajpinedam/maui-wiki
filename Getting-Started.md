@@ -1,16 +1,6 @@
 ## Pre-requisites
 
-* [Install .NET MAUI and Dependencies](https://docs.microsoft.com/dotnet/maui/get-started/installation)
-* Visual Studio 16.11 Preview 2 - supports developing for all .NET MAUI platforms
-
-### Additional Steps for WinUI 3
-
-To use WinUI 3, follow the instructions to get started with [Project Reunion](https://docs.microsoft.com/en-us/windows/apps/project-reunion/get-started-with-project-reunion#set-up-your-development-environment). 
-
-Make sure to install these extensions:
-
-* [Project Reunion (Preview) Extension](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftProjectReunionPreview)
-* [Single-project MSIX Packaging Tools](https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingTools)
+Follow the [installation instructions here](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation).
 
 ## Create your first .NET MAUI app
 
@@ -20,7 +10,7 @@ Make sure to install these extensions:
 $ dotnet new maui -n HelloMauiPreview
 ```
 
-2. Open the project in Visual Studio on Windows, or Visual Studio Code on macOS.
+2. Open the project in Visual Studio 2022 on Windows, or Visual Studio Code on macOS.
 
 ```console
 $ code ./HelloMauiPreview
