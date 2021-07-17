@@ -19,16 +19,16 @@ Updates to:
 ## **.NET MAUI in .NET 6 Preview 7 (August 2021)**
 
 Planned:
-* AppThemeBinding
-* Layouts - removing shimmed layouts
+* [AppThemeBinding](https://github.com/dotnet/maui/pull/1657)
+* [Layouts](https://github.com/dotnet/maui/issues/1592) - removing shimmed layouts
 * Flow direction
-* Native Application Lifecycle Events
-* Cross-platform Lifecycle Events
-* Borders
-* Corners
-* Frame
+* [Native Application Lifecycle Events](https://github.com/dotnet/maui/issues/1582)
+* [Cross-platform Lifecycle Events](https://github.com/dotnet/maui/issues/1721)
+* [Borders](https://github.com/dotnet/maui/pull/650)
+* [Corners](https://github.com/dotnet/maui/pull/650)
+* [Frame](https://github.com/dotnet/maui/pull/787)
 * Native Embedding (Context factory)
-* Shadows
+* [Shadows](https://github.com/dotnet/maui/pull/570)
 
 ## **.NET MAUI in .NET 6 Release Candidate (September 2021)**
 
