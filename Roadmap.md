@@ -27,7 +27,7 @@ Planned:
 * [Borders](https://github.com/dotnet/maui/pull/650)
 * [Corners](https://github.com/dotnet/maui/pull/650)
 * [Frame](https://github.com/dotnet/maui/pull/787)
-* Native Embedding (Context factory)
+* [Native Embedding (Context factory)](https://github.com/dotnet/maui/issues/1718)
 * [Shadows](https://github.com/dotnet/maui/pull/570)
 
 ## **.NET MAUI in .NET 6 Release Candidate (September 2021)**
