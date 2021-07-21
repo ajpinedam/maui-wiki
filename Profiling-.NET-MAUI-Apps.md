@@ -17,7 +17,7 @@ dotnet build src/DotNet/DotNet.csproj
 Profiling .NET apps require a few tools:
 
  - `dotnet tool update -g dotnet-dsrouter --add-source=https://aka.ms/dotnet-tools/index.json`
- - `dotnet tool update -g dotnet-trace`
+ - `dotnet tool update -g dotnet-trace --add-source=https://aka.ms/dotnet-tools/index.json`
 
 ### `dotnet-dsrouter`
 
