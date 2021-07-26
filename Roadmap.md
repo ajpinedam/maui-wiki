@@ -40,3 +40,11 @@ Planned:
 Planned:
 * Bug fixes
 
+## **Deferred from .NET 6 GA**
+
+The following work was originally planned for .NET 6 GA, and through ongoing prioritization has been deferred. 
+
+* Mult-window desktop implementation - the API and foundation is present, ready for implementation
+* Drawn Design System components - Fluent UI and Material Design themed components you can use with the `Visual` API. This replaces the cut Material Design for iOS components based on the Google library
+* Handlers for CarouselView, CollectionView, IndicatorView, RefreshView, SwipeView, TabbedPage, and FlyoutPage. These are available using existing renderers 
+
