@@ -16,7 +16,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Control | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
 | ContentPage | ✅  | ✅  | ✅  |
-| FlyoutPage | ⚠️  | ⚠️  | ⚠️  |
+| FlyoutPage | ✅  | ✅  | ✅  |
 | NavigationPage | ✅  | ✅  | ✅  |
 | TabbedPage | ✅  | ✅  | ✅  |
 
