@@ -3,6 +3,7 @@
 .NET MAUI ships with each .NET 6 preview on a monthly cadence. For instructions to setup your environment and review .NET MAUI progress, check the links below:
 
 * [Installation Guide](https://docs.microsoft.com/dotnet/maui/get-started/installation)
+* [Build your first app](https://docs.microsoft.com/dotnet/maui/get-started/first-app?pivots=windows)
 * [Documentation](https://docs.microsoft.com/dotnet/maui/)
 * [Sample Projects](https://github.com/dotnet/net6-mobile-samples)
 
