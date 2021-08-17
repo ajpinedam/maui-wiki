@@ -2,23 +2,9 @@ For a current status on the progress of porting controls, features, and layouts 
 
 # Upcoming Milestones
 
-## **.NET MAUI in .NET 6 Preview 6 (July 2021)**
-
-Updates to:
-* Alerts
-* ContentView
-* Deep Linking
-* Desktop Menu Items
-* Device
-* Gestures
-* Native Views
-* Shell (Styling, Modals)
-* TabbedPage (WinUI)
-* Triggers
-
 ## **.NET MAUI in .NET 6 Preview 7 (August 2021)**
 
-Planned:
+Updated:
 * [AppThemeBinding](https://github.com/dotnet/maui/pull/1657)
 * [Layouts](https://github.com/dotnet/maui/issues/1592) - removing shimmed layouts
 * [Native Application Lifecycle Events](https://github.com/dotnet/maui/issues/1582)
