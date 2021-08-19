@@ -20,6 +20,7 @@ Quick Docs
 
 Blog
 ========
+- [Announcing .NET MAUI Preview 7](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-7/)
 - [Announcing .NET MAUI Preview 6](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/)
 - [Announcing .NET MAUI Preview 5](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-5/)
 - [Announcing .NET MAUI Preview 4](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-4/)
