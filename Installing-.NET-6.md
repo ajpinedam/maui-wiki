@@ -8,8 +8,10 @@
    macOS: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.1.21418.8/dotnet-sdk-6.0.100-rc.1.21418.8-osx-x64.pkg  
    > I just use maui-check to install .NET, but not the workloads.  
    > Run and then when it asks to install .NET, go ahead and then when it asks to install workloads, just cancel.
-4. Install the workloads individually: `android-aot`, `ios`, `maccatalyst`, `macos`, `tvos`  
+4. Delete this file: `C:\Program Files\dotnet\metadata\workloads\6.0.100\installertype\msi`  
+   > Because the VS installer doesn't know how to do anything correctly
+5. Install the workloads individually: `android-aot`, `ios`, `maccatalyst`, `macos`, `tvos`  
    This is due to this bug: https://github.com/dotnet/sdk/issues/19739  
    Use the source: `--source https://aka.ms/dotnet/maui/main/index.json`
-5. Install maui: `dotnet workload maui --source https://aka.ms/dotnet/maui/main/index.json`
-6. Profit
+6. Install maui: `dotnet workload maui --source https://aka.ms/dotnet/maui/main/index.json`
+7. Profit
