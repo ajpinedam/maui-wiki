@@ -8,5 +8,6 @@
    Run and then when it asks to install .NET, go ahead and then when it asks to install workloads, just cancel.
 4. Install the workloads individually: `android-aot`, `ios`, `maccatalyst`, `macos`, `tvos`  
    This is due to this bug: https://github.com/dotnet/sdk/issues/19739
-5. Install maui: `dotnet workload maui`
+   Use the source: `--source https://aka.ms/dotnet/maui/main/index.json`
+5. Install maui: `dotnet workload maui --source https://aka.ms/dotnet/maui/main/index.json`
 6. Profit
