@@ -14,6 +14,7 @@
    This is due to this bug: https://github.com/dotnet/sdk/issues/19739  
    Use the source: `--source https://aka.ms/dotnet/maui/main/index.json`
 6. Install maui: `dotnet workload install maui --source https://aka.ms/dotnet/maui/main/index.json`
-7. Install the VS extension:  
+7. Make sure to remove all previous Reunion extensions
+8. Install the VS extension:  
    https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17
-8. Profit
+9. Profit
