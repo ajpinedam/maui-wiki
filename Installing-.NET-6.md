@@ -12,4 +12,3 @@
 7. Make sure to remove all previous Reunion extensions
 8. Install the VS extension:  
    https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17
-9. Profit
