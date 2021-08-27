@@ -12,7 +12,7 @@
    > Because the VS installer doesn't know how to do anything correctly
 5. Install the workloads individually: `android-aot`, `ios`, `maccatalyst`, `macos`, `tvos`  
    This is due to this bug: https://github.com/dotnet/sdk/issues/19739  
-   Use the source: `--source https://aka.ms/dotnet/maui/main/index.json`
+   Use the source: `--source https://aka.ms/dotnet/maui/rc1/index.json`
 6. Install maui: `dotnet workload install maui --source https://aka.ms/dotnet/maui/rc1/index.json`
 7. Make sure to remove all previous Reunion extensions
 8. Install the VS extension:  
