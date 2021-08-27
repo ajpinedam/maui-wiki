@@ -9,7 +9,7 @@
 5. Install the workloads individually: `android-aot`, `ios`, `maccatalyst`, `macos`, `tvos`  
    This is due to this bug: https://github.com/dotnet/sdk/issues/19739  
    Use the source: `--source https://aka.ms/dotnet/maui/rc1/index.json`
-   > IMPORTANT: Right at this second, the system is in a transitional phase and we are waiting on a build from iOS to push all the correct RC 1 bits into the feeds. This note only applies if you are installing the `tvos` workload. Until then, there is a bit of work to do this:  
+   > IMPORTANT FOR TVOS: Right at this second, the system is in a transitional phase and we are waiting on a build from iOS to push all the correct RC 1 bits into the feeds. Until then, there is a bit of work to do this:  
    >  a) You will have to use a local folder feed with a few specific packages that you need to download from the xamarin-impl feed:  
    >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Ref&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
    >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Runtime.tvos-arm64&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
