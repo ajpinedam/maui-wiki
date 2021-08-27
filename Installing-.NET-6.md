@@ -17,7 +17,7 @@
    >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Sdk&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
    >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Templates&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
    >  b) Copy the 5 .nupkg files into a folder that does not have any other versions of dotnet packages  
-   >  c) Add an **additional** `--source /path/to/folder` to the next steps
+   >  c) Add an **additional** `--source /path/to/folder` to `dotnet workload install` commands
 6. Install maui: `dotnet workload install maui --source https://aka.ms/dotnet/maui/rc1/index.json`
 7. Make sure to remove all previous Reunion extensions
 8. Install the VS extension:  
