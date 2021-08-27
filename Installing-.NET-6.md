@@ -1,5 +1,3 @@
-# Path to Success
-
 1. Uninstall any .NET 6 workload previews using this script:  
    https://github.com/Redth/dotnet-maui-check/blob/main/Clean-Old-DotNet6-Previews.ps1
 2. Uninstall any .NET 6 versions you can just to be safe
