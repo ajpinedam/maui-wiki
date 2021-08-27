@@ -11,12 +11,12 @@
    Use the source: `--source https://aka.ms/dotnet/maui/rc1/index.json`
    > IMPORTANT: right at this second, the system is in a transitional phase and we are waiting on a build from iOS to push all the correct RC 1 bits into the feeds. Until then, there is a bit of work to do this:  
    >  a) You will have to use a local folder feed with a few specific packages that you need to download from the xamarin-impl feed:  
-   >     - https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Ref&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
-   >     - https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Runtime.tvos-arm64&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
-   >     - https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Runtime.tvossimulator-x64&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
-   >     - https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Sdk&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
-   >     - https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Templates&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
-   >  b) Copy the 5 .nupkg files into a folder that does not have any other versions of dotnet packages
+   >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Ref&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
+   >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Runtime.tvos-arm64&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
+   >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Runtime.tvossimulator-x64&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
+   >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Sdk&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
+   >     *  https://dev.azure.com/azure-public/vside/_packaging?_a=package&feed=xamarin-impl&package=Microsoft.tvOS.Templates&protocolType=NuGet&version=15.0.100-rc.1.521%2Bsha.453791f44&view=overview  
+   >  b) Copy the 5 .nupkg files into a folder that does not have any other versions of dotnet packages  
    >  c) Add an **additional** `--source /path/to/folder` to the next steps
 6. Install maui: `dotnet workload install maui --source https://aka.ms/dotnet/maui/rc1/index.json`
 7. Make sure to remove all previous Reunion extensions
