@@ -408,17 +408,17 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | GoForward  | ⚠️  | ⚠️  | ⚠️  | 
 | Reload  | ⚠️  | ⚠️  | ⚠️  | 
 
-### Renderer Based Views
+### Other Handlers
 
 | View | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| CarouselView | ✅  | ✅  | ⚠️  |
-| CollectionView | ✅  | ✅  | ⚠️  |
-| IndicatorView| ⏳  | ✅  | ⚠️  |
-| ImageButton| ✅  | ✅  | ✅  |
-| Map | ⏳  | ⏳  | ⚠️  |
+| CarouselView | ⚠️  | ⚠️  | ⚠️  |
+| CollectionView | ⚠️  | ⏳  | ⚠️  |
+| IndicatorView| ⏳  | ⏳  | ⚠️  |
+| ImageButton| ⏳  | ⏳  | ⏳  |
+| Map | ⚠️  | ⚠️  | ⚠️  |
 | RefreshView| ⚠️  | ⚠️  | ⚠️  |
-| SwipeView| ✅  | ✅  | ⚠️  |
+| SwipeView| ⚠️  | ⚠️  | ⚠️  |
 
 ### Layouts
 
