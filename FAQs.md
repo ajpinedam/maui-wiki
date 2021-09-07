@@ -50,8 +50,8 @@ It will resize your Image assets to 2x, 3x, HDPI, XHDPI, etc., similar to the [R
 
 ![Resources](https://codetraveler.io/content/images/2020/05/Resources.png)
 
-##  Will .NET MAUI allow deployment of one code base across iPhone, Android, Windows Desktop, macOS Desktop and Linux?
-Yes, checkout [this chart in the README](https://github.com/dotnet/maui#xamarinforms-vs-net-maui) to see the supported platforms.
+##  Will .NET MAUI allow deployment of one code base across iPhone, Android, WinUI (on Windows Desktop), and Mac Catalyst?
+Yes, check out [this chart in the README](https://github.com/dotnet/maui#xamarinforms-vs-net-maui) to see the supported platforms.
 
 ## What flavor of XAML will be supported by .NET MAUI
 We'll continue to use the same XAML that we know and love from Xamarin.Forms.
