@@ -164,13 +164,13 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 
-### ⚠️ Frame
+### ⏳ Frame
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BorderColor  | ⏳  | ⏳  | ⚠️  | 
-| CornerRadius  | ⏳  | ⏳  | ⚠️  | 
-| HasShadow  | ⏳  | ⏳  | ⚠️  | 
+| BorderColor  | ⏳  | ⏳  | ⏳  | 
+| CornerRadius  | ⏳  | ⏳  | ⏳  | 
+| HasShadow  | ⏳  | ⏳  | ⏳  | 
 
 <!--
 ### ⚠️ IndicatorView
