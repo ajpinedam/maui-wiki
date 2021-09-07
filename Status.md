@@ -277,12 +277,12 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TitleColor  | ✅  | ✅  | ✅  | 
 | VerticalTextAlignment  | ⏳  | ⏳  | ⏳  | 
 
-### ⚠️ ProgressBar
+### ✅ ProgressBar
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | Progress  | ✅  | ✅  | ✅  | 
-| ProgressColor  | ⏳  | ⏳  | ⏳  | 
+| ProgressColor  | ✅  | ✅  | ✅  | 
 | ProgressTo  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ RadioButton
