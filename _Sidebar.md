@@ -8,6 +8,7 @@ General Info
 
 Quick Docs
 ========
+- [Getting Started](https://github.com/dotnet/maui/wiki/Getting-Started)
 - [Application Startup with HostBuilder](https://github.com/dotnet/maui/wiki/Application-Startup)
 - [Customizing Controls with Handlers](https://github.com/dotnet/maui/wiki/Customizing-Controls-with-Handlers)
 - [Migrating from Xamarin.Forms](https://github.com/dotnet/maui/wiki/Migrating-from-Xamarin.Forms-to-.NET-MAUI)
