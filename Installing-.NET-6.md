@@ -6,7 +6,6 @@
 1. Install .NET 6 RC 1  
    Win: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.1.21452.4/dotnet-sdk-6.0.100-rc.1.21452.4-win-x64.exe   
    macOS: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.1.21452.4/dotnet-sdk-6.0.100-rc.1.21452.4-osx-x64.pkg  
-1. Delete this file: `C:\Program Files\dotnet\metadata\workloads\6.0.100\installertype\msi`
 
 ## Android/iOS Prerequisites
 
