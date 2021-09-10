@@ -4,9 +4,7 @@ This page is intended to be a guide for users who are interested in customizing 
 
 Mappings are the first and easiest option for most behavior changes. If you want to change how a property affects a native control (or even ignore a property), modifying the mapping for the property is the way to go. Existing mappings can be modified or replaced, and you can add brand new mappings.
 
-```
-insert example of replacing an existing mapping
-```
+For examples of modifying an existing mapping, see [Customizing Controls with Handlers](https://github.com/dotnet/maui/wiki/Customizing-Controls-with-Handlers).
 
 ```
 insert example of modifying an existing mapping
