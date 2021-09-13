@@ -14,7 +14,7 @@ Quick Docs
 - [Migrating from Xamarin.Forms](https://github.com/dotnet/maui/wiki/Migrating-from-Xamarin.Forms-to-.NET-MAUI)
 - [Single Project](https://github.com/dotnet/maui/wiki/Single-Project)
 - [Xamarin.Forms vs .NET MAUI](https://github.com/dotnet/maui/wiki/Xamarin.Forms-vs-.NET-MAUI)
-- [iOS Simuilator Selection](https://github.com/dotnet/maui/wiki/CLI:-iOS-Simulator-Selection)
+- [iOS Simulator Selection](https://github.com/dotnet/maui/wiki/CLI:-iOS-Simulator-Selection)
 - [Developing iOS Apps from Windows](https://github.com/dotnet/maui/wiki/Developing-iOS-Apps-from-Windows)
 - [Profiling .NET MAUI Apps](https://github.com/dotnet/maui/wiki/Profiling-.NET-MAUI-Apps)
 
