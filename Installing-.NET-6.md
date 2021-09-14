@@ -30,6 +30,8 @@ You may need to enable all sources as well:
 1. Make sure to **remove all previous** Reunion extensions and install the new one:  
    https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17
 
+You'll probably need to run these commands with elevated privileges.
+
 ## Building Apps
 
 Create new projects via `dotnet new maui` or the .NET MAUI template in Visual Studio 2022.
