@@ -2,39 +2,50 @@ For a current status on the progress of porting controls, features, and layouts 
 
 # Upcoming Milestones
 
-## **.NET MAUI in .NET 6 Preview 7 (August 2021)**
+## **.NET MAUI Preview 9 (October 2021)**
 
-Updated:
-* [AppThemeBinding](https://github.com/dotnet/maui/pull/1657)
-* [Layouts](https://github.com/dotnet/maui/issues/1592) - removing shimmed layouts
-* [Native Application Lifecycle Events](https://github.com/dotnet/maui/issues/1582)
-* [Frame](https://github.com/dotnet/maui/pull/787)
+[Planned](https://github.com/dotnet/maui/projects/11#column-15416416):
+* Bug fixes
+* Borders, Corners, Shadows
+* Essentials/Forms API reconciliation
+* Font improvements
+* Image source - service for loading images, iOS caching, GIF fixes, handler refactoring
+* Layouts - `AndExpand` refactoring
+* Port remaining handlers ([Status](https://github.com/dotnet/maui/wiki/Status))
 
-## **.NET MAUI in .NET 6 Release Candidate (September 2021)**
+## **.NET MAUI Preview 10 (November 2021)**
+
+[Planned](https://github.com/dotnet/maui/projects/11#column-15875849):
+* Bug fixes
+* Cross-platform lifecycle events
+* Native platform lifecycle events (cont.)
+* Microsoft.Maui.Graphics refactoring
+
+## **.NET MAUI Preview 11 (December 2021)**
+
+[Planned](https://github.com/dotnet/maui/projects/11#column-15430515):
+* Bug fixes
+* Desktop menus
+* Native embedding improvements
+* Multi-window support
+* Picker improvements for macOS
+* Single project multi-targeting improvements
+* Single project permissions support
+* Trimming
+* Windows unpackaged support
+
+## **.NET MAUI Release Candidate (Q1 2022)**
+
+[Planned](https://github.com/dotnet/maui/projects/11#column-15875964):
+* Bug fixes
+* Default visual style for consistency across platforms
+* Dual screen controls
+* Fluent look for Windows controls
+* Maps
+* Visual Studio - implement improvements in support of Hot Reload, Live Visual tree, etc.
+ 
+
+## **.NET MAUI GA (Q2 2022)**
 
 Planned:
 * Bug fixes
-* [Borders](https://github.com/dotnet/maui/pull/650)
-* [Corners](https://github.com/dotnet/maui/pull/650)
-* [Shadows](https://github.com/dotnet/maui/pull/570)
-
-## **.NET MAUI in .NET 6 Release Candidate (October 2021)**
-
-Planned:
-* Bug fixes
-* [Cross-platform Lifecycle Events](https://github.com/dotnet/maui/issues/1721)
-
-## **.NET MAUI General Availability (November 2021)**
-
-Planned:
-* Bug fixes
-
-
-## **Deferred from .NET 6 GA**
-
-The following work was originally planned for .NET 6 GA, and through ongoing prioritization has been deferred. 
-
-* Mult-window desktop implementation - the API and foundation is present, ready for implementation
-* Drawn Design System components - Fluent UI and Material Design themed components you can use with the `Visual` API. This replaces the cut Material Design for iOS components based on the Google library
-* Handlers for CarouselView, CollectionView, IndicatorView, RefreshView, SwipeView, TabbedPage, and FlyoutPage. These are available using existing renderers 
-* [Native Embedding (Context factory)](https://github.com/dotnet/maui/issues/1718)
