@@ -17,9 +17,11 @@ Quick Docs
 - [iOS Simulator Selection](https://github.com/dotnet/maui/wiki/CLI:-iOS-Simulator-Selection)
 - [Developing iOS Apps from Windows](https://github.com/dotnet/maui/wiki/Developing-iOS-Apps-from-Windows)
 - [Profiling .NET MAUI Apps](https://github.com/dotnet/maui/wiki/Profiling-.NET-MAUI-Apps)
+- [Migrating from Preview 7 to 8](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-7-to-8)
 
 Blog
 ========
+- [Update on .NET Multi-platform App UI (.NET MAUI)](https://aka.ms/maui-update)
 - [Announcing .NET MAUI Preview 7](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-7/)
 - [Announcing .NET MAUI Preview 6](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/)
 - [Announcing .NET MAUI Preview 5](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-5/)
