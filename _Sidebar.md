@@ -5,13 +5,11 @@ General Info
 - [.NET MAUI FAQs](https://github.com/dotnet/maui/wiki/faqs)
 - [.NET MAUI Status](https://github.com/dotnet/maui/wiki/Status)
 - [.NET MAUI Roadmap](https://github.com/dotnet/maui/wiki/Roadmap)
+- [Official Documentation](https://docs.microsoft.com/dotnet/maui/)
 
 Quick Docs
 ========
 - [Getting Started](https://github.com/dotnet/maui/wiki/Getting-Started)
-- [Customizing Controls with Handlers](https://github.com/dotnet/maui/wiki/Customizing-Controls-with-Handlers)
-- [Migrating from Xamarin.Forms](https://github.com/dotnet/maui/wiki/Migrating-from-Xamarin.Forms-to-.NET-MAUI)
-- [Single Project](https://github.com/dotnet/maui/wiki/Single-Project)
 - [Xamarin.Forms vs .NET MAUI](https://github.com/dotnet/maui/wiki/Xamarin.Forms-vs-.NET-MAUI)
 - [iOS Simulator Selection](https://github.com/dotnet/maui/wiki/CLI:-iOS-Simulator-Selection)
 - [Developing iOS Apps from Windows](https://github.com/dotnet/maui/wiki/Developing-iOS-Apps-from-Windows)
@@ -20,7 +18,7 @@ Quick Docs
 
 Blog
 ========
-- [Update on .NET Multi-platform App UI (.NET MAUI)](https://aka.ms/maui-update)
+- [Update on .NET Multi-platform App UI (.NET MAUI)](https://aka.ms/maui-update) - Preview 8
 - [Announcing .NET MAUI Preview 7](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-7/)
 - [Announcing .NET MAUI Preview 6](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/)
 - [Announcing .NET MAUI Preview 5](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-5/)
