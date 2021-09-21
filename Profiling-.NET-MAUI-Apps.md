@@ -57,7 +57,7 @@ The `IsEmulator` property can be used to control the environment variables of th
 
 > You may have to build the build tasks for the first run:  
 > ```
->  ./bin/dotnet/dotnet build Microsoft.Maui.BuildTasks-net6.sln
+>  ./bin/dotnet/dotnet build Microsoft.Maui.BuildTasks-net6.slnf
 > ```
 
 ### Physical Devices
@@ -75,6 +75,10 @@ The same run command can be used for emulators, except that the `IsEmulator` pro
 ## Viewing the results
 
 Once you finish the profiling, there will be a json file named `maui-app-trace.json` that can be viewed online at: https://www.speedscope.app/
+
+Or, you can use PerfView: https://github.com/microsoft/perfview/releases
+
+Or you can try open it in VS.
 
 
 ## Troubleshooting
