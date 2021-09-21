@@ -451,7 +451,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Fonts | ✅  | ✅  | ✅  |
 | Lifecycle Events | ✅  | ✅  | ✅  |
 | Themes | ⏳  | ⏳  | ⏳  |
-| Shadows | ⏳  | ⏳  | ⏳  |
+| Shadows | ✅  | ✅  | ✅  |
 | Shell | ✅  | ✅  | ✅  |
 | Styles | ✅  | ✅  | ✅  |
 | View Transforms | ✅  | ✅  | ✅  |
