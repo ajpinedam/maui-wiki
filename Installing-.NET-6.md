@@ -1,3 +1,5 @@
+
+
 ## .NET 6 SDK
 
 1. Uninstall any .NET 6 versions and workload previews using this script:  
@@ -7,9 +9,46 @@
    Win: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21465.13/dotnet-sdk-6.0.100-rc.2.21465.13-win-x64.exe   
    macOS: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21465.13/dotnet-sdk-6.0.100-rc.2.21465.13-osx-x64.pkg  
 
-## Android/iOS Prerequisites
+## .NET MAUI Workload
+
+Install the .NET Maui Workload using 2 commands:
+
+1. Set all the versions you need to the version you are looking for:  
+   For example, the "main" branch:
+   ```
+   dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
+   ```  
+   Or, the "preview.9" branch:
+   ```
+   dotnet workload update --from-rollback-file https://aka.ms/dotnet/preview.9/main.json --source https://aka.ms/dotnet6/nuget/index.json
+   ```
+1. Install the maui workload using those exact versions
+   ```
+   dotnet workload install maui --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
+   ```
+
+> You'll probably need to run these commands with elevated privileges.
+
+Here is a quick copy-paste for installing maui main:
+
+```
+dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install maui --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
+```
+
+## Prerequisites
+
+### Windows
+
+Make sure to **remove all previous** Reunion extensions and install the new one:
+
+https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17
+
+### iOS
 
 iOS will require Xcode 13 beta 5. You can get this [here](https://developer.apple.com/download/more/?name=Xcode).
+
+### Android
 
 Android API-31 (Android 12) is now the default in .NET 6 rc1.
 
@@ -21,22 +60,11 @@ You may need to enable all sources as well:
 
 ![SDK Manager](images/SDK-Manager-Sources.png)
 
-## .NET MAUI Workload
-
-1. Install the workloads individually: `android-aot`, `ios`, `maccatalyst`, `macos`, `tvos`  
-   This is due to this bug: https://github.com/dotnet/sdk/issues/19739  
-   Use the source: `--source https://aka.ms/dotnet/maui/main/index.json`
-1. Install maui: `dotnet workload install maui --source https://aka.ms/dotnet/maui/main/index.json`
-1. Make sure to **remove all previous** Reunion extensions and install the new one:  
-   https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17
-
-You'll probably need to run these commands with elevated privileges.
-
 ## Building Apps
 
 Create new projects via `dotnet new maui` or the .NET MAUI template in Visual Studio 2022.
 
-Until .NET 6 RC1 release day, you will need a `nuget.config` file such as:
+Until .NET 6 releases day, you will need a `nuget.config` file such as:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
