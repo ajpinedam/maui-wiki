@@ -6,8 +6,8 @@
    https://github.com/Redth/dotnet-maui-check/blob/main/Clean-Old-DotNet6-Previews.ps1  
    This is just in case maui-check installed an conflicting version some time ago. You won't be able to uninstall version installed by VS, but this is fine to ignore. It is more to remove the versions before preview 7.
 1. Install .NET 6 RC 2  
-   Win: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21465.13/dotnet-sdk-6.0.100-rc.2.21465.13-win-x64.exe   
-   macOS: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21465.13/dotnet-sdk-6.0.100-rc.2.21465.13-osx-x64.pkg  
+   Win: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21471.36/dotnet-sdk-6.0.100-rc.2.21471.36-win-x64.exe   
+   macOS: https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21471.36/dotnet-sdk-6.0.100-rc.2.21471.36-osx-x64.pkg  
 
 ## .NET MAUI Workload
 
