@@ -1,26 +1,26 @@
-[September 14, 2021 - Update on .NET Multi-platform App UI (.NET MAUI)](https://aka.ms/maui-update/)
+September 14, 2021 - [Update on .NET Multi-platform App UI (.NET MAUI)](https://aka.ms/maui-update/)
 
-[August 10, 2021 - Announcing .NET MAUI Preview 7](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-7/)
+August 10, 2021 - [Announcing .NET MAUI Preview 7](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-7/)
 
-[July 14, 2021 - Announcing .NET MAUI Preview 6](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/)
+July 14, 2021 - [Announcing .NET MAUI Preview 6](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/)
 
-[June 17, 2021 - Announcing .NET MAUI Preview 5](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-5/)
+June 17, 2021 - [Announcing .NET MAUI Preview 5](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-5/)
 
-[May 25, 2021 - Announcing .NET MAUI Preview 4](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-4/)
+May 25, 2021 - [Announcing .NET MAUI Preview 4](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-4/)
 
-[May 24, 2021 - Azure DevOps Podcast - Interview with David Ortinau](http://azuredevopspodcast.clear-measure.com/david-ortinau-on-multi-platform-app-development-using-net-maui-episode-142)
+May 24, 2021 - [Azure DevOps Podcast - Interview with David Ortinau](http://azuredevopspodcast.clear-measure.com/david-ortinau-on-multi-platform-app-development-using-net-maui-episode-142)
 
-[April 21, 2021 - WinUI Community Live Stream](https://youtu.be/SyLXctia1B0?t=777)
+April 21, 2021 - [WinUI Community Live Stream](https://youtu.be/SyLXctia1B0?t=777)
 
-[April 21, 2021 - InfoQ Interview with David Ortinau](https://www.infoq.com/articles/net-maui/)
+April 21, 2021 - [InfoQ Interview with David Ortinau](https://www.infoq.com/articles/net-maui/)
 
-[April 9, 2021 - Announcing .NET Multi-platform App UI Preview 3](https://devblogs.microsoft.com/dotnet/announcing-net-multi-platform-app-ui-preview-3/)
+April 9, 2021 - [Announcing .NET Multi-platform App UI Preview 3](https://devblogs.microsoft.com/dotnet/announcing-net-multi-platform-app-ui-preview-3/)
 
-[April 9, 2021 - Xamarin Podcast - .NET MAUI Q&A](https://www.xamarinpodcast.com/90)
+April 9, 2021 - [Xamarin Podcast - .NET MAUI Q&A](https://www.xamarinpodcast.com/90)
 
-[April 6, 2021 - On .NET with guest Maddy Leger - A Journey to .NET MAUI](https://www.youtube.com/watch?v=hoC5FIblKz8)
+April 6, 2021 - [On .NET with guest Maddy Leger - A Journey to .NET MAUI](https://www.youtube.com/watch?v=hoC5FIblKz8)
 
-[April 1, 2021 - Xamarin Community Standup with Guest Jonathan Peppers discussing .NET 6 Project System updates](https://www.youtube.com/watch?v=su3ntRjEN1I)
+April 1, 2021 - [Xamarin Community Standup with Guest Jonathan Peppers discussing .NET 6 Project System updates](https://www.youtube.com/watch?v=su3ntRjEN1I)
 
 Additional live streams and presentations:
 
