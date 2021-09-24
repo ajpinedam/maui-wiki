@@ -84,9 +84,9 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| ItemsSource | ⚠️  | ⚠️  | ⚠️  | 
-| ItemTemplate | ⚠️  | ⚠️  | ⚠️  | 
-| ItemsPanel | ⚠️  | ⚠️  | ⚠️  | 
+| ItemsSource | ⚠️  | ⏳  | ⚠️  | 
+| ItemTemplate | ⚠️  | ⏳  | ⚠️  | 
+| ItemsPanel | ⚠️  | ⏳  | ⚠️  | 
 | ItemSizingStrategy | ⚠️  | ⚠️  | ⚠️  | 
 | SelectionMode | ⚠️  | ⚠️  | ⚠️  | 
 | SelectedItem | ⚠️  | ⚠️  | ⚠️  | 
