@@ -440,9 +440,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:---:|:-----:|
 | Accessibility | ✅  | ✅  | ✅  |
 | Animation | ✅  | ✅  | ✅  |
-| Border Everywhere | ⏳  | ⏳  | ⏳  |
+| New Border Control | ✅  | ✅  | ✅  |
 | Brushes Everywhere | ✅  | ✅  | ✅  |
-| CornerRadius Everywhere | ⏳  | ⏳  | ⏳  |
 | Device | ⚠️  | ⚠️  | ⚠️  |
 | Gestures | ✅  | ✅  | ✅  |
 | ImageHandlers | ✅  | ✅  | ✅  |
@@ -450,7 +449,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FlowDirection (RTL) | ⏳  | ⏳  | ⏳  |
 | Fonts | ✅  | ✅  | ✅  |
 | Lifecycle Events | ✅  | ✅  | ✅  |
-| Themes | ⏳  | ⏳  | ⏳  |
+| Themes | ✅  | ✅  | ✅  |
 | Shadows | ✅  | ✅  | ✅  |
 | Shell | ✅  | ✅  | ✅  |
 | Styles | ✅  | ✅  | ✅  |
