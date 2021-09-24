@@ -198,17 +198,17 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
 | BorderWidth  | ⚠️  | ⚠️  | ⚠️  | 
-| Command  | ⚠️  | ⚠️  | ⚠️  | 
-| CommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| Command  | ✅  | ✅  | ✅  | 
+| CommandParameter   | ✅  | ✅  | ✅  | 
 | CornerRadius  | ⚠️  | ⚠️  | ⚠️  | 
-| IsLoading  | ⚠️  | ⚠️  | ⚠️  | 
-| IsOpaque  | ⚠️  | ⚠️  | ⚠️  | 
-| IsPressed  | ⚠️  | ⚠️  | ⚠️  | 
-| Padding  | ⚠️  | ⚠️  | ⚠️  | 
-| Source  | ⚠️  | ⚠️  | ⚠️  | 
-| Clicked  | ⚠️  | ⚠️  | ⚠️  | 
-| Pressed  | ⚠️  | ⚠️  | ⚠️  | 
-| Released  | ⚠️  | ⚠️  | ⚠️  | 
+| IsLoading   | ✅  | ✅  | ✅  | 
+| IsOpaque   | ✅  | ✅  | ✅  | 
+| IsPressed   | ✅  | ✅  | ✅  | 
+| Padding | ✅  | ✅  | ✅  | 
+| Source  | ✅  | ✅  | ✅  | 
+| Clicked  | ✅  | ✅  | ✅  | 
+| Pressed  | ✅  | ✅  | ✅  | 
+| Released  | ✅  | ✅  | ✅  | 
 
 ### ⚠️ Label
 
