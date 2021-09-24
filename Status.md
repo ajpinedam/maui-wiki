@@ -52,7 +52,6 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 
-<!--
 ### ⚠️ CarouselView
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -72,7 +71,6 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | PositionChangedCommand  | ⚠️  | ⚠️  | ⚠️  | 
 | PositionChangedCommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
 | VisibleViews  | ⚠️  | ⚠️  | ⚠️  | 
--->
 
 ### ✅ CheckBox
 
@@ -81,7 +79,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Color  | ✅  | ✅  | ✅  | 
 | CheckedChanged  | ✅  | ✅  | ✅  | 
 | IsChecked  | ✅  | ✅  | ✅  | 
-<!--
+
 ### ⚠️ CollectionView
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -105,7 +103,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsGrouped | ⚠️  | ⚠️  | ⚠️  | 
 | GroupHeaderTemplate | ⚠️  | ⚠️  | ⚠️  | 
 | GroupFooterTemplate | ⚠️  | ⚠️  | ⚠️  | 
--->
+
 ### ✅ DatePicker
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -195,7 +193,6 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsLoading  | ✅  | ✅  | ✅  | 
 | Source  | ✅  | ✅  | ✅  | 
 
-<!--
 ### ⚠️ ImageButton
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -213,7 +210,6 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Clicked  | ⚠️  | ⚠️  | ⚠️  | 
 | Pressed  | ⚠️  | ⚠️  | ⚠️  | 
 | Released  | ⚠️  | ⚠️  | ⚠️  | 
--->
 
 ### ⚠️ Label
 
@@ -303,7 +299,6 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | RefreshColor  | ✅  | ✅  | ⚠️  | 
 | Refreshing  | ✅  | ✅  | ⚠️  | 
 | Content | ✅  | ✅  | ⚠️  | 
-
 
 ### ⚠️ SearchBar
 
@@ -415,12 +410,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | View | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| CarouselView | ⚠️  | ⚠️  | ⚠️  |
-| CollectionView | ⚠️  | ⏳  | ⚠️  |
 | IndicatorView| ✅  | ✅  | ⚠️  |
-| ImageButton| ✅  | ✅  | ✅  |
 | Map | ⚠️  | ⚠️  | ⚠️  |
-| RefreshView| ✅  | ✅  | ⚠️  |
 | SwipeView| ⚠️  | ⚠️  | ⚠️  |
 
 ### Layouts
