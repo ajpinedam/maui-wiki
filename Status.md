@@ -151,12 +151,12 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
-| HorizontalTextAlignment  | ✅  | ✅  | ⏳  | 
+| HorizontalTextAlignment  | ✅  | ✅  | ✅ | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ⏳  | 
-| IsPassword  | ✅  | ✅  | ⏳ | 
+| IsPassword  | ✅  | ✅  | ✅ | 
 | PlaceHolder  | ✅  | ✅  | ✅  | 
 | PlaceHolderColor  | ✅  | ✅  | ✅  | 
-| VerticalTextAlignment  | ⏳  | ⏳  | ⏳  | 
+| VerticalTextAlignment  | ✅  | ✅  | ✅  | 
 | ReturnCommand  | ✅  | ✅  | ✅  | 
 | ReturnCommandParameter  | ✅  | ✅  | ✅  | 
 | ReturnType  | ✅  | ✅  | ✅  | 
@@ -177,16 +177,15 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| IndicatorColor  | ⚠️  | ⚠️  | ⚠️  | 
-| IndicatorLayout  | ⚠️  | ⚠️  | ⚠️  | 
-| IndicatorSize  | ⚠️  | ⚠️  | ⚠️  | 
-| IndicatorShape  | ⚠️  | ⚠️  | ⚠️  | 
-| IndicatorTemplate  | ⚠️  | ⚠️  | ⚠️  | 
-| ItemsSource  | ⚠️  | ⚠️  | ⚠️  | 
-| MinimumVisible  | ⚠️  | ⚠️  | ⚠️  | 
-| Position  | ⚠️  | ⚠️  | ⚠️  | 
-| SelectedIndicatorColor  | ⚠️  | ⚠️  | ⚠️  | 
--->
+| IndicatorColor  | ✅  | ✅  | ⚠️  | 
+| IndicatorLayout  | ✅  | ✅  | ⚠️  | 
+| IndicatorSize  | ✅  | ✅  | ⚠️  | 
+| IndicatorShape  | ✅  | ✅  | ⚠️  | 
+| IndicatorTemplate  | ✅  | ✅  | ⚠️  | 
+| ItemsSource  | ✅  | ✅  | ⚠️  | 
+| MinimumVisible  | ✅  | ✅  | ⚠️  | 
+| Position  | ✅  | ✅  | ⚠️  | 
+| SelectedIndicatorColor  | ✅  | ✅  | ⚠️  | 
 
 ### ✅ Image
 
@@ -293,17 +292,18 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | GroupName  | ⚠️  | ⚠️  | ⚠️  | 
 | IsChecked  | ⏳  | ⏳  | ⚠️  | 
 
-<!--
+
 ### ⚠️ RefreshView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | Command  | ⚠️  | ⚠️  | ⚠️  | 
 | CommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
-| IsRefreshing  | ⚠️  | ⚠️  | ⚠️  | 
-| RefreshColor  | ⚠️  | ⚠️  | ⚠️  | 
-| Refreshing  | ⚠️  | ⚠️  | ⚠️  | 
--->
+| IsRefreshing  | ✅  | ✅  | ⚠️  | 
+| RefreshColor  | ✅  | ✅  | ⚠️  | 
+| Refreshing  | ✅  | ✅  | ⚠️  | 
+| Content | ✅  | ✅  | ⚠️  | 
+
 
 ### ⚠️ SearchBar
 
@@ -311,16 +311,19 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | BackgroundColor  | ✅  | ✅  | ✅  | 
 | CharacterSpacing  | ✅  | ✅  | ✅  | 
-| CancelButtonColor  | ⏳  | ⏳  | ✅  | 
+| CancelButtonColor  | ✅  | ✅  | ✅  | 
 | FontAttributes  | ✅  | ✅  | ⏳  | 
 | FontSize  | ✅  | ✅  | ⏳  | 
-| HorizontalTextAlignment  | ✅  | ✅  | ✅  |
-| MaxLength  | ✅  | ✅  | ⏳ | 
+| HorizontalTextAlignment  | ✅  | ✅  |  ✅  |
+| IsTextPredictionEnabled | ⚠️  | ⚠️  | ⚠️  | 
+| IsReadOnly| ⚠️  | ⚠️  | ⚠️  | 
+| MaxLength  | ✅  | ✅  | ✅ | 
 | SearchCommand  | ⏳  | ✅  | ✅  | 
 | SearchCommandParameter  | ⏳  | ✅  | ✅  |
 | Text  | ✅  | ✅  | ✅  | 
-| TextColor  | ✅  | ✅  | ⏳  | 
-| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️  | 
+| TextColor  | ✅  | ✅  | ✅ | 
+| VerticalTextAlignment  | ✅  | ✅  | ⏳  | 
+
 
 ### ✅ Shapes
 
@@ -348,7 +351,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Minimum  | ✅  | ✅  | ✅  | 
 | MinimumTrackColor  | ✅  | ✅  | ✅  | 
 | ThumbColor  | ✅  | ✅  | ⏳  | 
-| ThumbImageSource  | ⏳  | ⏳  | ✅  | 
+| ThumbImageSource  | ✅   | ✅   | ✅  | 
 | Value  | ✅  | ✅  | ✅  | 
 | ValueChanged  | ✅  | ✅  | ✅  | 
 
@@ -414,10 +417,10 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:---:|:-----:|
 | CarouselView | ⚠️  | ⚠️  | ⚠️  |
 | CollectionView | ⚠️  | ⏳  | ⚠️  |
-| IndicatorView| ⏳  | ⏳  | ⚠️  |
-| ImageButton| ⏳  | ⏳  | ⏳  |
+| IndicatorView| ✅  | ✅  | ⚠️  |
+| ImageButton| ✅  | ✅  | ✅  |
 | Map | ⚠️  | ⚠️  | ⚠️  |
-| RefreshView| ⚠️  | ⚠️  | ⚠️  |
+| RefreshView| ✅  | ✅  | ⚠️  |
 | SwipeView| ⚠️  | ⚠️  | ⚠️  |
 
 ### Layouts
@@ -446,7 +449,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Gestures | ✅  | ✅  | ✅  |
 | ImageHandlers | ✅  | ✅  | ✅  |
 | Interactivity (Behaviors, Triggers, Visual State Manager) | ✅  | ✅  | ✅  |
-| FlowDirection (RTL) | ⏳  | ⏳  | ⏳  |
+| FlowDirection (RTL) | ✅  | ✅  | ⏳  |
 | Fonts | ✅  | ✅  | ✅  |
 | Lifecycle Events | ✅  | ✅  | ✅  |
 | Themes | ✅  | ✅  | ✅  |
