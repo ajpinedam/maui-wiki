@@ -170,7 +170,6 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CornerRadius  | ⏳  | ⏳  | ⏳  | 
 | HasShadow  | ⏳  | ⏳  | ⏳  | 
 
-<!--
 ### ⚠️ IndicatorView
 
 | API | Android | iOS / Mac Catalyst | Windows |
@@ -410,7 +409,6 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | View | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| IndicatorView| ✅  | ✅  | ⚠️  |
 | Map | ⚠️  | ⚠️  | ⚠️  |
 | SwipeView| ⚠️  | ⚠️  | ⚠️  |
 
