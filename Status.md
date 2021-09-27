@@ -137,6 +137,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 | MaxLength  | ✅  | ✅  | ✅  | 
+| HorizontalTextAlignment  | ✅  | ✅  | ✅ | 
+| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️ | 
 
 ### ⚠️ Entry
 
@@ -150,6 +152,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ✅ | 
+| VerticalTextAlignment  | ⚠️ | ⚠️  | ⚠️ | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ✅  | 
 | IsPassword  | ✅  | ✅  | ✅ | 
 | PlaceHolder  | ✅  | ✅  | ✅  | 
