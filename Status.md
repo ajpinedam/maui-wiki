@@ -131,7 +131,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
 | IsReadOnly  | ✅  | ✅  | ✅  | 
-| IsTextPredictionEnabled  | ✅  | ✅  | ⏳  |
+| IsTextPredictionEnabled  | ✅  | ✅  | ✅  |
 | PlaceHolder  | ✅  | ✅  | ✅  | 
 | PlaceHolderColor  | ✅  | ✅  | ✅  | 
 | Text  | ✅  | ✅  | ✅  | 
@@ -150,7 +150,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ✅ | 
-| IsTextPredictionEnabled  | ✅  | ✅  | ⏳  | 
+| IsTextPredictionEnabled  | ✅  | ✅  | ✅  | 
 | IsPassword  | ✅  | ✅  | ✅ | 
 | PlaceHolder  | ✅  | ✅  | ✅  | 
 | PlaceHolderColor  | ✅  | ✅  | ✅  | 
@@ -229,7 +229,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TextColor  | ✅  | ✅  | ✅  | 
 | TextDecorations  | ✅  | ✅  | ✅  | 
 | TextType  | ⏳  | ⏳  | ⏳  | 
-| VerticalTextAlignment  | ⚠️  | ⚠️  | ⏳  | 
+| VerticalTextAlignment  | ⚠️  | ⚠️  | ✅  | 
 
 <!--
 ### ⚠️ Map
@@ -266,7 +266,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | SelectedIndex  | ✅  | ✅  | ✅  | 
 | SelectedIndexChanged  | ✅  | ✅  | ✅  | 
 | SelectedItem  | ✅  | ✅  | ⚠️  | 
-| TextColor  | ✅  | ✅  | ⏳  | 
+| TextColor  | ⚠️  | ⚠️  | ✅  | 
 | Title  | ✅  | ✅  | ✅  | 
 | TitleColor  | ✅  | ✅  | ✅  | 
 | VerticalTextAlignment  | ⏳  | ⏳  | ⏳  | 
@@ -292,8 +292,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Command  | ⚠️  | ⚠️  | ⚠️  | 
-| CommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
+| Command  | ✅  | ✅  | ⚠️  | 
+| CommandParameter  | ✅  | ✅  | ⚠️  | 
 | IsRefreshing  | ✅  | ✅  | ⚠️  | 
 | RefreshColor  | ✅  | ✅  | ⚠️  | 
 | Refreshing  | ✅  | ✅  | ⚠️  | 
@@ -306,14 +306,14 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | BackgroundColor  | ✅  | ✅  | ✅  | 
 | CharacterSpacing  | ✅  | ✅  | ✅  | 
 | CancelButtonColor  | ✅  | ✅  | ✅  | 
-| FontAttributes  | ✅  | ✅  | ⏳  | 
-| FontSize  | ✅  | ✅  | ⏳  | 
-| HorizontalTextAlignment  | ✅  | ✅  |  ✅  |
+| FontAttributes  | ✅  | ✅  | ✅  | 
+| FontSize  | ✅  | ✅  | ✅ | 
+| HorizontalTextAlignment  | ✅  | ✅  |  ⚠️  |
 | IsTextPredictionEnabled | ⚠️  | ⚠️  | ⚠️  | 
 | IsReadOnly| ⚠️  | ⚠️  | ⚠️  | 
 | MaxLength  | ✅  | ✅  | ✅ | 
-| SearchCommand  | ⏳  | ✅  | ✅  | 
-| SearchCommandParameter  | ⏳  | ✅  | ✅  |
+| SearchCommand  | ✅ | ✅  | ✅  | 
+| SearchCommandParameter  | ✅  | ✅  | ✅  |
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅ | 
 | VerticalTextAlignment  | ✅  | ✅  | ⏳  | 
@@ -344,7 +344,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | MaximumTrackColor  | ✅  | ✅  | ✅  | 
 | Minimum  | ✅  | ✅  | ✅  | 
 | MinimumTrackColor  | ✅  | ✅  | ✅  | 
-| ThumbColor  | ✅  | ✅  | ⏳  | 
+| ThumbColor  | ✅  | ✅  | ✅  | 
 | ThumbImageSource  | ✅   | ✅   | ✅  | 
 | Value  | ✅  | ✅  | ✅  | 
 | ValueChanged  | ✅  | ✅  | ✅  | 
@@ -375,8 +375,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | IsToggled  | ✅  | ✅  | ✅  | 
-| OnColor  | ✅  | ✅  | ⏳  | 
-| ThumbColor  | ✅  | ✅  | ⏳  | 
+| OnColor  | ✅  | ✅  | ✅  | 
+| ThumbColor  | ✅  | ✅  | ✅  | 
 
 ### ✅ TimePicker
 
