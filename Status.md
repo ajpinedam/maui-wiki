@@ -269,7 +269,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | SelectedIndex  | ✅  | ✅  | ✅  | 
 | SelectedIndexChanged  | ✅  | ✅  | ✅  | 
 | SelectedItem  | ✅  | ✅  | ✅  | 
-| TextColor  | ⏳  | ⏳  | ✅  | 
+| TextColor  |  ✅   |  ✅   | ✅  | 
 | Title  | ✅  | ✅  | ✅  | 
 | TitleColor  | ✅  | ✅  | ✅  | 
 | VerticalTextAlignment  | ✅  | ✅  | ✅  | 
