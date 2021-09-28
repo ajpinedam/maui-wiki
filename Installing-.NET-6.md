@@ -36,6 +36,13 @@ dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/main.json
 dotnet workload install maui --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
 ```
 
+If you are building maui yourself, this might help too:
+
+```
+dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install android ios maccatalyst tvos macos maui wasm-tools --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
+```
+
 ## Prerequisites
 
 ### Windows
