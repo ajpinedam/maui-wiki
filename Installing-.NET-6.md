@@ -29,7 +29,13 @@ Install the .NET Maui Workload using 2 commands:
 
 > You'll probably need to run these commands with elevated privileges.
 
-Here is a quick copy-paste for installing maui main:
+Here is a quick copy-paste for installing maui "preview.9":
+
+```
+dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install maui --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
+```
+And for "main":
 
 ```
 dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
