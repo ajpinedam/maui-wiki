@@ -152,7 +152,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ✅ | 
-| VerticalTextAlignment  | ⚠️ | ⚠️  | ⚠️ | 
+| VerticalTextAlignment  | ✅ | ✅  | ✅ | 
 | IsTextPredictionEnabled  | ✅  | ✅  | ✅  | 
 | IsPassword  | ✅  | ✅  | ✅ | 
 | PlaceHolder  | ✅  | ✅  | ✅  | 
