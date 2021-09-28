@@ -138,7 +138,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TextColor  | ✅  | ✅  | ✅  | 
 | MaxLength  | ✅  | ✅  | ✅  | 
 | HorizontalTextAlignment  | ✅  | ✅  | ✅ | 
-| VerticalTextAlignment  | ⚠️  | ⚠️  | ⚠️ | 
+| VerticalTextAlignment  | ⚠️  | ⏳  | ⏳ | 
 
 ### ⚠️ Entry
 
