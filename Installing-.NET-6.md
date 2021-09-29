@@ -17,7 +17,7 @@ Install the .NET Maui Workload using 2 commands:
 1. Set all the versions you need to the version you are looking for:  
    For example, the "preview.9" branch:
    ```
-   dotnet workload update --from-rollback-file https://aka.ms/dotnet/preview.9/main.json --source https://aka.ms/dotnet6/nuget/index.json
+   dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json --source https://aka.ms/dotnet6/nuget/index.json
    ```
    Or, the "main" branch:
    ```
