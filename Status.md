@@ -177,15 +177,15 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| IndicatorColor  | ✅  | ✅  | ⚠️  | 
-| IndicatorLayout  | ✅  | ✅  | ⚠️  | 
-| IndicatorSize  | ✅  | ✅  | ⚠️  | 
-| IndicatorShape  | ✅  | ✅  | ⚠️  | 
+| IndicatorColor  | ✅  | ✅  | ⏳  | 
+| IndicatorLayout  | ✅  | ✅  | ⏳  | 
+| IndicatorSize  | ✅  | ✅  | ⏳  | 
+| IndicatorShape  | ✅  | ✅  | ⏳  | 
 | IndicatorTemplate  | ✅  | ✅  | ⚠️  | 
 | ItemsSource  | ✅  | ✅  | ⚠️  | 
-| MinimumVisible  | ✅  | ✅  | ⚠️  | 
-| Position  | ✅  | ✅  | ⚠️  | 
-| SelectedIndicatorColor  | ✅  | ✅  | ⚠️  | 
+| MaximumVisible  | ✅  | ✅  | ⏳  | 
+| Position  | ✅  | ✅  | ⏳  | 
+| SelectedIndicatorColor  | ✅  | ✅  | ⏳  | 
 
 ### ✅ Image
 
