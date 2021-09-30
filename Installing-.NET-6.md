@@ -1,6 +1,8 @@
 ## .NET 6 SDK
 
-> https://aka.ms/install/maui?preview.9
+```
+https://aka.ms/install/maui?preview.9
+```
 
 1. Uninstall any .NET 6 versions and workload previews using this script:  
    https://github.com/Redth/dotnet-maui-check/blob/main/Clean-Old-DotNet6-Previews.ps1  
