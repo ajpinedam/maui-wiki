@@ -9,7 +9,6 @@ General Info
 
 Quick Docs
 ========
-- [Getting Started](https://github.com/dotnet/maui/wiki/Getting-Started)
 - [Xamarin.Forms vs .NET MAUI](https://github.com/dotnet/maui/wiki/Xamarin.Forms-vs-.NET-MAUI)
 - [iOS Simulator Selection](https://github.com/dotnet/maui/wiki/CLI:-iOS-Simulator-Selection)
 - [Developing iOS Apps from Windows](https://github.com/dotnet/maui/wiki/Developing-iOS-Apps-from-Windows)
