@@ -12,6 +12,8 @@ In most cases, when you have Visual Studio installed with the .NET workloads che
 
 ## .NET MAUI Workload
 
+> You'll probably need to run these commands with elevated privileges.
+
 Install the .NET MAUI workload using the versions from a particular branch:  
 
 For example, the "preview.9" branch:
@@ -40,8 +42,6 @@ dotnet workload install maui `
    --skip-manifest-update `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```  
-
-> You'll probably need to run these commands with elevated privileges.
 
 If you are building maui yourself, then you probably want all the workloads:
 
