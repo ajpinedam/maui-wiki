@@ -4,9 +4,9 @@
    https://github.com/Redth/dotnet-maui-check/blob/main/Clean-Old-DotNet6-Previews.ps1  
    > This is just in case maui-check installed an conflicting version some time ago. You won't be able to uninstall version installed by VS, but this is fine to ignore. It is more to remove the versions before preview 7.
 1. Install .NET 6:  
-   - [Win (x64) 6.0.100-rc.2.21478.37](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21478.37/dotnet-sdk-6.0.100-rc.2.21478.37-win-x64.exe)   
-   - [macOS (x64) 6.0.100-rc.2.21478.37](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21478.37/dotnet-sdk-6.0.100-rc.2.21478.37-osx-x64.pkg)  
-   - [macOS (arm64) 6.0.100-rc.2.21478.37](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21478.37/dotnet-sdk-6.0.100-rc.2.21478.37-osx-arm64.pkg)
+   - [Win (x64) 6.0.100-rc.2.21505.1](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21505.1/dotnet-sdk-6.0.100-rc.2.21505.1-win-x64.exe)   
+   - [macOS (x64) 6.0.100-rc.2.21505.1](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21505.1/dotnet-sdk-6.0.100-rc.2.21505.1-osx-x64.pkg)  
+   - [macOS (arm64) 6.0.100-rc.2.21505.1](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rc.2.21505.1/dotnet-sdk-6.0.100-rc.2.21505.1-osx-arm64.pkg)
 
 ## .NET MAUI Workload
 
@@ -21,16 +21,21 @@ dotnet workload install maui `
    --skip-manifest-update `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```
+<!--
 ```
 dotnet workload install maui `
    --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```
+-->
 
 Or, the "main" branch:
 ```
-dotnet workload install maui `
+dotnet workload update `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
+   --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install maui `
+   --skip-manifest-update `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```  
 
@@ -39,8 +44,11 @@ dotnet workload install maui `
 If you are building maui yourself, then you probably want all the workloads:
 
 ```
-dotnet workload install android ios maccatalyst tvos macos maui wasm-tools `
+dotnet workload update `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
+   --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install android ios maccatalyst tvos macos maui wasm-tools `
+   --skip-manifest-update `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```
 
