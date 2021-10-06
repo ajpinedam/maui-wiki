@@ -16,14 +16,14 @@
 Install the .NET MAUI workload using the versions from a particular branch:  
 
 For example, the "preview.9" branch:
-```
+```pwsh
 dotnet workload install maui `
    --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```
 
 Or, the "main" branch:
-```
+```ps
 dotnet workload install maui `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
    --source https://aka.ms/dotnet6/nuget/index.json
@@ -33,7 +33,7 @@ dotnet workload install maui `
 
 If you are building maui yourself, then you probably want all the workloads:
 
-```
+```ps1
 dotnet workload install android ios maccatalyst tvos macos maui wasm-tools `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
    --source https://aka.ms/dotnet6/nuget/index.json
