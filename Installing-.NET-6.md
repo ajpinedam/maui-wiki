@@ -23,7 +23,7 @@ dotnet workload install maui `
 ```
 
 Or, the "main" branch:
-```ps
+```pwsh
 dotnet workload install maui `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
    --source https://aka.ms/dotnet6/nuget/index.json
@@ -33,7 +33,7 @@ dotnet workload install maui `
 
 If you are building maui yourself, then you probably want all the workloads:
 
-```ps1
+```pwsh
 dotnet workload install android ios maccatalyst tvos macos maui wasm-tools `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
    --source https://aka.ms/dotnet6/nuget/index.json
