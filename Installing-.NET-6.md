@@ -1,8 +1,5 @@
 ## .NET 6 SDK
 
-> https://aka.ms/install/maui?preview.9
-
-
 1. Uninstall any .NET 6 versions and workload previews using this script:  
    https://github.com/Redth/dotnet-maui-check/blob/main/Clean-Old-DotNet6-Previews.ps1  
    > This is just in case maui-check installed an conflicting version some time ago. You won't be able to uninstall version installed by VS, but this is fine to ignore. It is more to remove the versions before preview 7.
