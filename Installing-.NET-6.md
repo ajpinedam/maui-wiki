@@ -13,42 +13,24 @@
 
 ## .NET MAUI Workload
 
-Install the .NET Maui Workload using 2 commands:
+Install the .NET MAUI workload using the versions from a particular branch:  
 
-1. Set all the versions you need to the version you are looking for:  
-   For example, the "preview.9" branch:
-   ```
-   dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json --source https://aka.ms/dotnet6/nuget/index.json
-   ```
-   Or, the "main" branch:
-   ```
-   dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
-   ```  
-1. Install the maui workload using those exact versions
-   ```
-   dotnet workload install maui --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
-   ```
+For example, the "preview.9" branch:
+```
+dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json --source https://aka.ms/dotnet6/nuget/index.json
+```
+
+Or, the "main" branch:
+```
+dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
+```  
 
 > You'll probably need to run these commands with elevated privileges.
 
-Here is a quick copy-paste for installing maui "preview.9":
+If you are building maui yourself, then you probably want all the workloads:
 
 ```
-dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json --source https://aka.ms/dotnet6/nuget/index.json
-dotnet workload install maui --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
-```
-And for "main":
-
-```
-dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
-dotnet workload install maui --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
-```
-
-If you are building maui yourself, this might help too:
-
-```
-dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
-dotnet workload install android ios maccatalyst tvos macos maui wasm-tools --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install android ios maccatalyst tvos macos maui wasm-tools --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json
 ```
 
 ## Prerequisites
@@ -85,7 +67,7 @@ Until .NET 6 releases day, you will need a `nuget.config` file such as:
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <packageSources>
-    <add key="dotnet6" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json" />
+    <add key="dotnet6" value="https://aka.ms/dotnet6/nuget/index.json" />
   </packageSources>
 </configuration>
 ```
