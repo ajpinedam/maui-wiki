@@ -14,6 +14,14 @@ Install the .NET MAUI workload using the versions from a particular branch:
 
 For example, the "preview.9" branch:
 ```
+dotnet workload update `
+   --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json `
+   --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install maui `
+   --skip-manifest-update `
+   --source https://aka.ms/dotnet6/nuget/index.json
+```
+```
 dotnet workload install maui `
    --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json `
    --source https://aka.ms/dotnet6/nuget/index.json
