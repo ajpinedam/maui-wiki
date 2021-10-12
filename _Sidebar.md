@@ -17,6 +17,7 @@ Quick Docs
 
 Blog
 ========
+- [Announcing .NET MAUI Preview 9](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-9/)
 - [Update on .NET Multi-platform App UI (.NET MAUI)](https://aka.ms/maui-update) - Preview 8
 - [Announcing .NET MAUI Preview 7](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-7/)
 - [Announcing .NET MAUI Preview 6](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/)
