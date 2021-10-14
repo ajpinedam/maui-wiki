@@ -39,9 +39,6 @@ Or, the "main" branch:
 dotnet workload install maui `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
    --source https://aka.ms/dotnet6/nuget/index.json
-dotnet workload install maui `
-   --skip-manifest-update `
-   --source https://aka.ms/dotnet6/nuget/index.json
 ```  
 
 If you are building maui yourself, then you probably want all the workloads:
