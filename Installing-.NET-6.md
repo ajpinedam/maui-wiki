@@ -28,16 +28,22 @@ dotnet workload install maui `
 
 Or, the "preview.10" branch:
 ```
-dotnet workload install maui `
+dotnet workload update `
    --from-rollback-file https://aka.ms/dotnet/maui/preview.10.json `
+   --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install maui `
+   --skip-manifest-update `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```
 
 
 Or, the "main" branch:
 ```
-dotnet workload install maui `
+dotnet workload update `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
+   --source https://aka.ms/dotnet6/nuget/index.json
+dotnet workload install maui `
+   --skip-manifest-update `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```  
 
