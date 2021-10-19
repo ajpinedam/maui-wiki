@@ -14,6 +14,7 @@ Quick Docs
 - [Developing iOS Apps from Windows](https://github.com/dotnet/maui/wiki/Developing-iOS-Apps-from-Windows)
 - [Profiling .NET MAUI Apps](https://github.com/dotnet/maui/wiki/Profiling-.NET-MAUI-Apps)
 - [Migrating from Preview 7 to 8](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-7-to-8)
+- [Migrating from Preview 8 to 9](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-8-to-9)
 
 Blog
 ========
