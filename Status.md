@@ -181,8 +181,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IndicatorLayout  | ✅  | ✅  | ✅  | 
 | IndicatorSize  | ✅  | ✅  | ✅  | 
 | IndicatorShape  | ✅  | ✅  | ✅  | 
-| IndicatorTemplate  | ✅  | ✅  | ⚠️  | 
-| ItemsSource  | ✅  | ✅  | ⚠️  | 
+| IndicatorTemplate  | ✅  | ✅  | ✅  | 
+| ItemsSource  | ✅  | ✅  | ✅  | 
 | MaximumVisible  | ✅  | ✅  | ✅  | 
 | Position  | ✅  | ✅  | ✅  | 
 | SelectedIndicatorColor  | ✅  | ✅  | ✅  | 
