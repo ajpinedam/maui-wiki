@@ -173,7 +173,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CornerRadius  | ⏳  | ⏳  | ⏳  | 
 | HasShadow  | ⏳  | ⏳  | ⏳  | 
 
-### ⚠️ IndicatorView
+### ✅ IndicatorView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
