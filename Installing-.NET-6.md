@@ -26,7 +26,7 @@ dotnet workload install maui `
 
 Or, the "main" branch:
 ```
-dotnet workload update install maui `
+dotnet workload install maui `
    --from-rollback-file https://aka.ms/dotnet/maui/main.json `
    --source https://aka.ms/dotnet6/nuget/index.json
 ```  
