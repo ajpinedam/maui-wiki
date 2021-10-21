@@ -10,7 +10,10 @@ In most cases, when you have Visual Studio installed with the .NET workloads che
    - [macOS (x64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-osx-x64.pkg)  
    - [macOS (arm64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-osx-arm64.pkg)
 2. Add this to your NuGet.config:  
-   `<add key="darc-pub-dotnet-runtime-6f41165" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json" />`
+   ```xml
+    <add key="darc-pub-dotnet-runtime-6f41165" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json" />
+    <add key="dotnet6" value="https://aka.ms/dotnet6/nuget/index.json" />
+    ```
    > NOTE: this is going to contain the "stable" versions of the packages, so you will have to clear the NuGet cache when this feed changes and when .NET ships
 
 ## .NET MAUI Workload
