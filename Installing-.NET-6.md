@@ -9,7 +9,7 @@ In most cases, when you have Visual Studio installed with the .NET workloads che
    - [Win (x64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-win-x64.exe)   
    - [macOS (x64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-osx-x64.pkg)  
    - [macOS (arm64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-osx-arm64.pkg)
-2. Add this to your NuGet.config:  
+2. OPTIONAL: Add this to your NuGet.config:  
    ```xml
     <add key="darc-pub-dotnet-runtime-6f41165" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json" />
     <add key="dotnet6" value="https://aka.ms/dotnet6/nuget/index.json" />
