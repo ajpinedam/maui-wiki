@@ -14,7 +14,7 @@ In most cases, when you have Visual Studio installed with the .NET workloads che
     <add key="darc-pub-dotnet-runtime-6f41165" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json" />
     <add key="dotnet6" value="https://aka.ms/dotnet6/nuget/index.json" />
     ```
-   > NOTE: this is going to contain the "stable" versions of the packages, so you will have to clear the NuGet cache when this feed changes and when .NET ships
+   > NOTE: this is going to contain the "stable" versions of the packages, so you will have to clear the NuGet cache when this feed changes and when .NET ships. The various `darc-pub-dotnet-*` feeds are temporary and are generated on various builds. These feeds my disappear and be replaced with new ones as new builds come out. Make sure to verify that you are on the latest here and clear the nuget cache if it changes.
 
 ## .NET MAUI Workload
 
