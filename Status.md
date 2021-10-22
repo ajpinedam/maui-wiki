@@ -254,7 +254,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | MapClicked  | ⚠️  | ⚠️  | ⚠️  | 
 -->
 
-### ⚠️ Picker
+### ✅ Picker
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
