@@ -335,7 +335,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | StrokeMiterLimit  | ✅  | ✅  | ✅  | 
 | StrokeThickness  | ✅  | ✅  | ✅  | 
 
-### ⚠️ Slider
+### ✅ Slider
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -373,7 +373,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TopItems  | ⚠️  | ⚠️  | ⚠️  | 
 -->
 
-### ⚠️ Switch
+### ✅ Switch
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
