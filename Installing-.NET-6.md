@@ -42,6 +42,14 @@ dotnet workload install maui `
    --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-1ec2e17f/nuget/v3/index.json
 ```  
 
+For the latess release, there is preview.9:
+
+```
+dotnet workload install maui `
+   --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json `
+   --source https://api.nuget.org/v3/index.json
+```
+
 If you are building maui yourself, then you probably want all the workloads:
 
 ```
