@@ -80,29 +80,29 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CheckedChanged  | ✅  | ✅  | ✅  | 
 | IsChecked  | ✅  | ✅  | ✅  | 
 
-### ⚠️ CollectionView
+### ⏳ CollectionView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| ItemsSource | ⏳  | ⏳  | ⚠️  | 
-| ItemTemplate | ⏳  | ⏳  | ⚠️  | 
-| ItemsPanel | ⏳  | ⏳  | ⚠️  | 
-| ItemSizingStrategy | ⏳  | ⏳  | ⚠️  | 
-| SelectionMode | ⏳  | ⏳  | ⚠️  | 
-| SelectedItem | ⏳  | ⏳  | ⚠️  | 
-| SelectedItems | ⏳  | ⏳  | ⚠️  | 
-| SelectionChangedCommand | ⏳  | ⏳  | ⚠️  | 
-| SelectionChangedCommandParameter | ⏳  | ⏳  | ⚠️  | 
-| EmptyView | ⏳  | ⏳  | ⚠️  | 
-| Scrolled | ⏳  | ⏳  | ⚠️  | 
-| ScrollTo | ⏳  | ⏳  | ⚠️  | 
-| Header | ⏳  | ⏳  | ⚠️  | 
-| HeaderTemplate | ⏳  | ⏳  | ⚠️  | 
-| Footer | ⏳  | ⏳  | ⚠️  | 
-| FooterTemplate | ⏳  | ⏳  | ⚠️  | 
-| IsGrouped | ⏳  | ⏳  | ⚠️  | 
-| GroupHeaderTemplate | ⏳  | ⏳  | ⚠️  | 
-| GroupFooterTemplate | ⏳  | ⏳  | ⚠️  | 
+| ItemsSource | ⏳  | ✅  | ⏳  | 
+| ItemTemplate | ⏳  | ✅  | ⏳  | 
+| ItemsPanel | ⏳  | ✅  | ⏳  | 
+| ItemSizingStrategy | ✅  | ⏳  | ⏳  | 
+| SelectionMode | ⏳  | ✅  | ⏳  | 
+| SelectedItem | ⏳  | ✅  | ⏳  | 
+| SelectedItems | ⏳  | ✅  | ⏳  | 
+| SelectionChangedCommand | ⏳  | ✅  | ⏳  | 
+| SelectionChangedCommandParameter | ⏳  | ✅  | ⏳  | 
+| EmptyView | ⏳  | ✅  | ⏳  | 
+| Scrolled | ⏳  | ✅  | ⏳  | 
+| ScrollTo | ⏳  | ✅  | ⏳  | 
+| Header | ⏳  | ✅  | ⏳  | 
+| HeaderTemplate | ⏳  | ✅  | ⏳  | 
+| Footer | ⏳  | ✅  | ⏳  | 
+| FooterTemplate | ⏳  | ✅  | ⏳  | 
+| IsGrouped | ⏳  | ✅  | ⏳  | 
+| GroupHeaderTemplate | ⏳  | ✅  | ⏳  | 
+| GroupFooterTemplate | ⏳  | ✅  | ⏳  | 
 
 ### ✅ DatePicker
 
