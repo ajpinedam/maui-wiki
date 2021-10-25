@@ -11,7 +11,7 @@ In most cases, when you have Visual Studio installed with the .NET workloads che
    - [macOS (arm64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-osx-arm64.pkg)
 2. OPTIONAL: Add this to your NuGet.config:  
    ```xml
-    <add key="darc-pub-dotnet-runtime-6f41165" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json" />
+    <add key="darc-pub-dotnet-runtime" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json"  />
     <add key="dotnet6" value="https://aka.ms/dotnet6/nuget/index.json" />
     ```
    > NOTE: this is going to contain the "stable" versions of the packages, so you will have to clear the NuGet cache when this feed changes and when .NET ships. The various `darc-pub-dotnet-*` feeds are temporary and are generated on various builds. These feeds my disappear and be replaced with new ones as new builds come out. Make sure to verify that you are on the latest here and clear the nuget cache if it changes:  
@@ -27,7 +27,9 @@ For example, the "preview.10" branch:
 ```
 dotnet workload install maui `
    --from-rollback-file https://aka.ms/dotnet/maui/preview.10.json `
-   --source https://aka.ms/dotnet6/nuget/index.json
+   --source https://aka.ms/dotnet6/nuget/index.json `
+   --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json `
+   --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-1ec2e17f/nuget/v3/index.json
 ```
 
 
