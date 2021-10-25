@@ -87,7 +87,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ItemsSource | ⏳  | ✅  | ⏳  | 
 | ItemTemplate | ⏳  | ✅  | ⏳  | 
 | ItemsPanel | ⏳  | ✅  | ⏳  | 
-| ItemSizingStrategy | ✅  | ⏳  | ⏳  | 
+| ItemSizingStrategy | ⏳  | ✅  | ⏳  | 
 | SelectionMode | ⏳  | ✅  | ⏳  | 
 | SelectedItem | ⏳  | ✅  | ⏳  | 
 | SelectedItems | ⏳  | ✅  | ⏳  | 
