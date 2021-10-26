@@ -2,11 +2,11 @@
 
 In most cases, when you have Visual Studio installed with the .NET workloads checked, these steps are not required.
 
-1. OPTIONAL: Install .NET 6 (6.0.100-rtm.21521.3):  
+1. Install the latest .NET 6:  
    - [Win (x64)](https://aka.ms/dotnet/6.0.1xx/daily/dotnet-sdk-win-x64.exe)   
    - [macOS (x64)](https://aka.ms/dotnet/6.0.1xx/daily/dotnet-sdk-osx-x64.pkg)  
    - [macOS (arm64)](https://aka.ms/dotnet/6.0.1xx/daily/dotnet-sdk-osx-arm64.pkg)
-2. OPTIONAL: Add this to your NuGet.config:  
+2. Add this to your NuGet.config:  
    ```xml
     <add key="darc-pub-dotnet-runtime" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json"  />
     <add key="dotnet6" value="https://aka.ms/dotnet6/nuget/index.json" />
