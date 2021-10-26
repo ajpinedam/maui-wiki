@@ -2,13 +2,10 @@
 
 In most cases, when you have Visual Studio installed with the .NET workloads checked, these steps are not required.
 
-1. OPTIONAL: Uninstall any .NET 6 versions and workload previews using this script:  
-   https://github.com/Redth/dotnet-maui-check/blob/main/Clean-Old-DotNet6-Previews.ps1  
-   > This is just in case maui-check installed an conflicting version some time ago. You won't be able to uninstall version installed by VS, but this is fine to ignore. It is more to remove the versions before preview 7.
 1. OPTIONAL: Install .NET 6 (6.0.100-rtm.21521.3):  
-   - [Win (x64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-win-x64.exe)   
-   - [macOS (x64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-osx-x64.pkg)  
-   - [macOS (arm64)](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-rtm.21521.3/dotnet-sdk-6.0.100-rtm.21521.3-osx-arm64.pkg)
+   - [Win (x64)](https://aka.ms/dotnet/6.0.1xx/daily/dotnet-sdk-win-x64.exe)   
+   - [macOS (x64)](https://aka.ms/dotnet/6.0.1xx/daily/dotnet-sdk-osx-x64.pkg)  
+   - [macOS (arm64)](https://aka.ms/dotnet/6.0.1xx/daily/dotnet-sdk-osx-arm64.pkg)
 2. OPTIONAL: Add this to your NuGet.config:  
    ```xml
     <add key="darc-pub-dotnet-runtime" value="https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-6f411658/nuget/v3/index.json"  />
@@ -98,3 +95,10 @@ Until .NET 6 releases day, you will need a `nuget.config` file such as:
   </packageSources>
 </configuration>
 ```
+
+**Troubleshooting**
+
+Uninstall any .NET 6 versions and workload previews using this script:  
+
+   https://github.com/Redth/dotnet-maui-check/blob/main/Clean-Old-DotNet6-Previews.ps1  
+   > This is just in case maui-check installed an conflicting version some time ago. You won't be able to uninstall version installed by VS, but this is fine to ignore. It is more to remove the versions before preview 7.
