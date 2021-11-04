@@ -1,5 +1,3 @@
-## csproj
-
 ### Windows changes
 
 Windows is now supported by default. Update the Windows references:
