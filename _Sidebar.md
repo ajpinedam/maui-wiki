@@ -16,6 +16,7 @@ Quick Docs
 - [Migrating from Xamarin.Forms to .NET MAUI](https://github.com/dotnet/maui/wiki/Migrating-from-Xamarin.Forms-(Preview))
 - [Migrating from Preview 7 to 8](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-7-to-8)
 - [Migrating from Preview 8 to 9](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-8-to-9)
+- [Migrating from Preview 9 to 10](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-9-to-10)
 
 Blog
 ========
