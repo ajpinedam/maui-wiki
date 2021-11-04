@@ -45,3 +45,7 @@ For the app icon, update your `<MauiImage IsAppIcon="True">` to use the new type
 ```xml
 <MauiIcon Include="Resources\appicon.svg" ForegroundFile="Resources\appiconfg.svg" Color="#512BD4" />
 ```
+
+## Optional Updates
+
+Our new templates have now adopted .NET 6-isms such as [global using](https://github.com/dotnet/maui/blob/main/src/Templates/src/templates/maui-mobile/GlobalUsings.cs) and [document level namespaces](https://github.com/dotnet/maui/commit/e9eb388f61825d75b361b81bf2798b863503254e). 
