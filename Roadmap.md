@@ -7,10 +7,10 @@ For a current status on the progress of porting controls, features, and layouts 
 [Planned](https://github.com/dotnet/maui/projects/11#column-15430515):
 * Bug fixes
 * Handlers:
-** FlyoutPage (Android, WinUI)
-** TabbedPage (WinUI)
-** CarouselView
-** WebView
+  * FlyoutPage (Android, WinUI)
+  * TabbedPage (WinUI)
+  * CarouselView
+  * WebView
 * Image caching and various improvements
 * Native Embedding - misc improvements
 * Platform lifecycle events
