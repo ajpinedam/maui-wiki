@@ -295,12 +295,12 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Command  | ✅  | ✅  | ⚠️  | 
-| CommandParameter  | ✅  | ✅  | ⚠️  | 
-| IsRefreshing  | ✅  | ✅  | ⚠️  | 
-| RefreshColor  | ✅  | ✅  | ⚠️  | 
-| Refreshing  | ✅  | ✅  | ⚠️  | 
-| Content | ✅  | ✅  | ⚠️  | 
+| Command  | ✅  | ✅  | ⏳  | 
+| CommandParameter  | ✅  | ✅  | ⏳  | 
+| IsRefreshing  | ✅  | ✅  | ⏳  | 
+| RefreshColor  | ✅  | ✅  | ⏳  | 
+| Refreshing  | ✅  | ✅  | ⏳  | 
+| Content | ✅  | ✅  | ⏳  | 
 
 ### ⚠️ SearchBar
 
