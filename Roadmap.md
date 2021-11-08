@@ -2,37 +2,22 @@ For a current status on the progress of porting controls, features, and layouts 
 
 # Upcoming Milestones
 
-## **.NET MAUI Preview 9 (October 2021)**
-
-[Planned](https://github.com/dotnet/maui/projects/11#column-15416416):
-* Bug fixes
-* Borders, Corners, Shadows
-* Essentials/Forms API reconciliation
-* Font improvements
-* Image source - service for loading images, iOS caching, GIF fixes, handler refactoring
-* Layouts - `AndExpand` refactoring
-* Port remaining handlers ([Status](https://github.com/dotnet/maui/wiki/Status))
-
-## **.NET MAUI Preview 10 (November 2021)**
-
-[Planned](https://github.com/dotnet/maui/projects/11#column-15875849):
-* Bug fixes
-* Cross-platform lifecycle events
-* Native platform lifecycle events (cont.)
-* Microsoft.Maui.Graphics refactoring
-
 ## **.NET MAUI Preview 11 (December 2021)**
 
 [Planned](https://github.com/dotnet/maui/projects/11#column-15430515):
 * Bug fixes
-* Desktop menus
-* Native embedding improvements
-* Multi-window support
-* Picker improvements for macOS
-* Single project multi-targeting improvements
-* Single project permissions support
+* Handlers:
+** FlyoutPage (Android, WinUI)
+** TabbedPage (WinUI)
+** CarouselView
+** WebView
+* Image caching and various improvements
+* Native Embedding - misc improvements
+* Platform lifecycle events
+* SwipeView
 * Trimming
 * Windows unpackaged support
+* Multi-window for desktop
 
 ## **.NET MAUI Release Candidate (Q1 2022)**
 
