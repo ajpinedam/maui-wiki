@@ -404,9 +404,9 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Source  | ✅  | ✅  | ✅  | 
 | Eval  | ⚠️  | ⚠️  | ⚠️  | 
 | EvaluateJavaScriptAsync  | ⚠️  | ⚠️  | ⚠️  | 
-| GoBack  | ⚠️  | ⚠️  | ⚠️  | 
-| GoForward  | ⚠️  | ⚠️  | ⚠️  | 
-| Reload  | ⚠️  | ⚠️  | ⚠️  | 
+| GoBack  | ⏳  | ⏳  | ⏳  | 
+| GoForward  | ⏳  | ⏳  | ⏳  | 
+| Reload  | ⏳  | ⏳  | ⏳  | 
 
 ### Other Handlers
 
