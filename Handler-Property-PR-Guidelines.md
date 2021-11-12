@@ -17,6 +17,8 @@ At a minimum, device tests should verify that the cross-platform property value 
 
 In some cases, properties might be interrelated in a way that makes sense to implement both in a single PR; e.g., LineBreakMode and MaxLines, which affect each other on some platforms. In that case, multiple properties are fine; the goal is just to keep the PRs small and easy to review.
 
+For WinUI you'll need to manually include your tests by explicitly adding the file here https://github.com/dotnet/maui/blob/81d61075b01ef782eb9c49418c4766c444ef806c/src/Core/tests/DeviceTests/Core.DeviceTests.csproj#L64
+
 ## Supported OS versions
 When porting renderer code from Forms, keep in mind that the minimum native support levels are API 21 for Android and iOS 9. So any code that worries about API levels/versions below those can be removed.
 
