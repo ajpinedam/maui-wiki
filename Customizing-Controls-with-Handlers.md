@@ -10,12 +10,10 @@ This would call `RandomColor` when setting the `BackgroundColor` on any view.
 
 ```csharp
 #if ANDROID
-Handlers.ViewHandler
-    .ViewMapper[nameof(IView.BackgroundColor)] = (h, v) =>
+Microsoft.Maui.Handlers.ViewHandler.ViewMapper.AppendToMapping(nameof(IView.Background), (h, v) =>
     {
-	(h.NativeView as global::Android.Views.View).BackgroundColor 
-		= RandomColor();
-    };
+	(h.NativeView as global::Android.Views.View).SetBackgroundColor(RandomColor());
+    });
 #endif
 ```
 
@@ -23,11 +21,10 @@ Handlers.ViewHandler
 
 ```csharp
 #if ANDROID
-Handlers.EntryHandler
-    .EntryMapper[nameof(IEntry.BackgroundColor)] = (h, v) =>
+Microsoft.Maui.Handlers.EntryHandler.EntryMapper.AppendToMapping("NoUnderline", (h, v) =>
     {
-        (h.NativeView as global::Android.Views.Entry).UnderlineVisible = false;
-    };
+        h.NativeView.BackgroundTintList = ColorStateList.ValueOf(Colors.Transparent.ToAndroid());
+    });
 #endif
 ```
 
@@ -35,12 +32,10 @@ Handlers.EntryHandler
 
 ```csharp
 #if ENABLE_TEST_CLOUD
-Handlers.ViewHandler
-    .ViewMapper[nameof(IView.AutomationId)] = (h, v) =>
+Microsoft.Maui.Handlers.Handlers.ViewHandler.ViewMapper(nameof(IView.AutomationId), (h, v) =>
     {
-        (h.NativeView as global::Android.Views.View).ContentDescription 
-            = v.AutomationId;
-    };
+        (h.NativeView as global::Android.Views.View).ContentDescription = v.AutomationId;
+    });
 #endif
 ```
 <!--
