@@ -313,7 +313,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FontSize  | ✅  | ✅  | ✅ | 
 | HorizontalTextAlignment  | ✅  | ✅  |  ⚠️  |
 | IsTextPredictionEnabled | ⚠️  | ⚠️  |⏳| 
-| IsReadOnly| ⚠️  | ⚠️  | ⚠️  | 
+| IsReadOnly| ⏳  | ⏳  | ⏳  | 
 | MaxLength  | ✅  | ✅  | ✅ | 
 | SearchCommand  | ✅ | ✅  | ✅  | 
 | SearchCommandParameter  | ✅  | ✅  | ✅  |
