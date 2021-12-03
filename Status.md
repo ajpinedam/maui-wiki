@@ -34,14 +34,14 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | BackgroundColor  | ✅  | ✅  | ✅  | 
-| BorderColor  | ⚠️  | ⏳  | ⏳  | 
-| BorderWidth  | ⚠️  | ⏳  | ⏳  | 
+| BorderColor  | ✅  | ✅  | ✅  | 
+| BorderWidth  | ✅  | ✅  | ✅  | 
 | CharacterSpacing  | ✅  | ✅  | ✅  | 
 | Clicked  | ✅  | ✅  | ✅  | 
 | Command  | ✅  | ✅  | ✅  | 
 | CommandParameter  | ✅  | ✅  | ✅  | 
 | ContentLayout  | ⚠️  | ⚠️  | ⚠️  | 
-| CornerRadius  | ⚠️  | ⏳  | ⏳  | 
+| CornerRadius  | ✅  | ✅  | ✅  | 
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontFamily  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅  | 
