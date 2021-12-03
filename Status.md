@@ -199,11 +199,11 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BorderColor  | ⚠️  | ⚠️  | ⚠️  | 
-| BorderWidth  | ⚠️  | ⚠️  | ⚠️  | 
+| BorderColor  | ⚠️  | ⏳  | ⏳  | 
+| BorderWidth  | ⚠️  | ⏳  | ⏳  | 
 | Command  | ✅  | ✅  | ✅  | 
 | CommandParameter   | ✅  | ✅  | ✅  | 
-| CornerRadius  | ⚠️  | ⚠️  | ⚠️  | 
+| CornerRadius  | ⚠️  | ⏳  | ⏳  | 
 | IsLoading   | ✅  | ✅  | ✅  | 
 | IsOpaque   | ✅  | ✅  | ✅  | 
 | IsPressed   | ✅  | ✅  | ✅  | 
