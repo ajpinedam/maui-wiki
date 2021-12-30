@@ -2,16 +2,18 @@ General Info
 ========
 - [How to Contribute](https://github.com/dotnet/maui/blob/main/.github/CONTRIBUTING.md)
 - [Handler Property PR Guidelines](https://github.com/dotnet/maui/wiki/Handler-Property-PR-Guidelines)
-- [.NET MAUI FAQs](https://github.com/dotnet/maui/wiki/faqs)
-- [.NET MAUI Status](https://github.com/dotnet/maui/wiki/Status)
-- [.NET MAUI Roadmap](https://github.com/dotnet/maui/wiki/Roadmap)
 - [Official Documentation](https://docs.microsoft.com/dotnet/maui/)
+- [Status](https://github.com/dotnet/maui/wiki/Status)
+- [Roadmap](https://github.com/dotnet/maui/wiki/Roadmap)
+- [FAQs](https://github.com/dotnet/maui/wiki/faqs)
+
+Getting Started
+========
+- [Windows Install](https://docs.microsoft.com/en-us/dotnet/maui/get-started/installation)
+- [macOS Install](https://github.com/dotnet/maui/wiki/macOS-Install)
 
 Quick Docs
 ========
-- [Xamarin.Forms vs .NET MAUI](https://github.com/dotnet/maui/wiki/Xamarin.Forms-vs-.NET-MAUI)
-- [iOS Simulator Selection](https://github.com/dotnet/maui/wiki/CLI:-iOS-Simulator-Selection)
-- [Developing iOS Apps from Windows](https://github.com/dotnet/maui/wiki/Developing-iOS-Apps-from-Windows)
 - [Profiling .NET MAUI Apps](https://github.com/dotnet/maui/wiki/Profiling-.NET-MAUI-Apps)
 - [Migrating from Xamarin.Forms to .NET MAUI](https://github.com/dotnet/maui/wiki/Migrating-from-Xamarin.Forms-(Preview))
 - [Migrating from Preview 7 to 8](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-7-to-8)
