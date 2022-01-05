@@ -1,3 +1,7 @@
+December 14, 2021 - [Announcing .NET MAUI Preview 11](https://devblogs.microsoft.com/dotnet/announcing-dotnet-maui-preview-11/)
+
+November 9, 2021 - [Announcing .NET MAUI Preview 10](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-10/)
+
 October 12, 2021 - [Announcing .NET MAUI Preview 9](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-9/)
 
 September 14, 2021 - [Update on .NET Multi-platform App UI (.NET MAUI)](https://aka.ms/maui-update/)
