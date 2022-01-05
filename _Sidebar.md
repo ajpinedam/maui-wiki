@@ -19,6 +19,7 @@ Quick Docs
 - [Migrating from Preview 7 to 8](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-7-to-8)
 - [Migrating from Preview 8 to 9](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-8-to-9)
 - [Migrating from Preview 9 to 10](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-9-to-10)
+- [Migrating from Preview 10 to 11](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-10-to-11)
 
 Blog
 ========
