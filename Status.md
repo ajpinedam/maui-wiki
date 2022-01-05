@@ -282,16 +282,16 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ProgressColor  | ✅  | ✅  | ✅  | 
 | ProgressTo  | ✅  | ✅  | ✅  | 
 
-### ⚠️ RadioButton
+### ⏳ RadioButton
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CheckedChanged  | ⚠️  | ⚠️  | ⚠️  | 
-| GroupName  | ⚠️  | ⚠️  | ⚠️  | 
-| IsChecked  | ⏳  | ⏳  | ⚠️  | 
-| BorderColor  | ✅  | ✅  | ⏳  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| CornerRadius  | ✅  | ✅  | ⏳  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
-| BorderWidth  | ✅  | ✅  | ⏳  | ✅  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  | ⚠️  |
+| CheckedChanged  | ⏳  | ⏳  | ⏳  | 
+| GroupName  | ⏳  | ⏳  | ⏳  | 
+| IsChecked  | ⏳  | ⏳  | ⏳  | 
+| BorderColor  | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
+| CornerRadius  | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
+| BorderWidth  | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
 
 ### ⚠️ RefreshView
 
