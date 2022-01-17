@@ -365,14 +365,14 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ValueChanged  | ✅  | ✅  | ✅  | 
 
 <!--
-### ⚠️ SwipeView
+### ✅ SwipeView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BottomItems  | ⚠️  | ⚠️  | ⚠️  | 
-| LeftItems  | ⚠️  | ⚠️  | ⚠️  | 
-| RightItems  | ⚠️  | ⚠️  | ⚠️  | 
-| TopItems  | ⚠️  | ⚠️  | ⚠️  | 
+| BottomItems  | ✅  | ✅  | ✅  | 
+| LeftItems  | ✅  | ✅  | ✅  |
+| RightItems  | ✅  | ✅  | ✅  |
+| TopItems  | ✅  | ✅  | ✅  |
 -->
 
 ### ✅ Switch
@@ -415,7 +415,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | View | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
 | Map | ⚠️  | ⚠️  | ⚠️  |
-| SwipeView| ⚠️  | ⚠️  | ⚠️  |
+| SwipeView| ✅  | ✅  | ✅  |
 
 ### Layouts
 
