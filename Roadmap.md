@@ -2,35 +2,14 @@ For a current status on the progress of porting controls, features, and layouts 
 
 # Upcoming Milestones
 
-## **.NET MAUI Preview 11 (December 2021)**
-
-[Planned](https://github.com/dotnet/maui/projects/11#column-15430515):
-* Bug fixes
-* Handlers:
-  * FlyoutPage (Android, WinUI)
-  * TabbedPage (WinUI)
-  * CarouselView
-  * WebView
-* Image caching and various improvements
-* Native Embedding - misc improvements
-* Platform lifecycle events
-* SwipeView
-* Trimming
-* Windows unpackaged support
-* Multi-window for desktop
-
 ## **.NET MAUI Release Candidate (Q1 2022)**
 
-[Planned](https://github.com/dotnet/maui/projects/11#column-15875964):
-* Bug fixes
-* Default visual style for consistency across platforms
-* Dual screen controls
-* Fluent look for Windows controls
-* Maps
-* Visual Studio - implement improvements in support of Hot Reload, Live Visual tree, etc.
- 
+During the first quarter of the year we will continue shipping previews until we reach the quality and completeness for a Release Candidate. For more details about what work is currently underway in this period, visit the [project boards](https://github.com/dotnet/maui/projects). 
 
 ## **.NET MAUI GA (Q2 2022)**
 
-Planned:
-* Bug fixes
+During this second quarter of the year we will continue shipping release candidates until we reach the quality to ship a GA (general availability) release. The focus of these sprints will be on the quality of the features readying for GA.
+
+## **.NET 7 (Q2 - Q4 2022)**
+
+Once .NET MAUI GA ships with .NET 6 and Visual Studio 2022, the focus will shift to .NET 7 tasks as summarized on [themesof.net](https://themesof.net/). We will rejoin the in-progress previews releases of .NET 7 and sync up our GA schedule with the .NET 7 GA release later in the year.
