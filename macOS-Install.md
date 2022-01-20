@@ -10,7 +10,7 @@
 
 ## Install .NET 6 with .NET MAUI
 
-1. Download and run the .NET 6 installer from [dot.net](https://dot.net). 
+1. Download and run the latest .NET 6 installer from [dotnet/installer](https://github.com/dotnet/installer/blob/main/README.md#installers-and-binaries). 
 2. Open Terminal and check that you're ready to install .NET MAUI.
 
 ```
@@ -28,14 +28,10 @@ This command will get you the latest released version of .NET MAUI plus the plat
 **Option B)** Pass in additional parameters to the same command in order to get a specific branch build. 
 
 ```
-> sudo dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/preview.11.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
+> sudo dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/preview.12.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
 ```
 
-Your app will use the newest version available on your system. If you wish to pin your project to a specific version of .NET MAUI such as preview 11, add this "experimental" tag to your ".csproj":
-
-```
-<MauiVersion>6.0.101-preview.11.2349</MauiVersion>
-```
+Your app will use the newest version available on your system. 
 
 > These commands can be found in the contributor's [development guide on dotnet/maui](https://github.com/dotnet/maui/blob/main/.github/DEVELOPMENT.md)
 
