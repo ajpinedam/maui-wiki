@@ -313,8 +313,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CancelButtonColor  | ✅  | ✅  | ✅  | 
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontSize  | ✅  | ✅  | ✅ | 
-| HorizontalTextAlignment  | ✅  | ✅  |  ⚠️  |
-| IsTextPredictionEnabled | ⚠️  | ⚠️  |⏳| 
+| HorizontalTextAlignment  | ✅  | ✅  |  ✅  |
+| IsTextPredictionEnabled | ⚠️  | ⚠️  |✅| 
 | IsReadOnly| ⏳  | ⏳  | ⏳  | 
 | MaxLength  | ✅  | ✅  | ✅ | 
 | SearchCommand  | ✅ | ✅  | ✅  | 
