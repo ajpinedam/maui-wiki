@@ -140,7 +140,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | HorizontalTextAlignment  | ✅  | ✅  | ✅ | 
 | VerticalTextAlignment  | ✅  | ⚠️  | ✅ | 
 
-### ⚠️ Entry
+### ✅ Entry
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -161,7 +161,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ReturnCommand  | ✅  | ✅  | ✅  | 
 | ReturnCommandParameter  | ✅  | ✅  | ✅  | 
 | ReturnType  | ✅  | ✅  | ✅  | 
-| SelectionLength  | ✅  | ✅  | ⏳  | 
+| SelectionLength  | ✅  | ✅  | ✅  | 
 | Text  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 
