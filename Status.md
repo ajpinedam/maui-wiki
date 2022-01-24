@@ -400,15 +400,15 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CanGoBack  | ⚠️  | ⚠️  | ⚠️  | 
-| CanGoForward  | ⚠️  | ⚠️  | ⚠️  | 
+| CanGoBack  | ⏳  | ⏳  | ⏳  | 
+| CanGoForward  | ⏳  | ⏳  | ⏳  | 
 | Cookies  | ⚠️  | ⚠️  | ⚠️  | 
 | Source  | ✅  | ✅  | ✅  | 
 | Eval  | ⏳  | ⏳  | ⏳  | 
 | EvaluateJavaScriptAsync  | ⚠️  | ⚠️  | ⚠️  | 
-| GoBack  | ⏳  | ⏳  | ⏳  | 
-| GoForward  | ⏳  | ⏳  | ⏳  | 
-| Reload  | ⏳  | ⏳  | ⏳  | 
+| GoBack  | ✅  | ✅  | ✅  | 
+| GoForward  | ✅  | ✅  | ✅  | 
+| Reload  | ✅  | ✅  | ✅  | 
 
 ### Other Handlers
 
