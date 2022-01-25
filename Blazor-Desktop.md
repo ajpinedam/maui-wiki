@@ -16,5 +16,5 @@ The Blazor-related projects in the repo are mostly located in the [src/BlazorWeb
 |  WinForms | WPF  | .NET MAUI  |
 |---|---|---|
 | [source](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/src/WindowsForms) | [source](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/src/Wpf) | [source](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/src/Maui) |
-| [sample](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/samples/BlazorWinFormsApp) | [sample](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/samples/BlazorWpfApp) | [sample code](https://github.com/dotnet/maui/tree/main/src/Controls/samples/Controls.Sample), and [sample app](https://github.com/dotnet/maui/tree/main/src/Controls/samples/Controls.Sample.SingleProject), and [tests](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/tests/MauiDeviceTests) |
-
+| [sample](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/samples/BlazorWinFormsApp) | [sample](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/samples/BlazorWpfApp) | [sample code](https://github.com/dotnet/maui/tree/main/src/Controls/samples/Controls.Sample), and [sample app](https://github.com/dotnet/maui/tree/main/src/Controls/samples/Controls.Sample.SingleProject) |
+| - | - | [tests](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/tests/MauiDeviceTests) |
