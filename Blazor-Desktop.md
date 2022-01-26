@@ -9,7 +9,7 @@ The `area/blazor 🕸️` label is used to track Blazor items: https://github.co
 
 This private project is used for triaging/prioritization: https://github.com/orgs/dotnet/projects/81/views/1
 
-# Sources and samples
+# Sources, samples, and tests
 
 The Blazor-related projects in the repo are mostly located in the [src/BlazorWebView](https://github.com/dotnet/maui/tree/main/src/BlazorWebView) folder, aside from the MAUI sample app:
 
