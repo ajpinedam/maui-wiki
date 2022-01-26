@@ -2,6 +2,7 @@
 
 1. Install required .NET MAUI dependencies described in the [.NET MAUI Development Guide](https://github.com/dotnet/maui/blob/main/.github/DEVELOPMENT.md).
 1. Follow the other instructions on that guide for how to build, open the solution, etc.
+1. On VS Windows use the `Microsoft.Maui-net6.sln` solution, and on VS Mac use the `Microsoft.Maui-mac.slnf` solution filter
 
 # Issue tracking
 
