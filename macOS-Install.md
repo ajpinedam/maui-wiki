@@ -20,12 +20,14 @@
 **Option A)** Install .NET MAUI using workload install command:
 
 ```
-> sudo dotnet workload install maui
+> sudo dotnet workload install maui --source https://api.nuget.org/v3/index.json
 ```
+
+> Why use `--source`? The CLI will use any "nuget.config" found up your directory structure. By explicitly providing the public source, you ensure the latest public builds will be found.
 
 This command will get you the latest released version of .NET MAUI plus the platform SDKs for Android, iOS, macOS, and Windows. 
 
-**Option B)** Pass in additional parameters to the same command in order to get a specific branch build. 
+**Option B)** Pass in additional parameters to the same command in order to get a **specific branch build**. 
 
 ```
 > sudo dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/preview.12.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
