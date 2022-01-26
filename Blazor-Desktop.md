@@ -19,3 +19,11 @@ The Blazor-related projects in the repo are mostly located in the [src/BlazorWeb
 | [source](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/src/WindowsForms) | [source](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/src/Wpf) | [source](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/src/Maui) |
 | [sample](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/samples/BlazorWinFormsApp) | [sample](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/samples/BlazorWpfApp) | [sample code](https://github.com/dotnet/maui/tree/main/src/Controls/samples/Controls.Sample), and [sample app](https://github.com/dotnet/maui/tree/main/src/Controls/samples/Controls.Sample.SingleProject) |
 | - | - | [tests](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/tests/MauiDeviceTests) |
+
+## BlazorWebView
+
+The main component on each platform is the `BlazorWebView` control. They each have a unique implementation in the source locations above, though they do use some [shared source](https://github.com/dotnet/maui/tree/main/src/BlazorWebView/src/SharedSource) for Windows/WebView2 related code.
+
+# Teams Channel (Microsoft internal)
+
+Go to [this channel](https://teams.microsoft.com/l/channel/19%3a989ffa44998147aca4ceaf7482967668%40thread.skype/MAUI%2520%25F0%259F%258C%25BA?groupId=0056f60b-301f-43ac-bbcf-f356d3c42c92&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) (and request to join if you don't have access).
