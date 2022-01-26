@@ -38,9 +38,9 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | BorderWidth  | ✅  | ✅  | ✅  | 
 | CharacterSpacing  | ✅  | ✅  | ✅  | 
 | Clicked  | ✅  | ✅  | ✅  | 
-| Command  | ⚠️  | ⚠️  | ⚠️  | 
-| CommandParameter  | ⚠️  | ⚠️  | ⚠️  | 
-| ContentLayout  | ⚠️  | ⚠️  | ⚠️  | 
+| Command  | ✅  | ✅  | ✅  | 
+| CommandParameter  | ✅  | ✅  | ✅  | 
+| ContentLayout  | ✅  | ⚠️  | ⚠️  | 
 | CornerRadius  | ✅  | ✅  | ✅  | 
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontFamily  | ✅  | ✅  | ✅  | 
