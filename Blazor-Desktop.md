@@ -27,3 +27,7 @@ The main component on each platform is the `BlazorWebView` control. They each ha
 # Teams Channel (Microsoft internal)
 
 Go to [this channel](https://teams.microsoft.com/l/channel/19%3a989ffa44998147aca4ceaf7482967668%40thread.skype/MAUI%2520%25F0%259F%258C%25BA?groupId=0056f60b-301f-43ac-bbcf-f356d3c42c92&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) (and request to join if you don't have access).
+
+# Getting Started working on Blazor Hybrid brownbag (Microsoft internal)
+
+Watch the [recording of a brownbag session](https://microsoft-my.sharepoint.com/:v:/r/personal/jacalvar_microsoft_com/Documents/Recordings/Brownbag_%20Getting%20started%20with%20Blazor%20Hybrid-20220125_103336-Meeting%20Recording.mp4?csf=1&web=1&e=Z4j796) on working on Blazor Hybrid (Microsoft internal)
