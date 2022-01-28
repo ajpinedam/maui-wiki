@@ -195,15 +195,15 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsLoading  | ✅  | ✅  | ✅  | 
 | Source  | ✅  | ✅  | ✅  | 
 
-### ⚠️ ImageButton
+### ✅ ImageButton
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| BorderColor  | ⚠️  | ⏳  | ⏳  | 
-| BorderWidth  | ⚠️  | ⏳  | ⏳  | 
+| BorderColor  | ✅  | ✅  | ✅  | 
+| BorderWidth  | ✅  | ✅  | ✅  | 
 | Command  | ✅  | ✅  | ✅  | 
 | CommandParameter   | ✅  | ✅  | ✅  | 
-| CornerRadius  | ⚠️  | ⏳  | ⏳  | 
+| CornerRadius  | ✅  | ✅  | ✅  | 
 | IsLoading   | ✅  | ✅  | ✅  | 
 | IsOpaque   | ✅  | ✅  | ✅  | 
 | IsPressed   | ✅  | ✅  | ✅  | 
