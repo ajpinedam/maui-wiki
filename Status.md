@@ -57,21 +57,21 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CurrentItem  | ⏳  | ⏳  | ⚠️  | 
-| CurrentItemChangedCommand  | ⏳  | ⏳  | ⚠️  | 
-| CurrentItemChangedCommandParameter  | ⏳  | ⏳  | ⚠️  | 
+| CurrentItem  | ⏳  | ✅  | ⚠️  | 
+| CurrentItemChangedCommand  | ⏳  | ✅  | ⚠️  | 
+| CurrentItemChangedCommandParameter  | ⏳  | ✅  | ⚠️  | 
 | IndicatorView  | ✅  | ✅  | ✅  | 
-| IsBounceEnabled  | ⏳  | ⏳  | ⚠️  | 
-| IsDragging  | ⏳  | ⏳  | ⚠️  | 
-| IsScrollAnimated  | ⏳  | ⏳  | ⚠️  | 
-| IsSwipeEnabled  | ⏳  | ⏳ | ⚠️  | 
-| ItemsLayout  | ⏳  | ⏳  | ⚠️  | 
-| Loop  | ⏳  | ⏳ | ⚠️  | 
-| PeekAreaInsets  | ⏳  | ⏳  | ⚠️  | 
-| Position  | ⏳  | ⏳  | ⚠️  | 
-| PositionChangedCommand  | ⏳  | ⏳  | ⚠️  | 
-| PositionChangedCommandParameter  | ⏳  | ⏳  | ⚠️  | 
-| VisibleViews  | ⏳  | ⏳  | ⚠️  | 
+| IsBounceEnabled  | ⏳  | ✅  | ⚠️  | 
+| IsDragging  | ⏳  | ✅  | ⚠️  | 
+| IsScrollAnimated  | ⏳  | ✅  | ⚠️  | 
+| IsSwipeEnabled  | ⏳  | ✅ | ⚠️  | 
+| ItemsLayout  | ⏳  | ✅  | ⚠️  | 
+| Loop  | ⏳  | ✅ | ⚠️  | 
+| PeekAreaInsets  | ⏳  | ✅  | ⚠️  | 
+| Position  | ⏳  | ✅  | ⚠️  | 
+| PositionChangedCommand  | ⏳  | ✅  | ⚠️  | 
+| PositionChangedCommandParameter  | ⏳  | ✅  | ⚠️  | 
+| VisibleViews  | ⏳  | ✅  | ⚠️  | 
 
 ### ✅ CheckBox
 
