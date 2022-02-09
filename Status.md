@@ -424,6 +424,8 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
+| AnchorX  | ✅  | ✅  | ✅  | 
+| AnchorY  | ✅  | ✅  | ✅  | 
 | Background  | ✅  | ✅  | ✅  | 
 | BackgroundColor  | ✅  | ✅  | ✅  |
 | Clip  | ✅  | ✅  | ✅  | 
@@ -436,8 +438,18 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsTabStop  | ⚠️  | ⚠️  | ⚠️  | 
 | IsVisible  | ✅  | ✅  | ✅  | 
 | Opacity  | ✅  | ✅  | ✅  | 
+| Rotation  | ✅  | ✅  | ✅  | 
+| RotationX  | ✅  | ✅  | ✅  | 
+| RotationY  | ✅  | ✅  | ✅  | 
+| Scale  | ✅  | ✅  | ✅  | 
+| ScaleX  | ✅  | ✅  | ✅  | 
+| ScaleY  | ✅  | ✅  | ✅  | 
 | TabIndex  | ⚠️  | ⚠️  | ⚠️  | 
+| TranslationX  | ✅  | ✅  | ✅  | 
+| TranslationY  | ✅  | ✅  | ✅  | 
 | Width  | ✅  | ✅  | ✅  | 
+| X  | ✅  | ✅  | ✅  | 
+| Y  | ✅  | ✅  | ✅  | 
 
 ### Layouts
 
