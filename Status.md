@@ -425,7 +425,11 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
 | Background  | ✅  | ✅  | ✅  | 
-| BackgroundColor  | ✅  | ✅  | ✅  | 
+| BackgroundColor  | ✅  | ✅  | ✅  |
+| Clip  | ✅  | ✅  | ✅  | 
+| FlowDirection  | ✅  | ✅  | ✅  |
+| Frame  | ✅  | ✅  | ✅  |  
+| Height  | ✅  | ✅  | ✅  |  
 | InputTransparent  | ⏳  | ⏳  | ⏳  | 
 | IsEnabled  | ✅  | ✅  | ✅  | 
 | IsFocused  | ⏳  | ⏳  | ⏳  | 
@@ -433,6 +437,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | IsVisible  | ✅  | ✅  | ✅  | 
 | Opacity  | ✅  | ✅  | ✅  | 
 | TabIndex  | ⚠️  | ⚠️  | ⚠️  | 
+| Width  | ✅  | ✅  | ✅  | 
 
 ### Layouts
 
