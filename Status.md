@@ -436,7 +436,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | InputTransparent  | ⏳  | ⏳  | ⏳  | 
 | IsEnabled  | ✅  | ✅  | ✅  | 
 | IsFocused  | ⏳  | ⏳  | ⏳  | 
-| IsTabStop  | ❌ | ❌ | ❌ | 
+| [IsTabStop](https://github.com/dotnet/maui/pull/1777)  | ❌ | ❌ | ❌ | 
 | IsVisible  | ✅  | ✅  | ✅  | 
 | Opacity  | ✅  | ✅  | ✅  | 
 | Rotation  | ✅  | ✅  | ✅  | 
