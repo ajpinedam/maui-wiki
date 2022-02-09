@@ -420,6 +420,20 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Map | ⚠️  | ⚠️  | ⚠️  |
 | SwipeView| ✅  | ✅  | ✅  |
 
+### ⚠️ View
+
+| API | Android | iOS / Mac Catalyst | Windows |
+| ----|:-------:|:------------------:|:-------:|
+| Background  | ✅  | ✅  | ✅  | 
+| BackgroundColor  | ✅  | ✅  | ✅  | 
+| InputTransparent  | ⏳  | ⏳  | ⏳  | 
+| IsEnabled  | ✅  | ✅  | ✅  | 
+| IsFocused  | ⏳  | ⏳  | ⏳  | 
+| IsTabStop  | ⚠️  | ⚠️  | ⚠️  | 
+| IsVisible  | ✅  | ✅  | ✅  | 
+| Opacity  | ✅  | ✅  | ✅  | 
+| TabIndex  | ⚠️  | ⚠️  | ⚠️  | 
+
 ### Layouts
 
 | Layout | Android | iOS / Mac Catalyst | Windows |
