@@ -400,16 +400,16 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Time  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 
-### ⚠️ WebView
+### ⏳ WebView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CanGoBack  | ⏳  | ⏳  | ⏳  | 
-| CanGoForward  | ⏳  | ⏳  | ⏳  | 
-| Cookies  | ⚠️  | ⚠️  | ⚠️  | 
+| CanGoBack  | ✅  | ✅  | ✅  | 
+| CanGoForward  | ✅  | ✅  | ✅  | 
+| Cookies  | ⏳  | ⏳  | ⏳  | 
 | Source  | ✅  | ✅  | ✅  | 
-| Eval  | ⏳  | ⏳  | ⏳  | 
-| EvaluateJavaScriptAsync  | ⚠️  | ⚠️  | ⚠️  | 
+| Eval  | ✅  | ✅  | ✅  | 
+| EvaluateJavaScriptAsync  | ✅  | ✅  | ✅  | 
 | GoBack  | ✅  | ✅  | ✅  | 
 | GoForward  | ✅  | ✅  | ✅  | 
 | Reload  | ✅  | ✅  | ✅  | 
@@ -474,7 +474,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Animation | ✅  | ✅  | ✅  |
 | New Border Control | ✅  | ✅  | ✅  |
 | Brushes Everywhere | ✅  | ✅  | ✅  |
-| Device | ⚠️  | ⚠️  | ⚠️  |
+| Device | ⏳  | ⏳  | ⏳  |
 | Gestures | ✅  | ✅  | ✅  |
 | ImageHandlers | ✅  | ✅  | ✅  |
 | Interactivity (Behaviors, Triggers, Visual State Manager) | ✅  | ✅  | ✅  |
