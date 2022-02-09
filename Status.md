@@ -6,6 +6,7 @@ Icon | Description
 ⏳ | Underway
 ✅ | Done
 💔 | Never implemented in Xamarin.Forms for this platform
+❌ | Removed
 
 ## Overview
 
@@ -435,7 +436,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | InputTransparent  | ⏳  | ⏳  | ⏳  | 
 | IsEnabled  | ✅  | ✅  | ✅  | 
 | IsFocused  | ⏳  | ⏳  | ⏳  | 
-| IsTabStop  | ⚠️  | ⚠️  | ⚠️  | 
+| IsTabStop  | ❌ | ❌ | ❌ | 
 | IsVisible  | ✅  | ✅  | ✅  | 
 | Opacity  | ✅  | ✅  | ✅  | 
 | Rotation  | ✅  | ✅  | ✅  | 
@@ -444,7 +445,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Scale  | ✅  | ✅  | ✅  | 
 | ScaleX  | ✅  | ✅  | ✅  | 
 | ScaleY  | ✅  | ✅  | ✅  | 
-| TabIndex  | ⚠️  | ⚠️  | ⚠️  | 
+| [TabIndex](https://github.com/xamarin/XamarinCommunityToolkit/issues/1087)  | ❌ | ❌ | ❌ |  
 | TranslationX  | ✅  | ✅  | ✅  | 
 | TranslationY  | ✅  | ✅  | ✅  | 
 | Width  | ✅  | ✅  | ✅  | 
