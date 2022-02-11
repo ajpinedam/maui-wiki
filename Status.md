@@ -293,9 +293,9 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TextColor | ✅ | ⚠️ | ✅ | 
 | CharacterSpacing | ✅ | ⚠️ | ✅ | 
 | Font | ✅ | ⚠️ | ✅ | 
-| BorderColor | ⏳ | ⚠️ | ⏳ | 
-| BorderWidth | ⏳ | ⚠️ | ⏳ | 
-| CornerRadius | ⏳ | ⚠️ | ⏳ | 
+| BorderColor | ⏳ | ✅ | ⏳ | 
+| BorderWidth | ⏳ | ✅ | ⏳ | 
+| CornerRadius | ⏳ | ✅ | ⏳ | 
 
 ### ⚠️ RefreshView
 
