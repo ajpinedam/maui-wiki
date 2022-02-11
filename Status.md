@@ -41,7 +41,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Clicked  | ✅  | ✅  | ✅  | 
 | Command  | ✅  | ✅  | ✅  | 
 | CommandParameter  | ✅  | ✅  | ✅  | 
-| ContentLayout  | ✅  | ⚠️  | ⚠️  | 
+| ContentLayout  | ✅  | ⚠️  | ✅  | 
 | CornerRadius  | ✅  | ✅  | ✅  | 
 | FontAttributes  | ✅  | ✅  | ✅  | 
 | FontFamily  | ✅  | ✅  | ✅  | 
