@@ -287,12 +287,12 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CheckedChanged  | ⏳  | ⏳  | ⏳  | 
+| CheckedChanged  | ✅  | ✅  | ✅  | 
 | GroupName  | ✅  | ✅  | ✅  | 
 | IsChecked  | ✅  | ✅  | ✅  | 
-| TextColor | ✅ | ⚠️ | ✅ | 
-| CharacterSpacing | ✅ | ⚠️ | ✅ | 
-| Font | ✅ | ⚠️ | ✅ | 
+| TextColor | ✅ | ✅ | ✅ | 
+| CharacterSpacing | ✅ | ✅ | ✅ | 
+| Font | ✅ | ✅ | ✅ | 
 | BorderColor | ⏳ | ✅ | ⏳ | 
 | BorderWidth | ⏳ | ✅ | ⏳ | 
 | CornerRadius | ⏳ | ✅ | ⏳ | 
