@@ -418,7 +418,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 
 | View | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:---:|:-----:|
-| Map | ⚠️  | ⚠️  | ⚠️  |
+| Map | 🕐  | 🕐  | 🕐  |
 | SwipeView| ✅  | ✅  | ✅  |
 
 ### ⚠️ View
