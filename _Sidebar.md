@@ -21,7 +21,10 @@ Quick Docs
 - [Migrating from Preview 9 to 10](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-9-to-10)
 - [Migrating from Preview 10 to 11](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-10-to-11)
 - [Migrating to Preview 13](https://github.com/dotnet/maui/wiki/Migrating-to-Preview-13)
+
+Blogs
 ========
+- [Announcing .NET MAUI Preview 13](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-13/)
 - [Announcing .NET MAUI Preview 12](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-12/)
 - [Announcing .NET MAUI Preview 11](https://devblogs.microsoft.com/dotnet/announcing-dotnet-maui-preview-11/)
 - [Announcing .NET MAUI Preview 10](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-10/)
