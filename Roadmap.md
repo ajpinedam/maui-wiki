@@ -12,4 +12,4 @@ During this second quarter of the year we will continue shipping release candida
 
 ## **.NET 7 (Q2 - Q4 2022)**
 
-Once .NET MAUI GA ships with .NET 6 and Visual Studio 2022, the focus will shift to .NET 7 tasks as summarized on [themesof.net](https://themesof.net/). We will rejoin the in-progress previews releases of .NET 7 and sync up our GA schedule with the .NET 7 GA release later in the year.
+Once .NET MAUI GA ships with .NET 6 and Visual Studio 2022, the focus will shift to .NET 7 tasks as summarized on [themesof.net](https://themesof.net/). We will rejoin the in-progress preview releases of .NET 7 and sync up our GA schedule with the .NET 7 GA release later in the year.
