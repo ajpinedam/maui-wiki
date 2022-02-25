@@ -122,7 +122,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | MinimumDate  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 
-### ⚠️ Editor
+### ✅ Editor
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
