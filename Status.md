@@ -30,7 +30,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Color  | ✅  | ✅   |  ✅  |  
 | IsRunning  | ✅  | ✅ |  ✅  | 
 
-### ⚠️ Button
+### ⏳ Button
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -215,7 +215,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Pressed  | ✅  | ✅  | ✅  | 
 | Released  | ✅  | ✅  | ✅  | 
 
-### ⚠️ Label
+### ⏳ Label
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -298,7 +298,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | BorderWidth | ⏳ | ✅ | ✅ | 
 | CornerRadius | ⏳ | ✅ | ✅ | 
 
-### ⚠️ RefreshView
+### ⏳ RefreshView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -309,7 +309,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Refreshing  | ✅  | ✅  | ⏳  | 
 | Content | ✅  | ✅  | ⏳  | 
 
-### ⚠️ SearchBar
+### ⏳ SearchBar
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -407,7 +407,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ----|:-------:|:------------------:|:-------:|
 | CanGoBack  | ✅  | ✅  | ✅  | 
 | CanGoForward  | ✅  | ✅  | ✅  | 
-| Cookies  | ⏳  | ⏳  | ⏳  | 
+| Cookies  | ✅  | ✅  | ✅  | 
 | Source  | ✅  | ✅  | ✅  | 
 | Eval  | ✅  | ✅  | ✅  | 
 | EvaluateJavaScriptAsync  | ✅  | ✅  | ✅  | 
@@ -422,7 +422,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Map | 🕐  | 🕐  | 🕐  |
 | SwipeView| ✅  | ✅  | ✅  |
 
-### ⚠️ View
+### ⏳ View
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
