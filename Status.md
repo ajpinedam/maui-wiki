@@ -82,29 +82,29 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | CheckedChanged  | ✅  | ✅  | ✅  | 
 | IsChecked  | ✅  | ✅  | ✅  | 
 
-### ⏳ CollectionView
+### ✅ CollectionView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| ItemsSource | ⏳  | ✅  | ⏳  | 
-| ItemTemplate | ⏳  | ✅  | ⏳  | 
-| ItemsPanel | ⏳  | ✅  | ⏳  | 
-| ItemSizingStrategy | ⏳  | ✅  | ⏳  | 
-| SelectionMode | ⏳  | ✅  | ⏳  | 
-| SelectedItem | ⏳  | ✅  | ⏳  | 
-| SelectedItems | ⏳  | ✅  | ⏳  | 
-| SelectionChangedCommand | ⏳  | ✅  | ⏳  | 
-| SelectionChangedCommandParameter | ⏳  | ✅  | ⏳  | 
-| EmptyView | ⏳  | ✅  | ⏳  | 
-| Scrolled | ⏳  | ✅  | ⏳  | 
-| ScrollTo | ⏳  | ✅  | ⏳  | 
-| Header | ⏳  | ✅  | ⏳  | 
-| HeaderTemplate | ⏳  | ✅  | ⏳  | 
-| Footer | ⏳  | ✅  | ⏳  | 
-| FooterTemplate | ⏳  | ✅  | ⏳  | 
-| IsGrouped | ⏳  | ✅  | ⏳  | 
-| GroupHeaderTemplate | ⏳  | ✅  | ⏳  | 
-| GroupFooterTemplate | ⏳  | ✅  | ⏳  | 
+| ItemsSource | ✅  | ✅  | ✅  | 
+| ItemTemplate | ✅  | ✅  | ✅  | 
+| ItemsPanel | ✅  | ✅  | ✅  | 
+| ItemSizingStrategy | ✅  | ✅  | ✅  | 
+| SelectionMode | ✅  | ✅  | ✅  | 
+| SelectedItem | ✅  | ✅  | ✅  | 
+| SelectedItems | ✅  | ✅  | ✅  | 
+| SelectionChangedCommand | ✅  | ✅  | ✅  | 
+| SelectionChangedCommandParameter | ✅  | ✅  | ✅  | 
+| EmptyView | ✅  | ✅  | ✅  | 
+| Scrolled | ✅  | ✅  | ✅  | 
+| ScrollTo | ✅  | ✅  | ✅  | 
+| Header | ✅  | ✅  | ✅  | 
+| HeaderTemplate | ✅  | ✅  | ✅  | 
+| Footer | ✅  | ✅  | ✅  | 
+| FooterTemplate | ✅  | ✅  | ✅  | 
+| IsGrouped | ✅  | ✅  | ✅  | 
+| GroupHeaderTemplate | ✅  | ✅  | ✅  | 
+| GroupFooterTemplate | ✅  | ✅  | ✅  | 
 
 ### ✅ DatePicker
 
@@ -284,7 +284,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | ProgressColor  | ✅  | ✅  | ✅  | 
 | ProgressTo  | ✅  | ✅  | ✅  | 
 
-### ⏳ RadioButton
+### ✅ RadioButton
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -294,20 +294,20 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TextColor | ✅ | ✅ | ✅ | 
 | CharacterSpacing | ✅ | ✅ | ✅ | 
 | Font | ✅ | ✅ | ✅ | 
-| BorderColor | ⏳ | ✅ | ✅ | 
-| BorderWidth | ⏳ | ✅ | ✅ | 
-| CornerRadius | ⏳ | ✅ | ✅ | 
+| BorderColor | ✅ | ✅ | ✅ | 
+| BorderWidth | ✅ | ✅ | ✅ | 
+| CornerRadius | ✅ | ✅ | ✅ | 
 
-### ⏳ RefreshView
+### ✅ RefreshView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| Command  | ✅  | ✅  | ⏳  | 
-| CommandParameter  | ✅  | ✅  | ⏳  | 
-| IsRefreshing  | ✅  | ✅  | ⏳  | 
-| RefreshColor  | ✅  | ✅  | ⏳  | 
-| Refreshing  | ✅  | ✅  | ⏳  | 
-| Content | ✅  | ✅  | ⏳  | 
+| Command  | ✅  | ✅  | ✅  | 
+| CommandParameter  | ✅  | ✅  | ✅  | 
+| IsRefreshing  | ✅  | ✅  | ✅  | 
+| RefreshColor  | ✅  | ✅  | ✅  | 
+| Refreshing  | ✅  | ✅  | ✅  | 
+| Content | ✅  | ✅  | ✅  | 
 
 ### ⏳ SearchBar
 
