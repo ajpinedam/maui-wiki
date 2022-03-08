@@ -54,25 +54,25 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | TextColor  | ✅  | ✅  | ✅  | 
 | LineBreakMode | ⏳  | ⏳  | ⏳  | 
 
-### ⏳ CarouselView
+### ✅ CarouselView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
-| CurrentItem  | ⏳  | ✅  | ✅  | 
-| CurrentItemChangedCommand  | ⏳  | ✅  | ✅  | 
-| CurrentItemChangedCommandParameter  | ⏳  | ✅  | ✅  | 
+| CurrentItem  | ✅  | ✅  | ✅  | 
+| CurrentItemChangedCommand  | ✅  | ✅  | ✅  | 
+| CurrentItemChangedCommandParameter  | ✅  | ✅  | ✅  | 
 | IndicatorView  | ✅  | ✅  | ✅  | 
-| IsBounceEnabled  | ⏳  | ✅  | ✅  | 
-| IsDragging  | ⏳  | ✅  | ✅  | 
-| IsScrollAnimated  | ⏳  | ✅  | ✅  | 
-| IsSwipeEnabled  | ⏳  | ✅ | ✅  | 
-| ItemsLayout  | ⏳  | ✅  | ✅  | 
-| Loop  | ⏳  | ✅ | ✅  | 
-| PeekAreaInsets  | ⏳  | ✅  | ✅  | 
-| Position  | ⏳  | ✅  | ✅  | 
-| PositionChangedCommand  | ⏳  | ✅  | ✅  | 
-| PositionChangedCommandParameter  | ⏳  | ✅  | ✅  | 
-| VisibleViews  | ⏳  | ✅  | ✅  | 
+| IsBounceEnabled  | ✅  | ✅  | ✅  | 
+| IsDragging  | ✅  | ✅  | ✅  | 
+| IsScrollAnimated  | ✅  | ✅  | ✅  | 
+| IsSwipeEnabled  | ✅  | ✅ | ✅  | 
+| ItemsLayout  | ✅  | ✅  | ✅  | 
+| Loop  | ✅ | ✅ | ✅  | 
+| PeekAreaInsets  | ✅  | ✅  | ✅  | 
+| Position  | ✅  | ✅  | ✅  | 
+| PositionChangedCommand  | ✅  | ✅  | ✅  | 
+| PositionChangedCommandParameter  | ✅  | ✅  | ✅  | 
+| VisibleViews  | ✅  | ✅  | ✅  | 
 
 ### ✅ CheckBox
 
@@ -401,7 +401,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Time  | ✅  | ✅  | ✅  | 
 | TextColor  | ✅  | ✅  | ✅  | 
 
-### ⏳ WebView
+### ✅ WebView
 
 | API | Android | iOS / Mac Catalyst | Windows |
 | ----|:-------:|:------------------:|:-------:|
@@ -434,7 +434,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | FlowDirection  | ✅  | ✅  | ✅  |
 | Frame  | ✅  | ✅  | ✅  |  
 | Height  | ✅  | ✅  | ✅  |  
-| InputTransparent  | ⏳  | ⏳  | ⏳  | 
+| InputTransparent  | ✅  | ✅  | ✅  | 
 | IsEnabled  | ✅  | ✅  | ✅  | 
 | IsFocused  | ⏳  | ⏳  | ⏳  | 
 | [IsTabStop](https://github.com/dotnet/maui/pull/1777)  | 🕐  | 🕐 | 🕐 | 
@@ -475,7 +475,7 @@ To track ongoing progress, filter on the [handlers label](https://github.com/xam
 | Animation | ✅  | ✅  | ✅  |
 | New Border Control | ✅  | ✅  | ✅  |
 | Brushes Everywhere | ✅  | ✅  | ✅  |
-| Device | ⏳  | ⏳  | ⏳  |
+| Device | ✅  | ✅  | ✅  |
 | Gestures | ✅  | ✅  | ✅  |
 | ImageHandlers | ✅  | ✅  | ✅  |
 | Interactivity (Behaviors, Triggers, Visual State Manager) | ✅  | ✅  | ✅  |
