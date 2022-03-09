@@ -6,3 +6,7 @@ In order to use constructor injection with `ContentPage`s in the context of Shel
 
 * occurrences of "native" have been replaced with "platform"
 * `OSAppTheme` is now `AppTheme`
+
+## Type Changes
+
+`Rectangle` to `Rect`
