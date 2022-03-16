@@ -2,7 +2,7 @@ For a current status on the progress of porting controls, features, and layouts 
 
 # Upcoming Milestones
 
-## **.NET MAUI Release Candidate (Q1 2022)**
+## **.NET MAUI Release Candidate (April 2022)**
 
 During the first quarter of the year we will continue shipping previews until we reach the quality and completeness for a Release Candidate. For more details about what work is currently underway in this period, visit the [project boards](https://github.com/dotnet/maui/projects). 
 
