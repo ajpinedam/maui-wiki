@@ -6,9 +6,9 @@
 |**Platforms**     |         |         |
 |Android     |API 19+        |API 21+        |
 |iOS     |9-15         |10+         |
-|Linux     |Community         |Community         |
+|Linux     |Community         |[Community](https://github.com/jsuarezruiz/maui-linux)         |
 |macOS     |Community         |Microsoft         |
-|Tizen     |Samsung           |Samsung           |
+|Tizen     |Samsung           |[Samsung](https://github.com/Samsung/Tizen.NET)           |
 |Windows     |UWP Microsoft<br/>WPF Community         |Microsoft<sup>*</sup>         |
 |**Features**     |         |         |
 |Renderers     |Tightly coupled to BindableObject         |Loosely coupled, no Xamarin.Forms dependencies         |
