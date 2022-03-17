@@ -27,11 +27,11 @@
 |Project System     |Franken-proj         |SDK Style         |
 |dotnet CLI     |No         |Yes         |
 |**Tools**     |         |         |
-|Visual Studio 2019     |Yes         |Yes         |
-|Visual Studio 2019 for Mac     |Yes         |Yes         |
+|Visual Studio 2022     |Yes         |Yes         |
+|Visual Studio 2022 for Mac     |Yes         |Yes         |
 |Visual Studio Code     |No         |Experimental<sup>***</sup>         |
 
-<sup>*</sup> The Windows implementation is expected to be WinUI 3, pending GA release. 
+<sup>*</sup> The Windows implementation is Windows App SDK with WinUI 3.
 
 <sup>**</sup> These app models are experimental.
 
