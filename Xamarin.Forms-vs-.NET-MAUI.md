@@ -23,7 +23,7 @@
 |.NET     |Xamarin.iOS, Xamarin.Android, Mono, .NET Framework, ...         |.NET 6+         |
 |XAML Hot Reload|Experimental: SDK 4.x & Visual Studio 2019 prior to version 16.9<br>Feature Complete: SDK 5.x & Visual Studio 2019 version 16.9 or newer|Yes|
 |.NET Hot Reload|iOS/Android – No<br>UWP – Limited support for runtime edits using .NET “Edit & Continue”|Yes|
-|Acquisition |NuGet & Visual Studio Installer |dotnet |
+|Acquisition |NuGet & Visual Studio Installer |Visual Studio 2022 or dotnet CLI |
 |Project System     |Franken-proj         |SDK Style         |
 |dotnet CLI     |No         |Yes         |
 |**Tools**     |         |         |
