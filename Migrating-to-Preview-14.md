@@ -10,3 +10,13 @@ In order to use constructor injection with `ContentPage`s in the context of Shel
 ## Type Changes
 
 `Rectangle` to `Rect`
+
+## OnPlatform Changes
+
+The available platforms are now:
+
+- Android
+- iOS
+- MacCatalyst
+- Tizen
+- WinUI
