@@ -198,7 +198,5 @@ These are no longer needed in your csproj
 		<!-- Required - WinUI does not yet have buildTransitive for everything -->
 		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0" />
 		<PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.0.30" />
-		<PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.0.1" />
-		<PackageReference Include="PInvoke.User32" Version="0.7.104" />
 	</ItemGroup>
 ```
