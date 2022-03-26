@@ -195,8 +195,7 @@ These are no longer needed in your csproj
 
 ```xml
 <ItemGroup Condition="$(TargetFramework.Contains('-windows'))">
-		<!-- Required - WinUI does not yet have buildTransitive for everything -->
-		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0" />
-		<PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.0.30" />
-	</ItemGroup>
+  <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0" />
+  <PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.0.30" />
+</ItemGroup>
 ```
