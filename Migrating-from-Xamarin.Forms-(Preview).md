@@ -86,7 +86,9 @@ Library and Custom Control migration samples in Javier's repo [here](https://git
 
 - In the .NET MAUI project, add a new file called `MauiProgram.cs` and add the code for the `MauiAppBuilder` by referencing [this file](https://github.com/Sweekriti91/ArtAuction/blob/maui-projecthead/ArtAuction/MauiProgram.cs). More information on App Startup in the official [documentation](https://docs.microsoft.com/en-us/dotnet/maui/fundamentals/app-startup).
 - In the .NET MAUI Android project, add `MainApplication.cs` if you didn't have one or edit your preexisting file to match [this file](https://github.com/Sweekriti91/ArtAuction/blob/maui-projecthead/ArtAuction.Android/MainApplication.cs) and edit `MainActivity.cs` to inherit from `MauiAppCompatActivity` to match [this file](https://github.com/Sweekriti91/ArtAuction/blob/maui-projecthead/ArtAuction.Android/MainActivity.cs).
+- In the .NET MAUI Android project, update the `AndroidManifest` to `android:targetSdkVersion="31"`
 - In the .NET MAUI iOS project, update `AppDelegate.cs` to inherit from `MauiUIApplicationDelegate` and match [this file](https://github.com/Sweekriti91/ArtAuction/blob/maui-projecthead/ArtAuction.iOS/AppDelegate.cs).
+- In the .NET MAUI iOS project, update `Info.plist` `MinimumOSVersion` to `15.2`.
 - In all 3 project heads, delete or comment out contents of the `AssemblyInfo.cs` files, you can reenable properties them once you have a version of the full app building and running without errors. Most of these properties are now `csproj` properties as part of the new .NET MAUI `csproj` so be sure to check which ones you still need.
 
 - Global namespace updates, do a find and replace (best done in VSCode) for the following namespace changes:
@@ -101,10 +103,13 @@ Library and Custom Control migration samples in Javier's repo [here](https://git
 - New spacing defaults for layouts can be found here: https://github.com/dotnet/maui/issues/4594
 
 - Known API changes, check the Migrating documents per perview version on the right side navigation of this Wiki. Few common ones you will see while migrating: 
-   - Color and Shapes are in Microsoft.Maui.Graphics
-   - Color.Default == use null instead (see github issue abv)
-   - Color is now Colors. For example: Colors.Red;
-   - Frame BorderColor= "Accent" DOES NOT EXIST
+   - `Colors` and `Shapes` are in `Microsoft.Maui.Graphics`
+   - `Color.Default` DOES NOT EXIST == use null instead (GitHub [Issue](https://github.com/dotnet/upgrade-assistant/issues/592))
+   - `Color` == `Colors` For example: `Colors.Red;`
+   - `Frame`: `BorderColor`= "Accent" DOES NOT EXIST
+   - `ToolbarItem`: `Icon` == `IconImageSource`
+   - `Button`: `Image` == `ImageSource`
+   - `Span` `ForegroundColor` DOES NOT EXIST
 
 - XAML updates for Layouts, check the [documentation](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/layouts/relativelayout#:~:text=The.NET%20Multi-platform%20App%20UI%20%28.NET%20MAUI%29%20RelativeLayout%2C%20which,be%20created%20that%20scale%20proportionally%20across%20device%20sizes).
 
@@ -156,7 +161,7 @@ An example of update to be made, `AbsoluteLayout`, `RelativeLayout`,code change:
    - [SkiaSharp.Views.Maui.Core](https://www.nuget.org/packages/SkiaSharp.Views.Maui.Core/2.88.0-preview.232)
    - [SkiaSharp.Views.Maui.Controls.Compatibility](https://www.nuget.org/packages/SkiaSharp.Views.Maui.Controls.Compatibility/2.88.0-preview.232)
 
-_more information coming soon, watch this space_ 🤓
+_more information coming soon, watch this space_ 👀🤓
 
 ### Step 4: Manually fix other build errors via IDE
 
@@ -173,13 +178,13 @@ Once the projects compile, run the migrated projects via `dotnet cli` use the fo
 
 > Most of the source code fixes would be more `using` statement fixes, explicitly qualify certain keywords and other smaller fixes.
 
-_more updates coming soon, watch this space 🤓_
+_more updates coming soon, watch this space_ 👀 🤓
 
-## Migration Feedback
+## Migration [Feedback](https://github.com/maddymontaquila/maui-migration-samples/issues/new?assignees=&labels=&template=trial-migration-template.md&title=[MIGRATION]+Your+migration+name+here)
 
 Please File Issues [here](https://github.com/maddymontaquila/maui-migration-samples/issues/new?assignees=&labels=&template=trial-migration-template.md&title=[MIGRATION]+Your+migration+name+here), we want to hear good news, bad news, any rants, all issues, basically everything! 😁😁
 
-Please provide us with all the feedback around migration or even if we have steps missing in the manual migration guide. The issue has a template to make providing feedback to us super easy. If you have a migrated sample and it is OSS, please let us know and we can include it in the samples linked here. All samples provided will be the test sample set for upgrade-assistant. The more we can teach the tool, the easier migrations will get! 😇
+Please provide us with all [the feedback](https://github.com/maddymontaquila/maui-migration-samples/issues/new?assignees=&labels=&template=trial-migration-template.md&title=[MIGRATION]+Your+migration+name+here) around migration or even if we have steps missing in the manual migration guide. The issue has a template to make providing [feedback](https://github.com/maddymontaquila/maui-migration-samples/issues/new?assignees=&labels=&template=trial-migration-template.md&title=[MIGRATION]+Your+migration+name+here) to us super easy. If you have a migrated sample and it is OSS, please let us know and we can include it in the samples linked here. All samples provided will be the test sample set for upgrade-assistant. The more we can teach the tool, the easier migrations will get! 😇
 
 # [WIP] .NET Upgrade Assistant Steps
 
