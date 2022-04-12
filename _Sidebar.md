@@ -23,6 +23,13 @@ Quick Docs
 - [Migrating to Preview 13](https://github.com/dotnet/maui/wiki/Migrating-to-Preview-13)
 - [Migrating to Preview 14](https://github.com/dotnet/maui/wiki/Migrating-to-Preview-14)
 
+Publishing
+========
+- [Android](https://github.com/dotnet/maui/issues/4377)
+- [iOS](https://github.com/dotnet/maui/issues/4397)
+- [macOS](https://github.com/dotnet/maui/issues/5399)
+- [Windows](https://github.com/dotnet/maui/issues/4329)
+
 Blogs
 ========
 - [Announcing .NET MAUI Preview 14](https://devblogs.microsoft.com/dotnet/dotnet-maui-preview-14/)
