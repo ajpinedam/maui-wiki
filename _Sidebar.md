@@ -33,6 +33,7 @@ Publishing
 
 Blogs
 ========
+- [.NET MAUI Release Candidate](https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/)
 - [Announcing .NET MAUI Preview 14](https://devblogs.microsoft.com/dotnet/dotnet-maui-preview-14/)
 - [Announcing .NET MAUI Preview 13](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-13/)
 - [Announcing .NET MAUI Preview 12](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-12/)
