@@ -30,7 +30,7 @@ This command will get you the latest released version of .NET MAUI plus the plat
 **Option B)** Pass in additional parameters to the same command in order to get a **specific branch build**. 
 
 ```
-> sudo dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/preview.14.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
+> sudo dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/rc.1.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
 ```
 
 Your app will use the newest version available on your system. 
