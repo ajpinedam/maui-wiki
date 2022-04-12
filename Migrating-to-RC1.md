@@ -1,4 +1,4 @@
-## Microsoft.Maui.Essentials Namespace changes
+## Microsoft.Maui.Essentials Updates
 
 ### Usage
 
@@ -19,6 +19,8 @@ builder.Services.AddSingleton<IDeviceDisplay>(DeviceDisplay.Current);
 ```
 
 > Note: In previous releases (e.g. .NET MAUI Preview 14) we would've used `*Implementation`, e.g. `builder.Services.AddSingleton<IBrowser, BrowserImplementation>();`
+
+### Namespace Changes
 
 https://github.com/dotnet/maui/pull/5562
 
