@@ -22,6 +22,7 @@ Quick Docs
 - [Migrating from Preview 10 to 11](https://github.com/dotnet/maui/wiki/Migrating-from-Preview-10-to-11)
 - [Migrating to Preview 13](https://github.com/dotnet/maui/wiki/Migrating-to-Preview-13)
 - [Migrating to Preview 14](https://github.com/dotnet/maui/wiki/Migrating-to-Preview-14)
+- [Migrating to Release Candidate 1](https://github.com/dotnet/maui/wiki/Migrating-to-RC1)
 
 Publishing
 ========
