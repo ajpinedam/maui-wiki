@@ -11,7 +11,7 @@ await Browser.Default.OpenAsync();
 
 ### Dependency Injection
 
-When using the default implementation of these classes, we recommend adding their `*.Current` or `*.Default` implementation as a Singleton into `IServiceCollection`:
+When using the default implementation of these classes with dependency injection, we recommend adding their `*.Current` or `*.Default` implementation as a Singleton into `IServiceCollection`:
 
 ```cs
 builder.Services.AddSingleton<IBrowser>(Browser.Default);
