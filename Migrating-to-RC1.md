@@ -1,5 +1,25 @@
 ## Microsoft.Maui.Essentials Namespace changes
 
+### Usage
+
+To use these updated classes in your .NET MAUI app, you can use their their `*.Current` or `*.Default` implementation:
+
+```cs
+DeviceDisplay.Current.KeepScreenOn = true;
+await Browser.Default.OpenAsync();
+```
+
+### Dependency Injection
+
+When using the default implementation of these classes, we recommend adding their `*.Current` or `*.Default` implementation as a Singleton into `IServiceCollection`:
+
+```cs
+builder.Services.AddSingleton<IBrowser>(Browser.Default);
+builder.Services.AddSingleton<IDeviceDisplay>(DeviceDisplay.Current);
+```
+
+> Note: In previous releases (e.g. .NET MAUI Preview 14) we would've used `*Implementation`, e.g. `builder.Services.AddSingleton<IBrowser, BrowserImplementation>();`
+
 https://github.com/dotnet/maui/pull/5562
 
 ```csharp
