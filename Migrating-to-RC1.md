@@ -227,6 +227,7 @@ These packages are no longer needed in your csproj and can be removed. They are 
 If you have been using Blazor in your .NET MAUI app, you need to change some things in your `MauiProgram.cs`.
 
 1. Remove `using Microsoft.AspNetCore.Components.WebView.Maui;` (if you have it)
+1. Remove `builder.Services.AddBlazorWebView();`
 1. Remove the `.RegisterBlazorMauiWebView()` line from your `builder` instance
 1. Add it as a service registration `builder.Services.AddMauiBlazorWebView();`
 
@@ -242,6 +243,6 @@ builder
 		fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 	});
 
-	builder.Services.AddBlazorWebView();
+        // builder.Services.AddBlazorWebView(); // You can remove this line
 	builder.Services.AddMauiBlazorWebView(); // Add this line
 ```
