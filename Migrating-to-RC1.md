@@ -213,11 +213,35 @@ namespace Microsoft.Maui.Storage {
 
 ## Windows Package References
 
-These are no longer needed in your csproj
+These packages are no longer needed in your csproj and can be removed. They are added transitive as part of .NET MAUI now.
 
 ```xml
 <ItemGroup Condition="$(TargetFramework.Contains('-windows'))">
   <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0" />
   <PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.0.30" />
 </ItemGroup>
+```
+
+## BlazorWebView
+
+If you have been using Blazor in your .NET MAUI app, you need to change some things in your `MauiProgram.cs`.
+
+1. Remove `using Microsoft.AspNetCore.Components.WebView.Maui;` (if you have it)
+1. Remove the `.RegisterBlazorMauiWebView()` line from your `builder` instance
+1. Add it as a service registration `builder.Services.AddMauiBlazorWebView();`
+
+Sample code of the new code you should use
+
+```csharp
+var builder = MauiApp.CreateBuilder();
+builder
+	//.RegisterBlazorMauiWebView() // Remove this line!
+	.UseMauiApp<App>()
+	.ConfigureFonts(fonts =>
+	{
+		fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+	});
+
+	builder.Services.AddBlazorWebView();
+	builder.Services.AddMauiBlazorWebView(); // Add this line
 ```
