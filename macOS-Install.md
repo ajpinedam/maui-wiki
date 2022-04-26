@@ -14,7 +14,7 @@
 2. Open Terminal and check that you're ready to install .NET MAUI.
 
 ```
-> dotnet --version
+dotnet --version
 ```
 
 **Option A)** Install .NET MAUI using workload install command:
@@ -44,13 +44,13 @@ That's it! You now have the building blocks to create, build, and run a .NET MAU
 To create a new app run:
 
 ```
-> dotnet new maui -n "MyMauiApp"
+dotnet new maui -n "MyMauiApp"
 ```
 
 CD into the "MyMauiApp" directory and run the app:
 
 ```
-> dotnet build -t:Run -f net6.0-maccatalyst
+dotnet build -t:Run -f net6.0-maccatalyst
 ```
 
 ![Xcode Devices and Simulators](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7mi23lod2z06m0j85di1.png)
@@ -72,7 +72,7 @@ In order to target an iOS emulator, you need to provide the device id (UUID). Op
 Now append the value to the parameter ``-p:_DeviceName=:v2:uuid=``:
 
 ```
-> dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22
+dotnet build -t:Run -f net6.0-ios -p:_DeviceName=:v2:udid=02C556DA-64B8-440B-8F06-F8C56BB7CC22
 ```
 
 ### Targeting Android
@@ -80,7 +80,7 @@ Now append the value to the parameter ``-p:_DeviceName=:v2:uuid=``:
 Before building the Android app, start an emulator or connect to a device using ``adb connect``. Then you can run:
 
 ```
-> dotnet build -t:Run -f net6.0-android
+dotnet build -t:Run -f net6.0-android
 ```
 
 ![app running on Android](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k98ye6rqfejcvxz2s7r1.png)
